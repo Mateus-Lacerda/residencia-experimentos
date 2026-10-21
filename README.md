@@ -1,6 +1,6 @@
 # residencia-experimentos
 
-Experimentos práticos da residência: fusão de sensores em hardware real (ESP32 + IMU + sensores de distância), comparando Edge AI e fusão tardia.
+Experimentos práticos da residência: fusão de sensores em hardware real (ESP32 + IMU + sensores de distância).
 
 ![Kit de sensores](fritzing/Residência%20-%20Kit%20Sensores%20V1_bb.png)
 
@@ -8,5 +8,4 @@ Experimentos práticos da residência: fusão de sensores em hardware real (ESP3
 
 - **`esp/`** — firmware do ESP32, em PlatformIO.
 - **`fritzing/`** — diagramas de fiação do kit de sensores (`.fzz`, com o esboço de código `.ino` e a imagem de montagem acima).
-- **`viz/`** — ferramenta simples de visualização das leituras dos sensores em tempo real.
-- **`_archive/`** — versões anteriores/descartadas de ferramentas, fora do controle de versão.
+- **`viz/`** — ferramenta simples de visualização das leituras dos sensores em tempo real
