@@ -1,0 +1,10 @@
+CompileFlags:
+  CompilationDatabase: .
+  Remove:
+    - -mlongcalls
+    - -mtext-section-literals
+    - -fstrict-volatile-bitfields
+    - -fno-tree-switch-conversion
+    - -mfix-esp32-psram-cache-issue
+    - -free
+    - -fipa-pta
