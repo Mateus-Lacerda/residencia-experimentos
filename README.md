@@ -33,9 +33,9 @@ $$x = \begin{bmatrix} \theta \\\\ b \end{bmatrix}$$
 Predição (a cada passo, com $\dot\theta$ = taxa do giroscópio no eixo e $dt$ o intervalo entre
 leituras):
 
-$$\theta_k = \theta_{k-1} + (\dot\theta - b_{k-1}) \, dt$$
+$$\theta_k = \theta_{k-1} + (\dot\theta - b_{k-1}) \ dt$$
 
-$$P_k^- = F P_{k-1} F^\top + Q, \quad F = \begin{bmatrix} 1 & -dt \\\\ 0 & 1 \end{bmatrix}, \quad Q = \begin{bmatrix} Q_{angle} \, dt & 0 \\\\ 0 & Q_{bias} \, dt \end{bmatrix}$$
+$$P_k^- = F P_{k-1} F^\top + Q, \quad F = \begin{bmatrix} 1 & -dt \\\\ 0 & 1 \end{bmatrix}, \quad Q = \begin{bmatrix} Q_{angle} \ dt & 0 \\\\ 0 & Q_{bias} \ dt \end{bmatrix}$$
 
 Atualização, usando como medida $z$ o ângulo estimado por acelerômetro ($\mathrm{atan2}$ dos
 eixos de aceleração), com ruído de medida $R$:
