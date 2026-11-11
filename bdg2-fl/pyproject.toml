@@ -1,0 +1,26 @@
+[project]
+name = "bdg2-fl"
+version = "0.1.0"
+description = "FedAvg no BDG2: cada site é um cliente, previsão de eletricidade da próxima hora"
+readme = "README.md"
+authors = [
+    { name = "Mateus-Lacerda", email = "mateuslacerda253@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.10",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "torch>=2.15.0",
+]
+
+[dependency-groups]
+dev = [
+    "nbclient>=0.10",
+    "nbformat>=5.10",
+]
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
