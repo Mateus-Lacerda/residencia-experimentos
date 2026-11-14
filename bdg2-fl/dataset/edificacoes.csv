@@ -1,0 +1,956 @@
+site,edificacao,uso_principal,area_m2,preenchimento_2016,preenchimento_2017,mediana_kwh_2016,mediana_kwh_2017
+Rat,Rat_education_Kathryn,Education,30213.6,0.9998,0.9999,483.35,563.01
+Rat,Rat_education_Lee,Education,26291.5,0.9998,0.9999,366.03,405.42
+Rat,Rat_education_Theo,Education,26830.4,0.9998,0.9999,614.62,447.1
+Rat,Rat_education_Beverly,Education,36603.8,0.9998,0.9998,612.915,562.44
+Rat,Rat_office_Colby,Office,79000.4,0.9998,0.9998,2061.58,2246.945
+Rat,Rat_office_Jamal,Office,27406.4,0.9998,0.9998,795.08,650.95
+Rat,Rat_retail_Jeffrey,Retail,1532.9,0.9998,0.9971,60.43,64.1
+Rat,Rat_warehouse_Doretta,Warehouse/storage,10454.9,0.9998,0.9971,156.44,151.63
+Rat,Rat_assembly_Adolfo,Entertainment/public assembly,1482.7,0.9998,0.997,34.565,28.44
+Rat,Rat_assembly_Dovie,Entertainment/public assembly,1481.8,0.9998,0.997,20.4,20.21
+Rat,Rat_assembly_Michel,Entertainment/public assembly,713.0,0.9998,0.997,9.445,7.95
+Rat,Rat_education_Cedric,Education,6169.1,0.9998,0.997,89.09,87.59
+Rat,Rat_education_Elisa,Education,3994.8,0.9998,0.997,29.525,30.475
+Rat,Rat_education_Jesse,Education,3839.6,0.9998,0.997,30.255,25.36
+Rat,Rat_education_Keith,Education,9420.4,0.9998,0.997,101.025,98.41
+Rat,Rat_education_Kelsey,Education,9227.6,0.9998,0.997,152.65,159.515
+Rat,Rat_education_Robyn,Education,9188.1,0.9998,0.997,138.735,148.38
+Rat,Rat_health_Tanya,Healthcare,2712.0,0.9998,0.997,49.7,53.47
+Rat,Rat_office_Lora,Office,21274.8,0.9997,0.9971,368.53,288.65
+Rat,Rat_office_Loyd,Office,2779.3,0.9998,0.997,53.38,47.48
+Rat,Rat_public_Deidre,Public services,657.7,0.9998,0.997,8.405,8.465
+Rat,Rat_public_Joann,Public services,597.5,0.9998,0.997,17.47,16.82
+Rat,Rat_public_Nell,Public services,4754.4,0.9998,0.997,36.98,58.31
+Rat,Rat_public_Tricia,Public services,558.3,0.9998,0.997,34.17,33.83
+Rat,Rat_assembly_Ezequiel,Entertainment/public assembly,1385.5,0.9998,0.9969,32.395,33.53
+Rat,Rat_assembly_Kimberley,Entertainment/public assembly,1912.3,0.9998,0.9969,65.77,61.86
+Rat,Rat_education_Dana,Education,6577.5,0.9998,0.9969,94.36,88.36
+Rat,Rat_education_Meghan,Education,4561.5,0.9997,0.997,51.68,45.195
+Rat,Rat_office_Adele,Office,37904.4,0.9998,0.9969,697.05,477.87
+Rat,Rat_public_Allie,Public services,810.7,0.9997,0.997,10.05,11.045
+Rat,Rat_public_Caroline,Public services,4407.2,0.9998,0.9969,125.49,131.03
+Rat,Rat_public_Duane,Public services,10431.4,0.9998,0.9969,57.47,55.55
+Rat,Rat_public_Tammara,Public services,457.5,0.9998,0.9969,6.24,6.07
+Rat,Rat_assembly_Viola,Entertainment/public assembly,3380.5,0.9995,0.997,45.235,45.945
+Rat,Rat_lodging_Jeannette,Lodging/residential,464.5,0.9997,0.9969,5.52,4.12
+Rat,Rat_public_Leta,Public services,943.1,0.9997,0.9969,15.3,15.6
+Rat,Rat_public_Sharonda,Public services,2222.1,0.9995,0.997,36.915,32.245
+Rat,Rat_assembly_Mirta,Entertainment/public assembly,8000.8,0.9998,0.9967,161.18,165.11
+Rat,Rat_assembly_Rolland,Entertainment/public assembly,662.7,0.9998,0.9966,31.07,35.355
+Rat,Rat_office_Sammy,Office,2912.1,0.9998,0.9966,44.945,56.14
+Rat,Rat_public_Marcellus,Public services,6336.3,0.9997,0.9966,7.77,9.4
+Rat,Rat_assembly_Kenya,Entertainment/public assembly,2141.9,0.9992,0.9969,62.88,57.11
+Rat,Rat_education_Kandice,Education,9643.3,0.999,0.9971,90.66,46.2
+Rat,Rat_lodging_Dwight,Lodging/residential,1432.6,0.9991,0.997,20.4,18.74
+Rat,Rat_office_Ronald,Office,802.4,0.9995,0.9966,50.885,49.335
+Rat,Rat_education_Nellie,Education,26217.2,0.999,0.9969,411.96,361.38
+Rat,Rat_assembly_Aubrey,Entertainment/public assembly,570.3,0.9998,0.996,15.69,13.98
+Rat,Rat_education_Tim,Education,4412.9,0.9986,0.997,59.275,54.595
+Rat,Rat_public_Leo,Public services,1217.0,0.9983,0.997,18.62,16.95
+Rat,Rat_education_Calvin,Education,5304.8,0.9981,0.997,35.45,39.56
+Rat,Rat_public_Neil,Public services,1325.6,0.9982,0.9969,18.85,18.24
+Rat,Rat_assembly_Lillie,Entertainment/public assembly,171.2,0.9991,0.9959,7.38,4.45
+Rat,Rat_public_Sharron,Public services,2862.3,0.9998,0.9951,43.105,44.42
+Rat,Rat_assembly_Kristy,Entertainment/public assembly,1082.4,0.9998,0.9945,24.82,37.24
+Rat,Rat_public_Laverne,Public services,1108.7,0.9995,0.9947,12.07,11.21
+Rat,Rat_assembly_Deandre,Entertainment/public assembly,1106.5,0.9998,0.9943,26.105,28.47
+Rat,Rat_assembly_Erwin,Entertainment/public assembly,218.0,0.9998,0.9943,10.475,13.65
+Rat,Rat_assembly_Horace,Entertainment/public assembly,426.3,0.997,0.997,19.395,22.31
+Rat,Rat_assembly_Silvia,Entertainment/public assembly,172.6,0.997,0.997,9.675,9.66
+Rat,Rat_education_Candida,Education,3576.8,0.9998,0.9943,125.13,138.58
+Rat,Rat_education_Dann,Education,16954.8,0.997,0.997,178.255,175.645
+Rat,Rat_education_Deanna,Education,6215.2,0.9998,0.9943,81.36,83.61
+Rat,Rat_education_Liz,Education,6447.5,0.9998,0.9943,79.08,82.285
+Rat,Rat_education_Lynn,Education,7785.3,0.997,0.997,108.06,99.9
+Rat,Rat_education_Mona,Education,4923.9,0.9998,0.9943,74.31,75.275
+Rat,Rat_education_Morton,Education,14409.3,0.997,0.997,143.71,132.655
+Rat,Rat_education_Renee,Education,3445.1,0.9998,0.9943,33.82,31.41
+Rat,Rat_education_Rosalyn,Education,6038.7,0.9998,0.9943,73.88,61.09
+Rat,Rat_education_Royal,Education,7218.6,0.997,0.997,71.955,67.81
+Rat,Rat_education_Salvatore,Education,4551.7,0.9998,0.9943,63.9,82.655
+Rat,Rat_education_Ulrike,Education,4318.5,0.9998,0.9943,103.085,96.69
+Rat,Rat_education_Zoe,Education,6447.5,0.9998,0.9943,87.615,90.95
+Rat,Rat_lodging_Christine,Lodging/residential,2906.3,0.9998,0.9943,59.495,49.3
+Rat,Rat_office_Annis,Office,594.6,0.9998,0.9943,29.24,29.12
+Rat,Rat_office_Jeannie,Office,1495.6,0.9998,0.9943,36.51,43.785
+Rat,Rat_office_Olivia,Office,2564.1,0.9998,0.9943,29.59,46.755
+Rat,Rat_public_Amber,Public services,1985.2,0.9998,0.9943,9.33,9.75
+Rat,Rat_public_Berry,Public services,4083.6,0.9998,0.9943,98.445,97.58
+Rat,Rat_public_Corinne,Public services,2311.0,0.9998,0.9943,19.48,21.32
+Rat,Rat_public_Grover,Public services,1144.2,0.9998,0.9943,16.42,16.16
+Rat,Rat_public_Isabel,Public services,1540.0,0.9998,0.9943,50.74,54.03
+Rat,Rat_public_Jason,Public services,3021.9,0.9998,0.9943,22.41,25.55
+Rat,Rat_public_Johnny,Public services,709.4,0.9998,0.9943,22.31,18.43
+Rat,Rat_public_Josiah,Public services,4274.2,0.9998,0.9943,83.765,76.075
+Rat,Rat_public_Margart,Public services,2043.9,0.9998,0.9943,37.02,43.895
+Rat,Rat_public_Sean,Public services,7297.5,0.9998,0.9943,16.78,17.115
+Rat,Rat_public_Stacey,Public services,8297.6,0.9998,0.9943,13.95,13.53
+Rat,Rat_public_Stella,Public services,3396.7,0.9998,0.9943,95.385,96.425
+Rat,Rat_public_Yessenia,Public services,2043.9,0.9998,0.9943,122.675,118.495
+Rat,Rat_education_Imelda,Education,3669.7,0.9997,0.9943,2.9,2.6
+Rat,Rat_office_Rosemary,Office,2787.1,0.9997,0.9943,15.61,14.96
+Rat,Rat_other_Hazel,Other,3195.9,0.9997,0.9943,387.37,358.105
+Rat,Rat_public_Lynda,Public services,467.6,0.9997,0.9943,10.81,11.385
+Rat,Rat_public_Wilma,Public services,1505.0,0.9997,0.9943,54.02,58.34
+Rat,Rat_health_Rosaria,Healthcare,1393.5,0.9968,0.997,27.87,31.42
+Rat,Rat_public_Ramona,Public services,1348.9,0.9995,0.9943,25.58,24.13
+Rat,Rat_public_Roma,Public services,1994.8,0.9995,0.9943,57.365,44.3
+Rat,Rat_public_Sue,Public services,1765.2,0.9997,0.9942,28.48,27.18
+Rat,Rat_education_Everett,Education,8024.5,0.9969,0.9968,186.7,149.635
+Rat,Rat_health_Mildred,Healthcare,911.7,0.997,0.9967,16.56,16.13
+Rat,Rat_public_Ramon,Public services,2043.9,0.9994,0.9943,29.38,26.395
+Rat,Rat_assembly_Trent,Entertainment/public assembly,329.3,0.9995,0.9941,21.93,22.14
+Rat,Rat_education_Irma,Education,6763.3,0.9993,0.9943,67.385,70.06
+Rat,Rat_education_Mose,Education,10219.3,0.9994,0.9942,77.93,56.03
+Rat,Rat_public_Vickie,Public services,836.1,0.9992,0.9943,26.6,22.82
+Rat,Rat_religion_Kathy,Religious worship,929.0,0.9998,0.9937,5.32,4.28
+Rat,Rat_assembly_Cristina,Entertainment/public assembly,1176.2,0.999,0.9944,35.67,49.75
+Rat,Rat_parking_Ronnie,Parking,163.5,0.9991,0.9942,15.435,15.36
+Rat,Rat_assembly_Pam,Entertainment/public assembly,516.0,0.9983,0.9949,4.72,3.33
+Rat,Rat_public_Michelle,Public services,3254.7,0.9989,0.9943,57.245,44.73
+Rat,Rat_education_Brett,Education,10126.4,0.9992,0.9938,77.07,50.725
+Rat,Rat_office_Tracy,Office,1275.4,0.9986,0.9942,20.0,20.16
+Rat,Rat_public_Desiree,Public services,841.9,0.9995,0.9932,12.71,12.54
+Rat,Rat_office_Arron,Office,3716.1,0.9998,0.9925,59.005,54.645
+Rat,Rat_public_Julieann,Public services,402.8,0.9977,0.9945,1.24,1.27
+Rat,Rat_education_Terese,Education,16722.5,0.998,0.9942,108.865,104.74
+Rat,Rat_other_Daphne,Other,10431.4,0.9962,0.9955,10.23,10.74
+Rat,Rat_public_Clyde,Public services,1478.4,0.9984,0.9933,34.19,31.74
+Rat,Rat_education_Patty,Education,15793.5,0.9998,0.9917,153.89,103.86
+Rat,Rat_assembly_Frieda,Entertainment/public assembly,3413.6,0.997,0.9943,118.39,108.885
+Rat,Rat_assembly_Kaitlyn,Entertainment/public assembly,2432.9,0.9998,0.9916,93.8,93.08
+Rat,Rat_assembly_Teddy,Entertainment/public assembly,2074.9,0.9998,0.9916,86.95,80.855
+Rat,Rat_education_Colin,Education,7748.1,0.9998,0.9916,56.375,42.87
+Rat,Rat_education_Earnest,Education,5564.9,0.997,0.9943,52.665,54.1
+Rat,Rat_education_Jacob,Education,5310.8,0.997,0.9943,61.575,46.37
+Rat,Rat_education_Jena,Education,3804.4,0.9998,0.9916,140.535,141.59
+Rat,Rat_education_Shellie,Education,5778.6,0.997,0.9943,61.93,68.265
+Rat,Rat_education_Stuart,Education,7636.6,0.9998,0.9916,48.61,40.85
+Rat,Rat_education_Willie,Education,9680.5,0.997,0.9943,198.23,218.12
+Rat,Rat_health_Gaye,Healthcare,2220.7,0.9998,0.9916,34.19,35.955
+Rat,Rat_lodging_Ardell,Lodging/residential,1446.9,0.9998,0.9916,13.91,14.74
+Rat,Rat_office_Kasey,Office,3195.9,0.9998,0.9916,82.515,75.055
+Rat,Rat_office_Randy,Office,5779.0,0.997,0.9943,107.165,89.73
+Rat,Rat_public_Angelina,Public services,1794.4,0.9998,0.9916,27.61,28.39
+Rat,Rat_public_Hortencia,Public services,13378.0,0.9998,0.9916,58.22,62.805
+Rat,Rat_public_Lloyd,Public services,5022.4,0.997,0.9943,68.65,60.0
+Rat,Rat_public_Nelson,Public services,1486.4,0.997,0.9943,43.51,41.72
+Rat,Rat_public_Roberta,Public services,1010.1,0.9998,0.9916,13.64,12.97
+Rat,Rat_public_Tamra,Public services,872.5,0.997,0.9943,19.97,19.78
+Rat,Rat_warehouse_Breanna,Warehouse/storage,4795.8,0.9998,0.9916,106.91,80.415
+Rat,Rat_assembly_Damaris,Entertainment/public assembly,1495.6,0.9997,0.9916,5.24,3.76
+Rat,Rat_assembly_Jamie,Entertainment/public assembly,1047.4,0.997,0.9942,22.38,24.04
+Rat,Rat_assembly_Trudy,Entertainment/public assembly,1917.9,0.9998,0.9914,33.61,28.92
+Rat,Rat_education_Carmela,Education,4457.9,0.9969,0.9943,69.0,68.52
+Rat,Rat_education_Esther,Education,6466.0,0.9969,0.9943,88.25,95.4
+Rat,Rat_education_Fernando,Education,5472.7,0.997,0.9942,52.285,56.11
+Rat,Rat_education_Nona,Education,25204.6,0.9995,0.9917,87.74,82.0
+Rat,Rat_public_Becky,Public services,911.9,0.9998,0.9914,17.815,19.04
+Rat,Rat_public_Courtney,Public services,1665.5,0.997,0.9942,29.295,30.21
+Rat,Rat_public_Tommy,Public services,857.1,0.9969,0.9943,14.99,16.1
+Rat,Rat_education_Lonnie,Education,4645.2,0.9968,0.9943,49.36,44.025
+Rat,Rat_education_Winnie,Education,5499.9,0.997,0.9941,48.07,50.56
+Rat,Rat_education_Alfonso,Education,7900.4,0.9998,0.9912,377.68,249.46
+Rat,Rat_education_Guillermo,Education,7404.4,0.9994,0.9914,105.17,108.61
+Rat,Rat_public_Wilbur,Public services,537.3,0.9939,0.997,174.66,172.26
+Rat,Rat_public_Allyson,Public services,1672.3,0.9994,0.9913,54.85,51.91
+Rat,Rat_education_Lincoln,Education,10857.8,0.9967,0.9938,145.46,146.995
+Rat,Rat_public_Dalia,Public services,8420.3,0.9962,0.9943,179.22,173.955
+Rat,Rat_public_Frederick,Public services,1312.3,0.9962,0.9943,16.79,18.8
+Rat,Rat_public_Nancy,Public services,829.2,0.9991,0.9913,18.57,17.835
+Rat,Rat_assembly_Francine,Entertainment/public assembly,1603.7,0.9959,0.9943,40.535,37.03
+Rat,Rat_assembly_Ruth,Entertainment/public assembly,903.6,0.9965,0.9937,4.09,4.74
+Rat,Rat_public_Helena,Public services,1184.9,0.9986,0.9913,22.85,22.81
+Rat,Rat_education_Bryant,Education,6466.0,0.9952,0.9943,54.26,50.815
+Rat,Rat_other_Al,Other,982.7,0.9962,0.993,53.61,47.96
+Rat,Rat_public_Carole,Public services,923.5,0.9953,0.9939,17.18,17.2
+Rat,Rat_education_Jame,Education,3511.7,0.9957,0.9935,59.92,62.28
+Rat,Rat_assembly_Monica,Entertainment/public assembly,4231.5,0.997,0.9917,53.39,69.26
+Rat,Rat_education_Debra,Education,4784.5,0.997,0.9917,93.825,101.62
+Rat,Rat_public_Kelly,Public services,982.6,0.997,0.9917,19.69,20.49
+Rat,Rat_education_Adrian,Education,5956.3,0.997,0.9916,71.64,71.745
+Rat,Rat_education_Sherwood,Education,8835.1,0.997,0.9916,94.55,95.28
+Rat,Rat_education_Sina,Education,8203.3,0.997,0.9916,169.53,171.255
+Rat,Rat_education_Wilmer,Education,6150.2,0.997,0.9916,99.76,93.735
+Rat,Rat_public_Dexter,Public services,718.3,0.997,0.9916,12.85,12.44
+Rat,Rat_public_Emilee,Public services,2090.3,0.9998,0.9888,34.55,35.6
+Rat,Rat_public_Faye,Public services,1712.4,0.997,0.9916,27.085,26.145
+Rat,Rat_public_Michael,Public services,2287.1,0.997,0.9916,42.535,42.42
+Rat,Rat_public_Shanta,Public services,1161.8,0.997,0.9916,9.14,9.71
+Rat,Rat_warehouse_Shari,Warehouse/storage,2537.9,0.997,0.9916,44.705,36.605
+Rat,Rat_assembly_Ida,Entertainment/public assembly,1378.9,0.997,0.9914,26.275,23.24
+Rat,Rat_office_Jacinta,Office,2835.9,0.9969,0.9916,210.88,210.81
+Rat,Rat_public_Sade,Public services,2006.7,0.9969,0.9916,27.71,29.39
+Rat,Rat_education_Cecil,Education,5681.1,0.997,0.9913,57.05,54.32
+Rat,Rat_education_Verna,Education,6187.3,0.997,0.9912,77.245,77.81
+Rat,Rat_assembly_Aisha,Entertainment/public assembly,2211.4,0.997,0.9911,76.74,75.285
+Rat,Rat_public_Damon,Public services,1228.5,0.9969,0.9912,17.54,19.32
+Rat,Rat_education_Earl,Education,7051.3,0.9965,0.9916,158.74,167.365
+Rat,Rat_assembly_Rosemarie,Entertainment/public assembly,465.7,0.9962,0.9917,10.61,10.25
+Rat,Rat_lodging_Marion,Lodging/residential,1105.5,0.9935,0.9942,35.0,32.8
+Rat,Rat_assembly_Archie,Entertainment/public assembly,74.4,0.9952,0.9922,2.28,3.36
+Rat,Rat_assembly_Gwen,Entertainment/public assembly,136.8,0.996,0.9913,5.52,5.55
+Rat,Rat_assembly_Suzanne,Entertainment/public assembly,182.3,0.9975,0.9898,2.68,2.44
+Rat,Rat_education_Marvin,Education,5518.4,0.9978,0.9888,46.31,39.075
+Rat,Rat_public_Darren,Public services,261.8,0.999,0.9877,4.68,4.67
+Rat,Rat_public_Muriel,Public services,3134.8,0.9895,0.9971,76.495,58.95
+Rat,Rat_education_Davis,Education,8092.5,0.997,0.9889,75.73,66.89
+Rat,Rat_public_Laurie,Public services,12459.6,0.9946,0.9913,135.59,149.84
+Rat,Rat_education_Marianna,Education,5936.5,0.9943,0.9916,70.83,63.18
+Rat,Rat_education_Zina,Education,5304.8,0.997,0.9888,35.16,38.145
+Rat,Rat_office_Craig,Office,9754.8,0.9943,0.9916,213.27,208.225
+Rat,Rat_public_Mabel,Public services,4189.7,0.997,0.9888,90.205,88.575
+Rat,Rat_public_Toya,Public services,1557.8,0.9998,0.9861,23.855,21.605
+Rat,Rat_public_Frank,Public services,425.6,0.9968,0.9889,4.5,6.37
+Rat,Rat_education_Barney,Education,7200.0,0.9969,0.9887,26.8,25.94
+Rat,Rat_assembly_Kelley,Entertainment/public assembly,83.4,0.9946,0.9877,2.16,2.28
+Rat,Rat_education_Nydia,Education,7785.3,0.9993,0.983,145.52,156.94
+Rat,Rat_lodging_Marguerite,Lodging/residential,1703.8,0.9915,0.9905,19.46,21.39
+Rat,Rat_lodging_Lorenzo,Lodging/residential,239.9,0.9927,0.9872,1.92,2.28
+Rat,Rat_health_Guy,Healthcare,76141.2,0.9998,0.9799,1598.04,1270.92
+Rat,Rat_public_Laura,Public services,1184.5,0.9855,0.9941,12.12,11.77
+Rat,Rat_public_Fern,Public services,3274.0,0.9998,0.9782,40.7,40.19
+Rat,Rat_assembly_Alex,Entertainment/public assembly,129.7,0.9998,0.9779,4.8,4.67
+Rat,Rat_education_Paula,Education,7200.0,0.997,0.9806,123.64,118.735
+Rat,Rat_education_Rogelio,Education,5834.3,0.9832,0.9943,126.165,126.485
+Rat,Rat_public_Kathleen,Public services,1114.8,0.9917,0.9856,26.21,27.47
+Rat,Rat_lodging_Ben,Lodging/residential,32516.0,0.9974,0.9797,291.2,278.12
+Rat,Rat_public_Loretta,Public services,4087.0,0.9998,0.9769,212.6,168.56
+Rat,Rat_education_Adell,Education,9689.2,0.9969,0.9796,121.12,112.5
+Rat,Rat_education_Tania,Education,21832.2,0.9993,0.9769,362.17,222.6
+Rat,Rat_health_Shane,Healthcare,41806.4,0.9969,0.9772,1227.57,1017.67
+Rat,Rat_office_Ramiro,Office,8297.6,0.997,0.9769,39.285,29.86
+Rat,Rat_office_Jessica,Office,30542.8,0.9966,0.9769,736.81,636.43
+Rat,Rat_other_Lan,Other,999.8,0.9761,0.997,13.07,13.92
+Rat,Rat_public_Alanna,Public services,42888.4,0.9918,0.9807,1198.56,1071.84
+Rat,Rat_education_Marcos,Education,8398.4,0.9943,0.9769,404.82,292.8
+Rat,Rat_office_Jill,Office,31587.0,0.9916,0.9751,464.845,382.315
+Rat,Rat_assembly_Donny,Entertainment/public assembly,102.4,0.9845,0.9774,1.92,1.68
+Rat,Rat_public_Bronwyn,Public services,51583.7,0.9916,0.9695,431.64,432.84
+Rat,Rat_office_Mei,Office,743.2,0.9665,0.9943,20.51,19.775
+Rat,Rat_office_Avis,Office,44099.2,0.9901,0.9684,862.3,810.32
+Rat,Rat_assembly_Kristine,Entertainment/public assembly,3673.5,0.9765,0.9797,22.41,20.76
+Rat,Rat_education_Dreama,Education,9801.3,0.9998,0.9553,101.1,80.79
+Rat,Rat_public_Chrissy,Public services,2043.9,0.9602,0.9943,51.47,52.975
+Rat,Rat_education_Alfred,Education,19230.9,0.9859,0.9677,463.955,232.83
+Rat,Rat_lodging_Ted,Lodging/residential,185.8,0.9748,0.9777,1.6,2.24
+Rat,Rat_education_Milagros,Education,9262.4,0.997,0.9501,106.97,97.66
+Rat,Rat_education_Maricela,Education,6466.0,0.9989,0.9439,150.82,118.14
+Rat,Rat_assembly_Victorina,Entertainment/public assembly,291.1,0.9734,0.9656,1.2,1.28
+Rat,Rat_education_Leonardo,Education,4385.0,0.997,0.9405,43.245,40.38
+Rat,Rat_public_Fredrick,Public services,1202.6,0.9998,0.9313,7.54,9.16
+Rat,Rat_education_Yu,Education,2034.9,0.9342,0.9943,74.75,81.53
+Rat,Rat_education_Vicky,Education,18004.6,0.972,0.9493,181.305,183.72
+Rat,Rat_assembly_Teodoro,Entertainment/public assembly,1645.2,0.9998,0.9146,31.8,18.32
+Rat,Rat_warehouse_Maegan,Warehouse/storage,1378.6,0.9112,0.9916,6.71,6.78
+Rat,Rat_education_Conrad,Education,33073.5,0.9066,0.9887,92.805,92.67
+Rat,Rat_education_Barbara,Education,20903.2,0.9529,0.9081,1.68,2.28
+Hog,Hog_assembly_Colette,Entertainment/public assembly,21783.5,1.0,1.0,325.906,334.196
+Hog,Hog_assembly_Dona,Entertainment/public assembly,15501.4,1.0,1.0,284.242,299.072
+Hog,Hog_assembly_Jasmine,Entertainment/public assembly,5314.1,1.0,1.0,89.313,90.592
+Hog,Hog_education_Casandra,Education,26033.7,1.0,1.0,1048.182,827.544
+Hog,Hog_education_Donnie,Education,6837.4,1.0,1.0,57.435,58.639
+Hog,Hog_education_Jewel,Education,7912.0,1.0,1.0,59.588,68.104
+Hog,Hog_education_Jordan,Education,12362.8,1.0,1.0,115.804,105.955
+Hog,Hog_education_Madge,Education,6786.0,1.0,1.0,86.62,89.677
+Hog,Hog_education_Rachael,Education,3715.0,1.0,1.0,73.061,67.059
+Hog,Hog_food_Morgan,Food sales and service,3085.8,1.0,1.0,51.738,51.258
+Hog,Hog_industrial_Jeremy,Manufacturing/industrial,1216.2,1.0,1.0,41.436,36.858
+Hog,Hog_industrial_Joanne,Manufacturing/industrial,5281.6,1.0,1.0,146.262,155.38
+Hog,Hog_industrial_Mariah,Manufacturing/industrial,1065.6,1.0,1.0,16.666,16.053
+Hog,Hog_industrial_Quentin,Manufacturing/industrial,7559.7,1.0,1.0,91.782,70.917
+Hog,Hog_lodging_Francisco,Lodging/residential,14592.3,1.0,1.0,154.938,142.916
+Hog,Hog_lodging_Hal,Lodging/residential,14241.9,1.0,1.0,153.737,131.012
+Hog,Hog_lodging_Nikki,Lodging/residential,6929.1,1.0,1.0,57.848,52.592
+Hog,Hog_lodging_Ora,Lodging/residential,21678.1,1.0,1.0,198.0,241.73
+Hog,Hog_lodging_Shanti,Lodging/residential,24355.1,1.0,1.0,255.072,261.89
+Hog,Hog_office_Almeda,Office,6683.1,1.0,1.0,58.695,57.451
+Hog,Hog_office_Bessie,Office,8975.5,1.0,1.0,66.0,64.0
+Hog,Hog_office_Betsy,Office,23175.3,1.0,1.0,448.828,428.674
+Hog,Hog_office_Bill,Office,13375.5,1.0,1.0,305.36,291.948
+Hog,Hog_office_Denita,Office,8824.7,1.0,1.0,48.556,42.496
+Hog,Hog_office_Lavon,Office,1530.3,1.0,1.0,21.772,18.444
+Hog,Hog_office_Lizzie,Office,10351.6,1.0,1.0,94.905,100.104
+Hog,Hog_office_Mary,Office,4931.0,1.0,1.0,29.968,23.292
+Hog,Hog_office_Merilyn,Office,3446.3,1.0,1.0,31.538,29.731
+Hog,Hog_office_Mike,Office,5924.5,1.0,1.0,57.637,64.358
+Hog,Hog_office_Miriam,Office,1418.5,1.0,1.0,21.652,21.402
+Hog,Hog_office_Myles,Office,7412.0,1.0,1.0,40.93,39.688
+Hog,Hog_office_Napoleon,Office,12365.4,1.0,1.0,123.556,120.893
+Hog,Hog_office_Shawna,Office,18213.0,1.0,1.0,163.0,139.053
+Hog,Hog_office_Shawnna,Office,27312.6,1.0,1.0,408.184,367.664
+Hog,Hog_office_Sherrie,Office,8639.4,1.0,1.0,33.253,32.34
+Hog,Hog_office_Shon,Office,7837.8,1.0,1.0,74.698,63.138
+Hog,Hog_office_Sydney,Office,8094.7,1.0,1.0,121.271,129.836
+Hog,Hog_office_Valda,Office,5255.4,1.0,1.0,23.418,22.66
+Hog,Hog_other_Noma,Other,2568.6,1.0,1.0,26.456,25.849
+Hog,Hog_other_Tobias,Other,2220.7,1.0,1.0,40.225,32.115
+Hog,Hog_parking_Jean,Parking,16561.8,1.0,1.0,31.923,38.694
+Hog,Hog_parking_Shannon,Parking,63138.2,1.0,1.0,102.134,114.127
+Hog,Hog_public_Crystal,Public services,27388.9,1.0,1.0,314.369,286.19
+Hog,Hog_public_Gerard,Public services,7725.3,1.0,1.0,60.51,55.842
+Hog,Hog_public_Kevin,Public services,35416.6,1.0,1.0,473.422,457.12
+Hog,Hog_public_Octavia,Public services,18554.8,1.0,1.0,194.956,189.329
+Hog,Hog_services_Adrianna,Services,4696.4,1.0,1.0,215.944,234.552
+Hog,Hog_services_Kerrie,Services,2501.5,1.0,1.0,17.699,18.31
+Hog,Hog_lodging_Brian,Lodging/residential,12876.5,0.9999,1.0,98.0,97.0
+Hog,Hog_lodging_Shonda,Lodging/residential,21437.1,0.9999,1.0,103.0,104.0
+Hog,Hog_office_Cordelia,Office,4420.1,0.9999,1.0,20.107,19.278
+Hog,Hog_office_Elnora,Office,9770.3,0.9999,1.0,673.523,666.751
+Hog,Hog_office_Eloise,Office,11419.8,0.9999,1.0,321.048,338.202
+Hog,Hog_office_Guadalupe,Office,6778.0,0.9999,1.0,44.0,37.0
+Hog,Hog_office_Josefina,Office,14636.4,0.9999,1.0,177.234,175.735
+Hog,Hog_office_Leon,Office,1938.3,0.9999,1.0,6.1,6.2
+Hog,Hog_office_Mari,Office,6302.4,0.9999,1.0,43.387,37.353
+Hog,Hog_office_Migdalia,Office,6754.9,0.9999,1.0,31.214,28.152
+Hog,Hog_office_Richelle,Office,9285.3,0.9999,1.0,77.03,73.23
+Hog,Hog_office_Vera,Office,8483.5,0.9999,1.0,97.0,93.0
+Hog,Hog_parking_Antoinette,Parking,1949.7,0.9999,1.0,19.0,18.0
+Hog,Hog_warehouse_Louise,Warehouse/storage,6185.9,0.9999,1.0,8.0,8.0
+Hog,Hog_education_Bruno,Education,13972.0,1.0,0.9998,253.192,248.999
+Hog,Hog_education_Hallie,Education,2996.7,0.9999,0.9999,61.953,64.405
+Hog,Hog_education_Roberto,Education,9365.8,1.0,0.9998,168.066,162.0
+Hog,Hog_lodging_Celeste,Lodging/residential,10874.7,0.9999,0.9999,95.144,90.187
+Hog,Hog_lodging_Mauricio,Lodging/residential,16251.0,0.9998,1.0,210.0,199.0
+Hog,Hog_office_Alexis,Office,2693.4,0.9998,1.0,14.525,16.66
+Hog,Hog_office_Charla,Office,9493.9,0.9999,0.9999,172.191,183.254
+Hog,Hog_office_Corie,Office,11102.7,0.9998,1.0,83.0,85.0
+Hog,Hog_office_Joey,Office,31275.8,0.9998,1.0,982.837,1053.55
+Hog,Hog_office_Lanell,Office,14209.1,1.0,0.9998,133.848,131.246
+Hog,Hog_office_Leanne,Office,7646.1,0.9999,0.9999,119.322,122.928
+Hog,Hog_office_Simon,Office,2550.4,0.9998,1.0,14.0,14.0
+Hog,Hog_parking_Bernardo,Parking,7796.3,0.9998,1.0,62.0,53.0
+Hog,Hog_assembly_Maribel,Entertainment/public assembly,13306.3,0.9997,1.0,871.0,859.0
+Hog,Hog_assembly_Pedro,Entertainment/public assembly,24942.6,0.9999,0.9998,188.98,198.142
+Hog,Hog_office_Man,Office,8099.9,0.9999,0.9998,61.448,61.292
+Hog,Hog_office_Randi,Office,8556.3,0.9997,1.0,70.0,60.07
+Hog,Hog_office_Sarah,Office,14150.2,0.9998,0.9999,445.832,443.163
+Hog,Hog_warehouse_Porsha,Warehouse/storage,3666.3,0.9997,1.0,6.73,7.216
+Hog,Hog_education_Robert,Education,30925.9,0.9998,0.9998,520.84,492.198
+Hog,Hog_industrial_Jay,Manufacturing/industrial,5931.6,0.9999,0.9997,220.892,214.207
+Hog,Hog_education_Beth,Education,13254.7,0.9992,1.0,103.106,93.45
+Hog,Hog_office_Patrick,Office,964.8,0.9992,1.0,10.253,8.364
+Hog,Hog_health_Hisako,Healthcare,11295.6,0.9992,0.9999,201.624,191.131
+Hog,Hog_office_Elsy,Office,3698.2,0.9993,0.9998,25.423,24.795
+Hog,Hog_education_Wayne,Education,7964.8,0.9991,0.9999,163.692,147.185
+Hog,Hog_office_Nancie,Office,8348.1,1.0,0.9989,43.369,52.254
+Hog,Hog_office_Terry,Office,24854.9,0.999,0.9999,465.538,563.0
+Hog,Hog_public_Brad,Public services,22066.1,0.999,0.9999,1013.188,980.157
+Hog,Hog_education_Sonia,Education,17103.3,0.9987,0.9999,602.426,602.762
+Hog,Hog_office_Elke,Office,9635.7,0.9998,0.9989,51.0,47.0
+Hog,Hog_health_Kesha,Healthcare,10757.1,0.9989,0.9994,235.267,235.173
+Hog,Hog_education_Janell,Education,26718.3,0.9982,1.0,2927.45,3119.2
+Hog,Hog_health_Jenny,Healthcare,6916.0,0.9984,0.9995,169.776,166.942
+Hog,Hog_other_Lynette,Other,6021.0,0.9984,0.9994,3.4,2.3
+Hog,Hog_services_Joe,Services,3904.5,0.9982,0.9997,24.303,21.939
+Hog,Hog_office_Elizbeth,Office,8593.5,0.998,0.9995,130.582,126.941
+Hog,Hog_education_Odell,Education,14537.7,0.997,0.9998,510.246,516.786
+Hog,Hog_services_Marshall,Services,6506.9,0.9981,0.9986,75.855,76.72
+Hog,Hog_office_Candi,Office,18156.7,0.9965,1.0,303.306,297.104
+Hog,Hog_parking_Marcus,Parking,25222.4,0.9957,1.0,62.562,88.347
+Hog,Hog_parking_Cliff,Parking,9320.8,0.9973,0.9983,102.914,95.607
+Hog,Hog_education_George,Education,6719.9,0.9983,0.9971,207.012,211.466
+Hog,Hog_office_Roger,Office,9124.2,0.9968,0.9984,277.976,262.798
+Hog,Hog_education_Leandro,Education,19241.6,0.9948,1.0,446.785,469.435
+Hog,Hog_education_Caridad,Education,24153.8,1.0,0.9917,1184.517,1132.601
+Hog,Hog_office_Carri,Office,2365.6,0.9929,0.9987,30.394,29.703
+Hog,Hog_education_Luvenia,Education,17851.5,1.0,0.9893,428.976,434.029
+Hog,Hog_office_Corey,Office,12033.9,0.9879,0.9993,119.028,118.958
+Hog,Hog_office_Byron,Office,80038.2,0.9862,1.0,889.449,855.418
+Hog,Hog_office_Marlena,Office,12239.5,0.9865,0.9991,34.603,33.714
+Hog,Hog_office_Sonny,Office,5837.7,0.992,0.9932,230.779,238.398
+Hog,Hog_office_Emmanuel,Office,1899.3,0.9861,0.9987,26.656,26.028
+Hog,Hog_office_Catalina,Office,4900.4,0.9847,1.0,40.918,38.534
+Hog,Hog_education_Jared,Education,1317.8,0.9849,0.9998,10.197,9.179
+Hog,Hog_office_Marilyn,Office,5525.5,0.9844,1.0,38.576,33.083
+Hog,Hog_office_Marlene,Office,7451.3,0.9844,1.0,35.734,35.656
+Hog,Hog_parking_Jeana,Parking,7782.7,0.9844,1.0,26.924,25.477
+Hog,Hog_education_Haywood,Education,3447.4,0.9857,0.9986,136.552,138.983
+Hog,Hog_office_Mack,Office,5332.1,0.9854,0.9986,80.712,86.669
+Hog,Hog_office_Darline,Office,1561.2,0.9838,1.0,181.557,213.034
+Hog,Hog_warehouse_Rosanna,Warehouse/storage,981.0,1.0,0.9834,20.279,18.626
+Hog,Hog_office_Cornell,Office,62385.0,0.9833,1.0,1315.646,1408.939
+Hog,Hog_office_Buford,Office,2521.9,0.997,0.9839,1.435,1.287
+Hog,Hog_office_Garrett,Office,28339.8,1.0,0.98,320.565,299.875
+Hog,Hog_office_Sung,Office,3328.6,0.982,0.9903,43.85,42.326
+Hog,Hog_office_Nia,Office,53614.4,0.9709,1.0,1633.038,1345.532
+Hog,Hog_office_Clemencia,Office,5453.7,0.9718,0.9985,74.554,72.935
+Hog,Hog_lodging_Retha,Lodging/residential,17389.0,0.9661,0.9994,350.309,356.155
+Hog,Hog_assembly_Letha,Entertainment/public assembly,50664.7,0.9804,0.9775,618.864,568.56
+Hog,Hog_office_Catharine,Office,11042.3,0.9661,0.9817,392.462,383.512
+Hog,Hog_science_Max,Technology/science,8310.7,0.9463,1.0,137.0,151.0
+Fox,Fox_education_Andre,Education,17044.0,0.9999,1.0,430.45,458.4
+Fox,Fox_lodging_Helen,Lodging/residential,51394.9,0.9999,1.0,384.17,305.75
+Fox,Fox_assembly_Tony,Entertainment/public assembly,7231.9,0.9999,0.9999,90.22,77.44
+Fox,Fox_education_Claire,Education,8145.1,0.9999,0.9999,69.7,51.21
+Fox,Fox_education_Ollie,Education,6698.5,0.9999,0.9999,102.88,105.72
+Fox,Fox_education_Ray,Education,1185.5,0.9999,0.9999,36.34,49.41
+Fox,Fox_education_Yolande,Education,16681.6,0.9999,0.9999,507.29,506.77
+Fox,Fox_office_Clayton,Office,488.5,0.9999,0.9999,89.47,87.53
+Fox,Fox_office_Edythe,Office,7772.3,0.9999,0.9999,109.82,103.53
+Fox,Fox_office_Karima,Office,4806.1,0.9999,0.9999,80.68,77.09
+Fox,Fox_office_Thelma,Office,11052.3,0.9999,0.9999,112.75,99.92
+Fox,Fox_assembly_Audrey,Entertainment/public assembly,1108.8,0.9998,0.9999,12.99,12.54
+Fox,Fox_assembly_Gary,Entertainment/public assembly,2261.7,0.9998,0.9999,87.26,92.28
+Fox,Fox_assembly_Renna,Entertainment/public assembly,16671.4,0.9998,0.9999,367.4,371.27
+Fox,Fox_assembly_Sheldon,Entertainment/public assembly,4823.5,0.9999,0.9998,102.56,109.43
+Fox,Fox_education_Eddy,Education,13015.0,0.9998,0.9999,310.68,306.92
+Fox,Fox_education_Nilda,Education,10371.2,0.9998,0.9999,121.515,132.58
+Fox,Fox_education_Tonya,Education,8444.9,0.9997,1.0,167.95,170.81
+Fox,Fox_education_Willis,Education,24265.1,0.9998,0.9999,2447.83,2312.24
+Fox,Fox_lodging_Stephen,Lodging/residential,8019.7,0.9999,0.9998,79.47,81.415
+Fox,Fox_office_Susanne,Office,941.6,0.9999,0.9998,15.03,14.87
+Fox,Fox_parking_Lynelle,Parking,14596.3,0.9998,0.9999,12.58,12.66
+Fox,Fox_utility_Marian,Utility,2040.0,0.9999,0.9998,187.91,217.555
+Fox,Fox_assembly_Cecelia,Entertainment/public assembly,1591.6,0.9998,0.9998,12.565,14.56
+Fox,Fox_education_Ashli,Education,864.8,0.9997,0.9999,38.73,22.24
+Fox,Fox_education_Heriberto,Education,3174.6,0.9997,0.9999,44.25,37.21
+Fox,Fox_education_Kendrick,Education,1052.5,0.9999,0.9997,9.62,12.16
+Fox,Fox_education_Leona,Education,26286.5,0.9998,0.9998,247.11,254.92
+Fox,Fox_education_Long,Education,12733.7,0.9998,0.9998,159.085,153.15
+Fox,Fox_education_Louie,Education,16645.2,0.9998,0.9998,72.735,74.625
+Fox,Fox_education_Melinda,Education,18984.6,0.9997,0.9999,450.59,371.67
+Fox,Fox_lodging_Alana,Lodging/residential,6938.2,0.9997,0.9999,189.78,194.54
+Fox,Fox_lodging_Isabell,Lodging/residential,2875.3,0.9997,0.9999,28.67,25.93
+Fox,Fox_lodging_Wallace,Lodging/residential,5885.2,0.9997,0.9999,342.32,348.86
+Fox,Fox_lodging_Winifred,Lodging/residential,5582.2,0.9997,0.9999,85.92,82.02
+Fox,Fox_office_Alice,Office,18806.8,0.9998,0.9998,353.76,350.83
+Fox,Fox_office_Bernard,Office,4182.2,0.9998,0.9998,136.32,134.09
+Fox,Fox_office_Carson,Office,6891.5,0.9998,0.9998,54.17,52.64
+Fox,Fox_office_Israel,Office,11282.1,0.9998,0.9998,117.55,115.095
+Fox,Fox_public_Bart,Public services,9407.5,0.9998,0.9998,153.385,140.695
+Fox,Fox_education_Eldon,Education,4613.7,0.9997,0.9998,189.71,201.335
+Fox,Fox_education_Rosie,Education,8445.2,0.9997,0.9998,118.61,121.36
+Fox,Fox_education_Shawanda,Education,960.1,0.9998,0.9997,6.48,6.56
+Fox,Fox_education_Virgil,Education,6123.0,0.9998,0.9997,85.47,88.65
+Fox,Fox_food_Francesco,Food sales and service,2310.2,0.9997,0.9998,49.91,52.78
+Fox,Fox_education_Kim,Education,5782.1,0.9999,0.9994,57.97,55.96
+Fox,Fox_education_Sterling,Education,4106.6,0.9995,0.9998,17.32,17.7
+Fox,Fox_education_Theodore,Education,11389.2,0.9997,0.9997,267.3,268.33
+Fox,Fox_office_Sheila,Office,901.4,0.9997,0.9997,7.61,8.29
+Fox,Fox_education_Burton,Education,7028.1,0.9998,0.9994,46.61,43.97
+Fox,Fox_education_Geoffrey,Education,12731.4,0.9995,0.9997,124.415,115.21
+Fox,Fox_education_Wendell,Education,20402.2,0.9997,0.9995,528.88,519.1
+Fox,Fox_lodging_Jina,Lodging/residential,9888.6,0.9998,0.9994,145.195,135.41
+Fox,Fox_public_Denny,Public services,4058.1,0.9999,0.9993,138.17,131.865
+Fox,Fox_public_Rhonda,Public services,9555.6,0.9997,0.9995,118.09,114.54
+Fox,Fox_education_Elois,Education,695.0,0.9993,0.9998,10.42,11.49
+Fox,Fox_education_Kris,Education,2837.5,0.9999,0.9992,91.77,109.58
+Fox,Fox_education_Leota,Education,12311.3,0.9997,0.9994,208.34,206.92
+Fox,Fox_education_Tamika,Education,8339.9,0.9998,0.9993,151.04,133.135
+Fox,Fox_office_Joy,Office,6581.0,0.9991,0.9999,183.885,168.71
+Fox,Fox_assembly_Leeanne,Entertainment/public assembly,1932.8,0.9991,0.9998,20.68,18.62
+Fox,Fox_lodging_Warren,Lodging/residential,4562.3,0.9993,0.9995,36.375,36.13
+Fox,Fox_office_Brandy,Office,3921.8,0.9991,0.9998,22.54,23.105
+Fox,Fox_office_Yong,Office,15232.3,0.999,0.9999,138.89,123.11
+Fox,Fox_public_Lauren,Public services,9262.4,0.9989,1.0,126.92,126.7
+Fox,Fox_assembly_Cindy,Entertainment/public assembly,3765.5,0.9989,0.9999,52.09,48.25
+Fox,Fox_office_Vicki,Office,6580.5,0.9991,0.9997,141.49,143.8
+Fox,Fox_parking_Tommie,Parking,37633.4,0.999,0.9998,99.22,79.98
+Fox,Fox_public_Martin,Public services,32129.3,0.9989,0.9999,186.44,181.8
+Fox,Fox_assembly_Lakeisha,Entertainment/public assembly,898.0,0.9991,0.9995,13.3,18.67
+Fox,Fox_education_Gloria,Education,14087.5,0.9997,0.999,671.34,652.58
+Fox,Fox_assembly_Emma,Entertainment/public assembly,13293.8,0.999,0.9995,158.05,191.475
+Fox,Fox_education_Carleen,Education,6635.2,0.9986,0.9999,100.795,109.11
+Fox,Fox_education_Dominique,Education,8930.2,0.999,0.9995,179.88,179.28
+Fox,Fox_education_Miguelina,Education,7831.7,0.9989,0.9994,90.25,84.31
+Fox,Fox_lodging_Frances,Lodging/residential,10340.5,0.9995,0.9987,97.235,97.2
+Fox,Fox_education_Dewayne,Education,8892.4,0.9984,0.9998,67.055,61.53
+Fox,Fox_education_Jaclyn,Education,6619.2,0.9997,0.9985,186.56,185.51
+Fox,Fox_food_Scott,Food sales and service,2681.4,0.9998,0.9984,72.05,72.43
+Fox,Fox_office_Zachary,Office,13038.5,0.9999,0.9983,158.54,156.44
+Fox,Fox_retail_Manie,Retail,4201.4,0.9991,0.9991,53.93,52.92
+Fox,Fox_assembly_Dixie,Entertainment/public assembly,9801.7,0.9997,0.9984,48.0,53.415
+Fox,Fox_office_Molly,Office,576.3,0.9997,0.9984,5.38,4.61
+Fox,Fox_education_Otilia,Education,30403.1,0.9997,0.9983,908.83,930.04
+Fox,Fox_lodging_Morris,Lodging/residential,3051.0,0.9985,0.9994,23.11,23.98
+Fox,Fox_office_Demetrius,Office,14463.3,0.9997,0.9983,118.54,118.88
+Fox,Fox_lodging_Angla,Lodging/residential,20115.9,0.9992,0.9986,108.7,102.975
+Fox,Fox_education_Etta,Education,4497.5,0.9997,0.9981,189.43,206.89
+Fox,Fox_lodging_Stephan,Lodging/residential,3382.2,0.9997,0.9981,30.59,30.41
+Fox,Fox_office_Berniece,Office,2173.2,0.9991,0.9986,20.025,28.825
+Fox,Fox_education_Charles,Education,909.3,0.9987,0.9989,13.36,14.48
+Fox,Fox_education_Elvira,Education,13826.7,0.9994,0.9981,203.32,164.45
+Fox,Fox_office_Rowena,Office,3132.0,0.9975,0.9999,32.905,33.56
+Fox,Fox_assembly_Adrianne,Entertainment/public assembly,21391.8,0.9984,0.9987,186.375,228.89
+Fox,Fox_assembly_Christie,Entertainment/public assembly,997.1,0.9985,0.9986,19.11,16.96
+Fox,Fox_education_Claude,Education,17957.6,0.9986,0.9983,958.835,977.8
+Fox,Fox_education_Lesley,Education,1555.6,0.9995,0.9962,9.42,11.18
+Fox,Fox_health_Lorena,Healthcare,3428.5,0.9956,0.9999,41.51,37.26
+Fox,Fox_assembly_Carlos,Entertainment/public assembly,6706.9,0.9975,0.9977,107.77,100.485
+Fox,Fox_education_Janina,Education,8479.5,0.9967,0.9985,127.44,115.94
+Fox,Fox_education_Virginia,Education,1186.7,0.9953,0.9989,8.85,7.425
+Fox,Fox_parking_Felipa,Parking,51767.1,0.999,0.995,64.75,65.84
+Fox,Fox_assembly_Johnnie,Entertainment/public assembly,23668.5,0.9934,0.9999,332.53,383.94
+Fox,Fox_education_Marcelina,Education,400.8,0.9942,0.9951,3.27,3.1
+Fox,Fox_warehouse_Pearl,Warehouse/storage,1199.2,0.9933,0.9957,27.89,29.435
+Fox,Fox_education_Lilly,Education,12236.3,0.9991,0.9896,181.895,170.81
+Fox,Fox_education_Melvin,Education,2289.4,0.9991,0.9896,58.55,42.49
+Fox,Fox_education_Marlana,Education,5997.8,0.999,0.9895,167.04,182.97
+Fox,Fox_office_Easter,Office,2766.5,0.9944,0.9932,15.47,21.375
+Fox,Fox_education_Suzan,Education,4559.5,0.9999,0.987,32.79,41.45
+Fox,Fox_assembly_Cathy,Entertainment/public assembly,13386.0,0.9987,0.9876,59.0,59.35
+Fox,Fox_assembly_Terrell,Entertainment/public assembly,4830.9,0.999,0.9863,48.84,38.075
+Fox,Fox_education_Rudolph,Education,2335.5,0.9997,0.9848,20.75,23.79
+Fox,Fox_education_Cynthia,Education,7197.1,0.9929,0.9892,194.62,214.35
+Fox,Fox_office_Margarita,Office,2187.8,0.9921,0.9881,19.87,18.28
+Fox,Fox_office_Juana,Office,2671.0,0.9898,0.9887,13.53,15.08
+Fox,Fox_education_Stacia,Education,3134.5,0.9771,0.9999,77.24,77.1
+Fox,Fox_education_Shirley,Education,8220.6,0.9869,0.9864,90.66,87.32
+Fox,Fox_office_Gaylord,Office,13759.0,0.9714,0.9999,134.11,134.24
+Fox,Fox_assembly_Kathie,Entertainment/public assembly,1466.6,0.9802,0.9854,9.78,9.605
+Fox,Fox_education_John,Education,4587.9,0.9999,0.9635,49.39,53.965
+Fox,Fox_assembly_Bradley,Entertainment/public assembly,75207.8,0.9415,0.9994,155.925,113.18
+Fox,Fox_assembly_Boyce,Entertainment/public assembly,15520.9,0.9413,0.9983,331.795,329.21
+Fox,Fox_warehouse_Lorretta,Warehouse/storage,360.2,0.978,0.936,9.7,9.64
+Fox,Fox_assembly_Jerrod,Entertainment/public assembly,94.9,0.953,0.9372,1.35,1.25
+Fox,Fox_religion_Maurice,Religious worship,151.3,0.9133,0.9628,1.4,1.635
+Bull,Bull_office_Efren,Office,8005.2,0.9777,0.9903,42.0,45.0
+Bull,Bull_office_Lilla,Office,16890.2,0.9763,0.99,474.0,464.0
+Bull,Bull_education_Dakota,Education,3585.9,0.9761,0.99,51.0,54.0
+Bull,Bull_education_Mario,Education,8477.8,0.9762,0.9898,99.0,89.0
+Bull,Bull_education_Nolan,Education,8512.6,0.9761,0.99,63.0,64.0
+Bull,Bull_education_Elva,Education,5631.9,0.9761,0.9898,58.0,56.0
+Bull,Bull_education_Stewart,Education,7212.2,0.9761,0.9898,127.0,118.0
+Bull,Bull_assembly_Beau,Entertainment/public assembly,46789.1,0.9763,0.9895,460.0,459.0
+Bull,Bull_lodging_Allen,Lodging/residential,748.0,0.9761,0.9897,7.68,7.68
+Bull,Bull_lodging_Perry,Lodging/residential,6480.4,0.9761,0.9897,52.0,51.0
+Bull,Bull_lodging_Xavier,Lodging/residential,750.6,0.9761,0.9897,7.68,8.4
+Bull,Bull_education_Brady,Education,3636.5,0.976,0.9897,29.0,27.0
+Bull,Bull_education_Pamela,Education,20904.5,0.9761,0.9896,175.0,179.0
+Bull,Bull_education_Reynaldo,Education,4384.2,0.9762,0.9895,29.0,33.0
+Bull,Bull_assembly_Vanessa,Entertainment/public assembly,12776.2,0.9759,0.9897,111.0,125.0
+Bull,Bull_education_Clarice,Education,5132.0,0.976,0.9896,29.0,32.0
+Bull,Bull_education_Dania,Education,5215.3,0.9758,0.9898,41.0,37.0
+Bull,Bull_lodging_Charlotte,Lodging/residential,750.6,0.9759,0.9897,9.6,8.88
+Bull,Bull_office_Claudia,Office,2272.7,0.976,0.9896,34.0,34.0
+Bull,Bull_education_Brandi,Education,2901.6,0.9756,0.9898,20.0,25.0
+Bull,Bull_education_Tracey,Education,24014.6,0.9759,0.9896,175.0,180.0
+Bull,Bull_public_Jefferson,Public services,6015.4,0.9759,0.9896,32.0,33.0
+Bull,Bull_education_Myra,Education,5527.5,0.9755,0.9897,43.0,44.0
+Bull,Bull_education_Bryon,Education,4723.7,0.9756,0.9895,33.0,32.0
+Bull,Bull_office_Ella,Office,821.0,0.9776,0.9876,74.0,71.0
+Bull,Bull_services_Nadine,Services,36198.8,0.9752,0.9898,129.0,113.0
+Bull,Bull_lodging_Caren,Lodging/residential,16509.6,0.9763,0.9886,154.0,121.0
+Bull,Bull_assembly_Brandon,Entertainment/public assembly,4140.1,0.9761,0.9885,79.0,72.0
+Bull,Bull_assembly_Lance,Entertainment/public assembly,24355.6,0.9742,0.9902,451.0,445.0
+Bull,Bull_lodging_Hugo,Lodging/residential,8062.7,0.9738,0.9903,71.0,69.0
+Bull,Bull_education_Brain,Education,21365.2,0.9745,0.9887,386.0,342.0
+Bull,Bull_education_Brenda,Education,14652.9,0.9758,0.9874,141.319,137.039
+Bull,Bull_education_Miquel,Education,22820.4,0.9732,0.99,261.0,248.0
+Bull,Bull_education_Genie,Education,13675.8,0.9731,0.99,117.5,115.0
+Bull,Bull_education_Krista,Education,22263.1,0.9731,0.99,301.0,270.0
+Bull,Bull_education_Nichole,Education,19058.2,0.9732,0.9898,185.0,193.0
+Bull,Bull_services_Winford,Services,19904.7,0.9731,0.99,58.0,39.0
+Bull,Bull_assembly_Amalia,Entertainment/public assembly,52377.0,0.9731,0.9898,602.0,490.0
+Bull,Bull_education_Arthur,Education,22083.2,0.9731,0.9898,415.0,414.0
+Bull,Bull_education_Fabiola,Education,10370.1,0.9732,0.9897,183.0,186.0
+Bull,Bull_education_Linnie,Education,14307.0,0.9731,0.9898,188.0,181.0
+Bull,Bull_education_Luke,Education,15458.6,0.9731,0.9898,290.0,273.0
+Bull,Bull_education_Nina,Education,12131.0,0.9731,0.9898,238.0,244.0
+Bull,Bull_services_Rachelle,Services,34691.5,0.973,0.99,119.0,87.0
+Bull,Bull_education_Carl,Education,25622.0,0.9735,0.9894,604.0,630.0
+Bull,Bull_education_Hayley,Education,17997.4,0.9731,0.9897,171.0,167.0
+Bull,Bull_education_Kristal,Education,18853.5,0.973,0.9898,398.0,392.0
+Bull,Bull_education_Mervin,Education,20255.1,0.973,0.9898,189.0,178.0
+Bull,Bull_education_Racheal,Education,36560.1,0.973,0.9898,553.0,540.0
+Bull,Bull_lodging_Dave,Lodging/residential,21733.4,0.9731,0.9897,322.0,309.0
+Bull,Bull_lodging_Melissa,Lodging/residential,27992.3,0.9731,0.9897,242.0,253.0
+Bull,Bull_assembly_Gerri,Entertainment/public assembly,11079.8,0.973,0.9897,180.0,161.0
+Bull,Bull_assembly_Goldie,Entertainment/public assembly,4864.1,0.973,0.9897,49.0,62.0
+Bull,Bull_education_Jae,Education,16463.9,0.9727,0.99,536.0,511.0
+Bull,Bull_education_Sebastian,Education,5117.7,0.9729,0.9897,35.0,36.0
+Bull,Bull_education_Venita,Education,4882.9,0.973,0.9896,36.0,36.0
+Bull,Bull_public_Hyun,Public services,45791.7,0.9729,0.9897,463.0,453.0
+Bull,Bull_assembly_Freddie,Entertainment/public assembly,21815.4,0.9729,0.9896,228.0,195.0
+Bull,Bull_education_Reina,Education,9434.8,0.9727,0.9898,69.0,82.0
+Bull,Bull_lodging_Carie,Lodging/residential,3683.5,0.9728,0.9897,53.0,53.0
+Bull,Bull_lodging_Leonard,Lodging/residential,3831.4,0.9728,0.9897,33.0,34.0
+Bull,Bull_education_Gregory,Education,17333.1,0.9731,0.9893,66.0,66.0
+Bull,Bull_education_Pablo,Education,4810.3,0.9727,0.9897,37.0,39.0
+Bull,Bull_education_Dan,Education,11941.4,0.9724,0.9898,168.0,168.0
+Bull,Bull_education_Miranda,Education,10008.4,0.9728,0.9895,167.0,157.0
+Bull,Bull_education_Patrina,Education,5054.4,0.9724,0.9898,17.0,17.0
+Bull,Bull_lodging_Abby,Lodging/residential,1054.4,0.9728,0.9895,13.0,12.5
+Bull,Bull_lodging_Jeremiah,Lodging/residential,5326.5,0.9727,0.9896,52.0,53.0
+Bull,Bull_lodging_Lettie,Lodging/residential,3683.4,0.9729,0.9894,34.0,34.0
+Bull,Bull_office_Yvonne,Office,18019.5,0.9727,0.9896,154.0,145.0
+Bull,Bull_education_Magaret,Education,7954.6,0.9727,0.9895,63.0,65.0
+Bull,Bull_education_Olive,Education,5370.8,0.9728,0.9893,54.0,66.0
+Bull,Bull_lodging_Elena,Lodging/residential,1043.0,0.9728,0.9893,6.5,6.0
+Bull,Bull_assembly_Dorethea,Entertainment/public assembly,3234.8,0.9722,0.9897,19.0,17.0
+Bull,Bull_education_Juan,Education,26212.8,0.9731,0.9888,200.0,212.0
+Bull,Bull_education_Lenny,Education,4294.9,0.9727,0.9892,35.0,34.0
+Bull,Bull_assembly_Lesa,Entertainment/public assembly,1892.6,0.9747,0.9866,10.0,10.0
+Bull,Bull_office_Anne,Office,1499.0,0.9726,0.9887,21.0,20.0
+Bull,Bull_education_Kendra,Education,16640.3,0.9715,0.9895,444.0,448.0
+Bull,Bull_education_Roland,Education,20071.7,0.9713,0.9895,241.0,252.0
+Bull,Bull_education_Lyn,Education,2418.5,0.9729,0.987,25.0,27.0
+Bull,Bull_office_Debbie,Office,4782.9,0.9698,0.99,24.0,25.0
+Bull,Bull_education_Barry,Education,18440.1,0.9735,0.9856,984.0,998.0
+Bull,Bull_education_Dora,Education,15672.4,0.9731,0.9855,106.0,117.0
+Bull,Bull_education_Antonia,Education,37099.0,0.9764,0.9816,479.0,443.0
+Bull,Bull_education_Joseph,Education,15519.9,0.9678,0.99,116.04,110.04
+Bull,Bull_education_Violeta,Education,10330.3,0.973,0.9837,134.0,89.0
+Bull,Bull_office_Rob,Office,30885.3,0.9655,0.9898,254.0,250.0
+Bull,Bull_office_Myron,Office,5583.1,0.9734,0.9799,60.0,65.0
+Bull,Bull_office_Sally,Office,7705.3,0.9742,0.9788,93.0,89.0
+Bull,Bull_education_Shona,Education,1352.8,0.9655,0.987,189.0,189.0
+Bull,Bull_education_Roseann,Education,10241.2,0.9644,0.9877,249.0,248.0
+Bull,Bull_office_Ivette,Office,3229.1,0.9613,0.9888,22.0,24.0
+Bull,Bull_education_Geneva,Education,2321.8,0.9762,0.9737,24.0,26.0
+Bull,Bull_assembly_Nick,Entertainment/public assembly,32032.8,0.9587,0.9898,958.0,920.0
+Bull,Bull_office_Nicolas,Office,1943.3,0.9727,0.9758,23.0,21.0
+Bull,Bull_assembly_Gigi,Entertainment/public assembly,39620.5,0.9628,0.9856,359.0,341.0
+Bull,Bull_education_Summer,Education,3509.4,0.9672,0.9808,29.0,29.0
+Bull,Bull_office_Chantel,Office,9654.9,0.9624,0.9854,132.0,152.0
+Bull,Bull_services_Juanita,Services,44779.2,0.9582,0.9895,141.0,124.0
+Bull,Bull_services_Jeanmarie,Services,32149.6,0.9577,0.99,57.0,35.0
+Bull,Bull_lodging_Graciela,Lodging/residential,961.2,0.9723,0.9747,12.5,11.5
+Bull,Bull_office_Hilton,Office,743.6,0.9577,0.9881,7.0,6.0
+Bull,Bull_lodging_Travis,Lodging/residential,69275.1,0.9546,0.9878,854.0,782.0
+Bull,Bull_assembly_Nathanial,Entertainment/public assembly,23436.5,0.971,0.9653,207.76,211.0
+Bull,Bull_education_Dottie,Education,39822.6,0.9654,0.963,1400.0,1321.0
+Bull,Bull_education_Lydia,Education,11712.9,0.974,0.9308,86.0,116.0
+Bull,Bull_assembly_Daryl,Entertainment/public assembly,1491.3,0.9505,0.9507,33.0,31.0
+Bull,Bull_education_Clarita,Education,18546.0,0.9384,0.9621,325.0,333.0
+Eagle,Eagle_education_Samantha,Education,12518.5,0.9998,0.9987,275.125,259.219
+Eagle,Eagle_education_Brooke,Education,25384.3,0.9983,0.9974,913.562,905.375
+Eagle,Eagle_education_Teresa,Education,5628.2,0.9945,0.9976,102.922,98.3
+Eagle,Eagle_lodging_Andy,Lodging/residential,6205.4,0.9934,0.9983,55.276,53.346
+Eagle,Eagle_education_Will,Education,5782.5,0.9946,0.9962,111.75,110.625
+Eagle,Eagle_education_Luther,Education,10799.9,0.9948,0.9958,459.996,479.994
+Eagle,Eagle_office_Henriette,Office,2181.5,0.995,0.9954,24.0,35.99
+Eagle,Eagle_office_Randolph,Office,6038.7,0.9949,0.9953,111.43,112.97
+Eagle,Eagle_public_Preston,Public services,25861.3,0.9939,0.9961,340.594,339.0
+Eagle,Eagle_education_Sherrill,Education,18064.2,0.9936,0.9959,677.28,671.996
+Eagle,Eagle_health_Jodi,Healthcare,22083.4,0.9911,0.9973,160.323,154.294
+Eagle,Eagle_health_Vincenza,Healthcare,3284.5,0.9936,0.9945,56.062,53.969
+Eagle,Eagle_office_Donovan,Office,8031.9,0.9951,0.9929,60.28,62.27
+Eagle,Eagle_education_Norah,Education,9089.4,0.9906,0.997,486.0,500.0
+Eagle,Eagle_health_Trisha,Healthcare,6376.6,0.9903,0.9973,311.9,296.68
+Eagle,Eagle_assembly_Benny,Entertainment/public assembly,4642.8,0.9937,0.9934,46.188,43.172
+Eagle,Eagle_assembly_Herbert,Entertainment/public assembly,7691.3,0.9949,0.9913,72.24,72.24
+Eagle,Eagle_office_Bridgett,Office,5692.5,0.9953,0.9909,191.997,181.763
+Eagle,Eagle_education_Raul,Education,15255.2,0.9891,0.9969,643.174,648.816
+Eagle,Eagle_office_Mable,Office,2568.4,0.9906,0.9952,16.64,13.12
+Eagle,Eagle_health_Lucinda,Healthcare,1161.3,0.9923,0.9927,578.0,599.0
+Eagle,Eagle_education_Peter,Education,41103.8,0.9871,0.9977,1548.318,1479.502
+Eagle,Eagle_office_Sheree,Office,2907.9,0.9927,0.9908,48.0,42.0
+Eagle,Eagle_office_Dallas,Office,3522.6,0.9954,0.9862,48.359,45.906
+Eagle,Eagle_public_Henry,Public services,1251.3,0.9911,0.9902,25.0,24.0
+Eagle,Eagle_assembly_Ian,Entertainment/public assembly,34376.3,0.9834,0.9973,386.0,415.0
+Eagle,Eagle_education_Shanna,Education,9718.0,0.9833,0.9971,275.0,282.0
+Eagle,Eagle_education_Roman,Education,18621.7,0.9826,0.9975,676.0,685.0
+Eagle,Eagle_education_Petra,Education,2320.6,0.9825,0.9971,63.0,67.0
+Eagle,Eagle_education_Wesley,Education,6604.3,0.9825,0.9971,132.0,123.0
+Eagle,Eagle_lodging_Edgardo,Lodging/residential,5392.2,0.9825,0.9971,48.725,47.91
+Eagle,Eagle_lodging_Tressa,Lodging/residential,5032.7,0.9825,0.9971,68.0,58.0
+Eagle,Eagle_lodging_Trina,Lodging/residential,5320.9,0.9825,0.9971,46.115,45.83
+Eagle,Eagle_office_Demetra,Office,9670.2,0.9825,0.9971,179.0,173.0
+Eagle,Eagle_office_Jeff,Office,1586.5,0.9825,0.9971,41.0,40.0
+Eagle,Eagle_office_Patrice,Office,12050.2,0.9825,0.9971,78.45,75.5
+Eagle,Eagle_office_Sonya,Office,8101.1,0.9825,0.9971,189.0,183.0
+Eagle,Eagle_health_Amy,Healthcare,5238.6,0.9825,0.997,86.126,91.146
+Eagle,Eagle_office_Efrain,Office,3995.5,0.9824,0.9971,53.842,43.521
+Eagle,Eagle_office_Francis,Office,14807.3,0.9825,0.997,340.0,351.0
+Eagle,Eagle_office_Elvis,Office,3972.1,0.9827,0.9967,47.0,52.0
+Eagle,Eagle_office_Jackie,Office,5737.3,0.9824,0.997,73.0,64.0
+Eagle,Eagle_health_Reba,Healthcare,19089.0,0.982,0.9971,364.61,426.93
+Eagle,Eagle_assembly_Estelle,Entertainment/public assembly,1723.4,0.9821,0.9969,11.0,10.0
+Eagle,Eagle_education_Lino,Education,12911.4,0.9826,0.9963,183.808,187.452
+Eagle,Eagle_office_Yadira,Office,15101.3,0.9852,0.9936,131.148,132.61
+Eagle,Eagle_office_Freida,Office,7246.6,0.9824,0.9963,70.0,50.0
+Eagle,Eagle_lodging_Dawn,Lodging/residential,5785.9,0.9811,0.9971,73.791,72.469
+Eagle,Eagle_assembly_Portia,Entertainment/public assembly,3211.2,0.981,0.9971,117.18,113.087
+Eagle,Eagle_lodging_Casey,Lodging/residential,6132.8,0.981,0.9971,77.674,77.62
+Eagle,Eagle_office_Isidro,Office,2217.7,0.9824,0.9951,17.0,20.0
+Eagle,Eagle_assembly_Candice,Entertainment/public assembly,7867.8,0.9802,0.9971,14.0,13.0
+Eagle,Eagle_lodging_Stephanie,Lodging/residential,6967.7,0.9811,0.9951,75.0,75.0
+Eagle,Eagle_education_Maragret,Education,1228.2,0.9806,0.9952,22.0,23.0
+Eagle,Eagle_office_Lane,Office,4675.5,0.9814,0.9939,46.0,46.0
+Eagle,Eagle_office_Ryan,Office,2092.5,0.9777,0.9971,24.0,23.0
+Eagle,Eagle_health_Reuben,Healthcare,12083.6,0.9832,0.988,216.0,200.0
+Eagle,Eagle_assembly_Josie,Entertainment/public assembly,6827.3,0.9686,0.9947,173.99,208.366
+Eagle,Eagle_public_Minnie,Public services,6807.7,0.963,0.9957,162.0,132.0
+Eagle,Eagle_public_Ola,Public services,8874.7,0.96,0.9967,149.64,119.0
+Eagle,Eagle_assembly_Margret,Entertainment/public assembly,16797.4,0.9567,0.9947,446.625,364.492
+Eagle,Eagle_food_Kay,Food sales and service,6491.7,0.9945,0.9539,183.631,187.189
+Eagle,Eagle_public_Missy,Public services,1908.2,0.98,0.966,30.11,30.56
+Eagle,Eagle_public_Alvin,Public services,7110.5,0.9447,0.9978,103.112,107.207
+Eagle,Eagle_assembly_Lacy,Entertainment/public assembly,15467.3,0.9323,0.9889,123.159,116.16
+Eagle,Eagle_office_Elia,Office,6014.8,0.922,0.9966,142.114,139.73
+Eagle,Eagle_office_Katheleen,Office,4202.9,0.922,0.9966,99.304,110.301
+Eagle,Eagle_education_Edith,Education,7427.5,0.922,0.9963,175.492,172.548
+Eagle,Eagle_education_Shante,Education,21566.4,0.9192,0.9965,612.433,620.815
+Eagle,Eagle_office_Damian,Office,10606.4,0.9156,0.9965,177.338,186.85
+Eagle,Eagle_office_Elias,Office,5003.8,0.9156,0.9965,83.662,88.15
+Eagle,Eagle_public_Pearle,Public services,22990.8,0.9158,0.9963,420.556,387.208
+Eagle,Eagle_lodging_Terri,Lodging/residential,7422.9,0.9176,0.9941,95.818,98.028
+Eagle,Eagle_education_Brianne,Education,6857.4,0.9057,0.995,413.362,435.0
+Eagle,Eagle_office_Chauncey,Office,22068.7,0.9331,0.945,519.715,533.35
+Eagle,Eagle_office_Nereida,Office,10746.6,0.9311,0.9466,155.34,155.325
+Eagle,Eagle_education_Alberto,Education,15894.2,0.9286,0.9438,443.838,456.61
+Eagle,Eagle_office_Norbert,Office,5406.6,0.9258,0.9438,85.327,85.313
+Eagle,Eagle_office_Remedios,Office,4781.8,0.9242,0.9441,82.387,85.739
+Eagle,Eagle_education_Shana,Education,2359.8,0.9234,0.9439,47.243,48.324
+Eagle,Eagle_office_Mandi,Office,820.9,0.9234,0.9439,16.434,16.81
+Eagle,Eagle_office_Phyllis,Office,1994.5,0.9234,0.9439,39.93,40.844
+Eagle,Eagle_office_Lamont,Office,1453.8,0.9232,0.9438,28.96,32.526
+Eagle,Eagle_office_Marisela,Office,8399.5,0.9211,0.9439,137.711,126.431
+Eagle,Eagle_health_Margo,Healthcare,2379.2,0.9217,0.9424,54.521,55.932
+Eagle,Eagle_education_Eileen,Education,2600.8,0.9203,0.9436,40.672,42.715
+Eagle,Eagle_office_Tia,Office,11403.5,0.9203,0.9436,178.328,187.285
+Eagle,Eagle_office_Chantelle,Office,2202.0,0.9177,0.9381,32.754,29.48
+Bear,Bear_education_Bob,Education,28360.3,0.9999,0.9999,104.098,111.573
+Bear,Bear_education_Elise,Education,20664.8,0.9999,0.9999,137.153,142.99
+Bear,Bear_education_Iris,Education,5456.5,0.9999,0.9999,32.1,46.975
+Bear,Bear_education_Lila,Education,11483.9,0.9999,0.9999,232.55,225.225
+Bear,Bear_education_Marie,Education,4739.9,0.9999,0.9999,17.815,16.572
+Bear,Bear_education_Paola,Education,12802.6,0.9999,0.9999,114.432,131.648
+Bear,Bear_education_Shelley,Education,22378.8,0.9999,0.9999,151.25,145.0
+Bear,Bear_education_Thuy,Education,25122.2,0.9999,0.9999,233.022,224.748
+Bear,Bear_public_Jocelyn,Public services,6382.5,0.9999,0.9999,45.43,41.072
+Bear,Bear_public_Orville,Public services,2700.0,0.9999,0.9999,37.7,28.6
+Bear,Bear_public_Rayna,Public services,15469.7,0.9999,0.9999,96.325,69.95
+Bear,Bear_public_Valorie,Public services,17598.2,0.9999,0.9999,208.75,225.5
+Bear,Bear_education_Danna,Education,9663.4,0.9999,0.9998,90.0,92.75
+Bear,Bear_public_Lowell,Public services,12299.8,0.9998,0.9999,192.25,189.75
+Bear,Bear_education_Leonel,Education,6988.9,0.9997,0.9999,90.5,96.75
+Bear,Bear_education_Katy,Education,13752.6,0.9999,0.9995,106.8,116.9
+Bear,Bear_education_Wm,Education,8679.0,0.9997,0.9998,45.75,45.25
+Bear,Bear_education_Sharon,Education,5261.7,0.9997,0.9997,108.0,108.25
+Bear,Bear_education_Maryjane,Education,7998.1,0.9999,0.9993,305.75,300.25
+Bear,Bear_education_Owen,Education,17949.0,0.9999,0.9993,179.712,169.344
+Bear,Bear_education_Val,Education,16469.9,0.9999,0.9992,369.812,352.448
+Bear,Bear_education_Marta,Education,4455.1,0.9999,0.999,35.5,35.0
+Bear,Bear_education_Gavin,Education,7158.6,0.9994,0.9993,87.195,90.291
+Bear,Bear_education_Wilton,Education,28273.4,0.999,0.9991,1516.422,1571.887
+Bear,Bear_education_Wade,Education,10552.8,0.9981,0.9999,46.6,47.8
+Bear,Bear_education_Chad,Education,39101.5,0.9974,0.9998,955.459,1036.481
+Bear,Bear_science_Alison,Technology/science,4945.6,0.999,0.9971,101.5,103.75
+Bear,Bear_assembly_Beatrice,Entertainment/public assembly,2802.0,0.9999,0.9957,38.25,35.25
+Bear,Bear_assembly_Jose,Entertainment/public assembly,3361.2,0.9999,0.9957,246.5,251.125
+Bear,Bear_education_Austin,Education,2031.4,0.9999,0.9957,13.275,10.525
+Bear,Bear_education_Chana,Education,3781.7,0.9999,0.9957,19.0,19.0
+Bear,Bear_education_Irene,Education,2415.1,0.9999,0.9957,76.25,73.0
+Bear,Bear_education_Lashanda,Education,10945.3,0.9999,0.9957,63.925,79.912
+Bear,Bear_education_Lewis,Education,4588.3,0.9999,0.9957,19.0,18.75
+Bear,Bear_education_Lidia,Education,2824.3,0.9999,0.9957,11.25,10.0
+Bear,Bear_education_Santos,Education,1349.3,0.9999,0.9957,4.25,5.0
+Bear,Bear_education_Yuri,Education,3793.7,0.9999,0.9957,10.761,10.3
+Bear,Bear_lodging_Erick,Lodging/residential,6688.5,0.9999,0.9957,44.91,47.344
+Bear,Bear_lodging_Evan,Lodging/residential,17205.6,0.9999,0.9957,187.25,175.75
+Bear,Bear_assembly_Ruby,Entertainment/public assembly,11538.3,0.9999,0.9955,66.5,69.5
+Bear,Bear_education_Bulah,Education,20504.0,0.9994,0.9959,1272.7,1337.82
+Bear,Bear_education_Herb,Education,2212.5,0.9999,0.9954,11.118,10.056
+Bear,Bear_education_Patricia,Education,16996.0,0.9999,0.9954,602.526,627.077
+Bear,Bear_education_Oscar,Education,2186.3,0.9999,0.9953,12.438,9.995
+Bear,Bear_education_Tara,Education,733.9,0.9999,0.9953,3.33,2.882
+Bear,Bear_education_Marsha,Education,10304.7,0.9999,0.9952,76.936,75.492
+Bear,Bear_education_Pattie,Education,8032.9,0.9999,0.9952,152.0,188.0
+Bear,Bear_lodging_Dannie,Lodging/residential,2137.9,0.9994,0.9957,7.5,8.1
+Bear,Bear_education_Yvette,Education,1423.8,0.9995,0.9953,8.75,9.508
+Bear,Bear_parking_Gordon,Parking,9154.6,0.9995,0.9953,27.493,27.874
+Bear,Bear_education_Clint,Education,3836.6,0.999,0.9957,55.75,51.5
+Bear,Bear_education_Rebecca,Education,14279.2,0.9992,0.9947,793.463,735.42
+Bear,Bear_education_Laurette,Education,4079.4,0.9941,0.9998,50.53,49.966
+Bear,Bear_education_Lorie,Education,11212.8,0.9989,0.9947,391.68,403.2
+Bear,Bear_science_Eleanor,Technology/science,3081.3,0.9983,0.9946,31.0,33.625
+Bear,Bear_education_Alvaro,Education,10181.1,0.9992,0.9936,434.6,399.187
+Bear,Bear_education_Augusta,Education,14017.9,0.9989,0.9934,78.342,83.803
+Bear,Bear_education_Derek,Education,6331.0,0.9984,0.9937,182.304,185.2
+Bear,Bear_education_Chun,Education,4292.5,0.9999,0.9918,89.915,96.714
+Bear,Bear_utility_Sidney,Utility,2176.9,0.9961,0.9955,52.152,51.058
+Bear,Bear_education_Curtis,Education,4104.6,0.9987,0.9925,66.0,65.75
+Bear,Bear_education_Zandra,Education,14372.7,0.9986,0.9888,988.995,955.0
+Bear,Bear_parking_Bruce,Parking,28441.3,0.9958,0.9892,43.232,40.692
+Bear,Bear_education_Sandy,Education,1351.0,0.9945,0.9897,6.12,6.6
+Bear,Bear_education_Holly,Education,722.9,0.9944,0.9877,1.053,1.208
+Bear,Bear_assembly_Genia,Entertainment/public assembly,24256.1,0.9931,0.9879,237.046,231.601
+Bear,Bear_education_Babara,Education,8749.1,0.9918,0.9857,365.489,370.852
+Bear,Bear_education_Mara,Education,11903.3,0.9649,0.9997,508.468,488.3
+Bear,Bear_education_Millie,Education,661.7,0.9756,0.9805,3.4,3.228
+Bear,Bear_education_Benita,Education,13142.2,0.9998,0.954,478.509,546.21
+Bear,Bear_education_Fannie,Education,10788.0,0.971,0.9798,414.075,414.15
+Bear,Bear_assembly_Roxy,Entertainment/public assembly,1106.5,0.9759,0.9695,11.5,12.0
+Bear,Bear_education_Deena,Education,1716.3,0.999,0.9354,7.75,7.5
+Robin,Robin_assembly_Colleen,Entertainment/public assembly,5948.0,1.0,1.0,47.0,48.25
+Robin,Robin_education_Audrea,Education,2584.0,1.0,1.0,310.469,274.5
+Robin,Robin_education_Billi,Education,3560.0,1.0,1.0,33.6,24.7
+Robin,Robin_education_Cecilia,Education,1439.0,1.0,1.0,47.404,50.5
+Robin,Robin_education_Derick,Education,13965.0,1.0,1.0,552.5,504.9
+Robin,Robin_education_Derrick,Education,10994.0,1.0,1.0,404.5,369.25
+Robin,Robin_education_Jasper,Education,3462.0,1.0,1.0,158.3,157.4
+Robin,Robin_education_Julius,Education,12850.0,1.0,1.0,303.0,312.6
+Robin,Robin_education_Kiera,Education,4703.0,1.0,1.0,75.115,65.219
+Robin,Robin_education_Kristopher,Education,5686.0,1.0,1.0,117.8,120.0
+Robin,Robin_education_Leslie,Education,12977.0,1.0,1.0,833.531,861.895
+Robin,Robin_education_Lizbeth,Education,2001.0,1.0,1.0,122.6,115.4
+Robin,Robin_education_Madeline,Education,9335.0,1.0,1.0,359.75,343.542
+Robin,Robin_education_Margarito,Education,8468.0,1.0,1.0,508.709,507.8
+Robin,Robin_education_Megan,Education,7579.0,1.0,1.0,231.355,253.5
+Robin,Robin_education_Mercedes,Education,5295.0,1.0,1.0,239.328,247.168
+Robin,Robin_education_So,Education,12051.0,1.0,1.0,476.329,471.0
+Robin,Robin_education_Takako,Education,1561.0,1.0,1.0,161.8,182.4
+Robin,Robin_education_Terrance,Education,7714.9,1.0,1.0,264.7,238.4
+Robin,Robin_education_Zenia,Education,6337.0,1.0,1.0,165.75,215.3
+Robin,Robin_lodging_Armand,Lodging/residential,5246.0,1.0,1.0,39.312,36.2
+Robin,Robin_lodging_Celia,Lodging/residential,7721.0,1.0,1.0,49.2,47.2
+Robin,Robin_lodging_Donna,Lodging/residential,2515.0,1.0,1.0,21.824,20.875
+Robin,Robin_lodging_Dorthy,Lodging/residential,5842.9,1.0,1.0,30.9,31.5
+Robin,Robin_lodging_Elmer,Lodging/residential,9565.0,1.0,1.0,90.2,93.8
+Robin,Robin_lodging_Janie,Lodging/residential,6193.0,1.0,1.0,126.194,97.712
+Robin,Robin_lodging_Oliva,Lodging/residential,6013.0,1.0,1.0,52.2,50.2
+Robin,Robin_lodging_Renea,Lodging/residential,9548.0,1.0,1.0,88.7,88.0
+Robin,Robin_office_Addie,Office,1495.0,1.0,1.0,18.9,20.2
+Robin,Robin_office_Adolph,Office,1321.0,1.0,1.0,25.134,24.813
+Robin,Robin_office_Antonina,Office,6099.7,1.0,1.0,404.3,391.05
+Robin,Robin_office_Dina,Office,4213.0,1.0,1.0,33.5,32.0
+Robin,Robin_office_Gayle,Office,4161.0,1.0,1.0,53.467,48.75
+Robin,Robin_office_Maryann,Office,3201.0,1.0,1.0,229.6,213.0
+Robin,Robin_office_Sammie,Office,4802.0,1.0,1.0,82.25,79.4
+Robin,Robin_office_Serena,Office,2833.1,1.0,1.0,45.7,48.4
+Robin,Robin_office_Shirlene,Office,4647.0,1.0,1.0,29.5,29.318
+Robin,Robin_office_Victor,Office,3724.0,1.0,1.0,49.474,44.312
+Robin,Robin_office_Zelma,Office,7607.0,1.0,1.0,129.538,83.9
+Robin,Robin_public_Cami,Public services,5261.0,1.0,1.0,85.257,57.474
+Robin,Robin_public_Carolina,Public services,10984.0,1.0,1.0,137.562,147.23
+Robin,Robin_lodging_Pricilla,Lodging/residential,4607.0,1.0,0.9998,59.5,58.7
+Robin,Robin_office_Saul,Office,2937.0,1.0,0.9995,15.5,18.2
+Robin,Robin_office_Soledad,Office,957.0,0.9998,0.9997,12.062,11.687
+Robin,Robin_office_Wai,Office,16221.0,1.0,0.995,172.7,128.4
+Robin,Robin_lodging_Phillip,Lodging/residential,6181.0,1.0,0.9925,43.95,35.2
+Robin,Robin_office_Donald,Office,7669.0,1.0,0.992,142.25,154.75
+Wolf,Wolf_education_Cheryl,Education,25605.0,1.0,0.9999,107.325,96.622
+Wolf,Wolf_education_Laurinda,Education,18706.0,1.0,0.9999,171.526,155.628
+Wolf,Wolf_office_Darleen,Office,5036.0,1.0,0.9999,33.0,31.0
+Wolf,Wolf_public_Norma,Public services,23500.0,1.0,0.9999,149.759,120.572
+Wolf,Wolf_retail_Marcella,Retail,363.0,1.0,0.9999,6.291,5.938
+Wolf,Wolf_retail_Toshia,Retail,4209.0,1.0,0.9999,40.55,39.108
+Wolf,Wolf_education_Dorris,Education,11678.0,0.9999,0.9999,284.138,313.1
+Wolf,Wolf_education_Katie,Education,2803.0,1.0,0.9998,21.909,20.055
+Wolf,Wolf_education_Ursula,Education,13998.0,0.9999,0.9999,133.268,112.492
+Wolf,Wolf_office_Elisabeth,Office,2591.0,0.9999,0.9999,136.978,129.528
+Wolf,Wolf_office_Haydee,Office,1129.0,0.9999,0.9999,6.665,5.938
+Wolf,Wolf_education_Clarissa,Education,6778.0,0.9999,0.9998,48.742,46.175
+Wolf,Wolf_education_Joaquin,Education,2450.0,0.9999,0.9998,69.2,70.508
+Wolf,Wolf_education_Loren,Education,12190.0,0.9998,0.9999,191.379,183.35
+Wolf,Wolf_education_Tammie,Education,7836.0,0.9999,0.9998,74.148,75.041
+Wolf,Wolf_education_Tori,Education,19044.9,0.9999,0.9998,350.95,306.606
+Wolf,Wolf_education_Vivian,Education,8770.0,0.9999,0.9998,53.418,54.904
+Wolf,Wolf_office_Bobbie,Office,4691.0,0.9998,0.9999,20.568,20.83
+Wolf,Wolf_office_Emanuel,Office,2005.0,0.9999,0.9998,13.515,12.992
+Wolf,Wolf_office_Nadia,Office,2745.0,0.9998,0.9999,61.894,64.86
+Wolf,Wolf_education_Eulalia,Education,8056.0,0.9998,0.9998,51.676,54.38
+Wolf,Wolf_education_Josefa,Education,750.0,0.9997,0.9998,5.102,4.84
+Wolf,Wolf_office_Joana,Office,1355.0,0.9997,0.9998,15.412,14.221
+Wolf,Wolf_education_Roderick,Education,818.0,0.9999,0.9993,6.585,4.682
+Wolf,Wolf_science_Alfreda,Technology/science,914.0,0.9994,0.9998,83.532,75.58
+Wolf,Wolf_education_Miguel,Education,5403.0,0.9991,0.9999,25.819,26.088
+Wolf,Wolf_education_Dolores,Education,6117.0,0.9999,0.9989,25.035,25.871
+Wolf,Wolf_education_Cody,Education,2639.0,0.9999,0.9981,12.872,11.03
+Wolf,Wolf_office_Cary,Office,11795.0,0.9989,0.9991,209.685,208.24
+Wolf,Wolf_office_Rochelle,Office,3115.0,0.9998,0.9982,12.544,12.111
+Wolf,Wolf_assembly_Sallie,Entertainment/public assembly,10794.0,0.9895,0.9999,315.424,299.135
+Wolf,Wolf_education_Bobby,Education,10494.0,0.9656,0.9998,74.212,76.004
+Wolf,Wolf_education_Arnulfo,Education,5184.0,0.957,0.9998,28.528,30.152
+Wolf,Wolf_assembly_Elaine,Entertainment/public assembly,6671.0,0.978,0.9769,35.095,28.009
+Wolf,Wolf_education_Anisa,Education,11008.0,0.9481,0.9998,186.31,171.897
+Wolf,Wolf_retail_Harriett,Retail,4108.0,0.9702,0.9747,42.286,39.58
+Peacock,Peacock_education_Robbie,Education,5416.9,0.9998,0.9998,48.383,36.017
+Peacock,Peacock_education_Yolanda,Education,3675.1,0.9998,0.9998,37.536,34.216
+Peacock,Peacock_lodging_Lou,Lodging/residential,11895.7,0.9994,0.9998,122.217,113.55
+Peacock,Peacock_office_Annie,Office,6021.8,0.9991,0.9999,64.017,60.817
+Peacock,Peacock_office_Burl,Office,1661.0,0.9991,0.9999,62.067,56.133
+Peacock,Peacock_education_Lyle,Education,17727.5,0.999,0.9999,637.667,622.417
+Peacock,Peacock_lodging_Matthew,Lodging/residential,8686.4,0.999,0.9999,60.333,57.767
+Peacock,Peacock_lodging_Sergio,Lodging/residential,10498.0,0.9991,0.9998,97.775,89.343
+Peacock,Peacock_office_Effie,Office,9723.9,0.999,0.9999,79.933,80.667
+Peacock,Peacock_education_Ophelia,Education,11226.0,0.999,0.9998,681.933,710.817
+Peacock,Peacock_education_Patience,Education,2836.4,0.999,0.9998,22.8,22.633
+Peacock,Peacock_lodging_Jamaal,Lodging/residential,25900.9,0.999,0.9998,231.583,199.933
+Peacock,Peacock_lodging_Wes,Lodging/residential,9828.3,0.999,0.9998,171.267,149.225
+Peacock,Peacock_office_Julian,Office,3913.9,0.999,0.9998,23.867,19.008
+Peacock,Peacock_public_Kelvin,Public services,37324.1,0.999,0.9998,282.483,273.025
+Peacock,Peacock_education_Gilberto,Education,23225.8,0.9984,0.9998,1011.081,1031.085
+Peacock,Peacock_lodging_Francesca,Lodging/residential,3338.6,0.9984,0.9998,41.5,35.5
+Peacock,Peacock_office_Norman,Office,3044.1,0.9981,0.9997,35.767,33.5
+Peacock,Peacock_lodging_Nova,Lodging/residential,4507.6,0.9978,0.9994,19.0,16.667
+Peacock,Peacock_office_Elton,Office,9694.9,0.9975,0.9998,158.4,149.1
+Peacock,Peacock_education_Karyn,Education,12016.4,0.9997,0.9974,464.633,475.5
+Peacock,Peacock_education_Pasquale,Education,3343.6,0.9973,0.9984,185.458,184.075
+Peacock,Peacock_office_Dara,Office,4644.2,0.9991,0.9966,175.492,169.083
+Peacock,Peacock_education_Anita,Education,1255.3,0.9991,0.9963,12.967,11.783
+Peacock,Peacock_education_Forest,Education,7178.0,0.9983,0.9971,89.583,86.15
+Peacock,Peacock_assembly_Dena,Entertainment/public assembly,10065.0,0.9987,0.9966,224.767,217.608
+Peacock,Peacock_lodging_Chloe,Lodging/residential,4120.4,0.9987,0.9966,32.2,28.55
+Peacock,Peacock_lodging_Terrie,Lodging/residential,4367.1,0.9987,0.9966,40.6,37.592
+Peacock,Peacock_education_Dustin,Education,7462.4,0.9987,0.9965,45.367,43.367
+Peacock,Peacock_assembly_Russ,Entertainment/public assembly,5440.6,0.9986,0.9959,148.267,140.017
+Peacock,Peacock_lodging_Mathew,Lodging/residential,8669.1,0.9978,0.9966,56.567,50.4
+Peacock,Peacock_lodging_James,Lodging/residential,7702.7,0.9918,0.9999,65.283,52.5
+Peacock,Peacock_education_Joshua,Education,7054.0,0.9928,0.9966,464.583,455.15
+Peacock,Peacock_education_Shelly,Education,4984.3,0.985,0.9938,111.95,111.883
+Peacock,Peacock_office_Major,Office,6507.1,0.975,0.9965,203.417,194.4
+Gator,Gator_assembly_Blanca,Entertainment/public assembly,8573.8,0.9698,0.9725,748.458,688.875
+Gator,Gator_assembly_Marjorie,Entertainment/public assembly,1599.8,0.9616,0.9725,41.917,52.875
+Gator,Gator_public_Randall,Public services,1806.6,0.9616,0.9725,61.208,60.5
+Gator,Gator_assembly_Enid,Entertainment/public assembly,499.8,0.9589,0.9725,7.708,8.083
+Gator,Gator_assembly_Kimberly,Entertainment/public assembly,81290.1,0.9616,0.9697,1512.667,1400.958
+Gator,Gator_public_Kenny,Public services,1540.7,0.9589,0.9725,96.092,88.859
+Gator,Gator_public_Beulah,Public services,338.9,0.9616,0.967,7.542,7.333
+Gator,Gator_public_Cheri,Public services,945.2,0.9589,0.9697,18.833,15.167
+Gator,Gator_public_Leroy,Public services,758.8,0.9616,0.967,20.667,22.375
+Gator,Gator_assembly_Loyce,Entertainment/public assembly,377.7,0.9616,0.9643,21.167,22.292
+Gator,Gator_public_Marcie,Public services,3275.1,0.9589,0.967,113.333,85.0
+Gator,Gator_assembly_Maurine,Entertainment/public assembly,278.7,0.9616,0.9615,4.208,5.708
+Gator,Gator_public_Jayme,Public services,1549.8,0.9562,0.967,114.833,87.667
+Gator,Gator_public_Marissa,Public services,371.6,0.9507,0.9697,15.0,13.667
+Gator,Gator_other_Cassandra,Other,2567.8,0.9507,0.967,22.704,21.15
+Gator,Gator_public_Lindsey,Public services,458.4,0.9562,0.9533,28.75,25.0
+Gator,Gator_public_Alexandra,Public services,3088.7,0.9481,0.9588,22.917,25.0
+Gator,Gator_other_Gertrude,Other,237.4,0.9372,0.9643,1.542,2.875
+Gator,Gator_warehouse_Constance,Warehouse/storage,1404.7,0.9425,0.9588,13.167,14.333
+Gator,Gator_assembly_Joni,Entertainment/public assembly,346.4,0.9398,0.9588,2.75,3.292
+Gator,Gator_public_Everette,Public services,1841.6,0.9288,0.9588,116.042,88.5
+Gator,Gator_public_Dionna,Public services,945.2,0.9589,0.915,20.5,15.0
+Gator,Gator_public_Natasha,Public services,6123.5,0.9507,0.9205,120.833,129.375
+Gator,Gator_public_Dewey,Public services,333.7,0.9589,0.9122,6.333,6.875
+Gator,Gator_assembly_Lilli,Entertainment/public assembly,60.2,0.9015,0.967,2.833,2.208
+Gator,Gator_office_Julie,Office,527.7,0.9316,0.9369,8.0,8.333
+Gator,Gator_assembly_Lelia,Entertainment/public assembly,297.3,0.948,0.9178,3.875,2.292
+Gator,Gator_public_Nettie,Public services,593.8,0.9425,0.9177,16.333,16.167
+Gator,Gator_public_Noe,Public services,2462.6,0.9015,0.9588,55.833,59.208
+Gator,Gator_public_Clara,Public services,523.0,0.9015,0.9561,11.083,11.708
+Gator,Gator_assembly_Selma,Entertainment/public assembly,274.6,0.9152,0.9396,1.375,1.167
+Gator,Gator_assembly_Regina,Entertainment/public assembly,919.2,0.9015,0.9506,21.667,20.0
+Gator,Gator_public_Maude,Public services,5574.2,0.9015,0.9095,104.167,104.167
+Lamb,Lamb_assembly_Katelyn,Entertainment/public assembly,4519.0,1.0,1.0,26.8,14.225
+Lamb,Lamb_assembly_Librada,Entertainment/public assembly,2957.0,1.0,1.0,26.9,17.05
+Lamb,Lamb_education_Armando,Education,11200.9,1.0,1.0,30.7,24.731
+Lamb,Lamb_education_Mae,Education,11247.0,1.0,1.0,52.5,26.639
+Lamb,Lamb_health_Ken,Healthcare,1716.0,1.0,1.0,17.4,12.4
+Lamb,Lamb_industrial_Enrique,Manufacturing/industrial,358.0,1.0,1.0,51.5,42.582
+Lamb,Lamb_office_Velma,Office,14165.0,1.0,0.9998,100.9,77.495
+Lamb,Lamb_education_Domitila,Education,12924.0,1.0,0.9984,43.3,38.1
+Lamb,Lamb_education_Luz,Education,14474.9,1.0,0.9984,73.6,57.91
+Lamb,Lamb_education_Antonio,Education,9516.0,1.0,0.9983,29.3,24.814
+Lamb,Lamb_education_Darrel,Education,11954.9,1.0,0.9983,30.3,28.372
+Lamb,Lamb_education_Emery,Education,10133.0,1.0,0.9983,36.6,21.128
+Lamb,Lamb_education_Lawrence,Education,2143.0,1.0,0.9983,5.8,3.41
+Lamb,Lamb_education_Mckenzie,Education,11710.0,1.0,0.9983,31.6,24.603
+Lamb,Lamb_education_Rodrigo,Education,6149.0,1.0,0.9983,29.7,26.7
+Lamb,Lamb_education_Williams,Education,8255.0,1.0,0.9983,17.5,13.06
+Lamb,Lamb_education_Robin,Education,8794.0,1.0,0.9982,33.5,21.185
+Lamb,Lamb_education_Terina,Education,14868.0,1.0,0.9971,91.2,71.56
+Lamb,Lamb_education_Philomena,Education,12732.0,0.9986,0.9984,31.4,30.839
+Lamb,Lamb_education_Junior,Education,11285.0,0.9981,0.9983,40.0,25.28
+Lamb,Lamb_office_Vasiliki,Office,25087.0,0.9954,0.9997,309.3,247.94
+Lamb,Lamb_education_Dwayne,Education,1391.0,0.9974,0.9974,4.32,3.674
+Lamb,Lamb_education_Daniel,Education,1432.0,0.9946,0.9974,5.734,4.502
+Lamb,Lamb_education_Sunny,Education,1691.0,0.9967,0.9946,3.836,2.577
+Lamb,Lamb_public_Vania,Public services,4032.0,0.9867,0.9933,19.0,14.6
+Lamb,Lamb_assembly_Louis,Entertainment/public assembly,3373.0,0.9507,0.9836,12.97,14.14
+Lamb,Lamb_education_Felipe,Education,9005.0,0.9358,0.9984,24.2,12.788

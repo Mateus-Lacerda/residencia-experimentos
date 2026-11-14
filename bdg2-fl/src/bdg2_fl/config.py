@@ -15,8 +15,9 @@ ARQUIVOS = {
     "metadata.csv": "metadata/metadata.csv",
 }
 
-N_SITES = 6               # clientes da federação
-MAX_EDIF_POR_SITE = 20
+N_SITES = None            # clientes da federação; None = todos os sites com MIN_EDIF_POR_SITE
+MIN_EDIF_POR_SITE = 20    # sites com menos edificações aprovadas ficam de fora
+MAX_EDIF_POR_SITE = None  # None = todas as edificações aprovadas do site
 MIN_PREENCHIMENTO = 0.90  # fração mínima de horas com eletricidade, em 2016 E em 2017
 MIN_MEDIANA_KWH = 1.0     # mediana horária mínima, em cada ano
 

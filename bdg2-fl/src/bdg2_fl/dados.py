@@ -1,11 +1,14 @@
 """Seleção de sites/edificações, engenharia de features e normalização.
 
 Saída: para cada site (cliente) um dicionário com os dados de treino (2016) e validação (2017),
-já normalizados, mais a média e o desvio de cada edificação para desnormalizar."""
+já normalizados, mais a média e o desvio de cada edificação para desnormalizar.
+
+uv run python -m bdg2_fl.dados   # grava dataset/edificacoes.csv, a lista das edificações usadas"""
 import numpy as np
 import pandas as pd
 
-from .config import (LAGS, MAX_EDIF_POR_SITE, MEDIDORES_OPCIONAIS, MIN_MEDIANA_KWH, MIN_PREENCHIMENTO, N_SITES, RAW)
+from .config import (LAGS, MAX_EDIF_POR_SITE, MEDIDORES_OPCIONAIS, MIN_EDIF_POR_SITE, MIN_MEDIANA_KWH,
+                     MIN_PREENCHIMENTO, N_SITES, RAW)
 
 FEATURES = (
     [f"elec_lag{l}" for l in LAGS]
@@ -23,7 +26,8 @@ def _ler_medidor(nome):
 
 
 def selecionar(elec):
-    """Sites com mais edificações de eletricidade bem preenchida; até MAX_EDIF por site."""
+    """Sites com pelo menos MIN_EDIF edificações de eletricidade bem preenchida, em ordem
+    decrescente de edificações aprovadas (os N_SITES primeiros, se definido); até MAX_EDIF por site."""
     ok16 = elec.loc["2016"].notna().mean() >= MIN_PREENCHIMENTO
     ok17 = elec.loc["2017"].notna().mean() >= MIN_PREENCHIMENTO
     # descarta medidores praticamente zerados ou que mudam de patamar entre os anos
@@ -33,7 +37,8 @@ def selecionar(elec):
     estavel = (med16 >= MIN_MEDIANA_KWH) & (med17 >= MIN_MEDIANA_KWH) & razao.between(0.5, 2.0)
     boas = elec.columns[ok16 & ok17 & estavel]
     site = pd.Series(boas.str.split("_").str[0], index=boas)
-    sites = site.value_counts().head(N_SITES).index.tolist()
+    contagem = site.value_counts()
+    sites = contagem[contagem >= MIN_EDIF_POR_SITE].index.tolist()[:N_SITES]
     escolha = {}
     preench = elec[boas].notna().mean()
     for s in sites:
@@ -42,6 +47,21 @@ def selecionar(elec):
         ordem = sorted(cand, key=lambda b: (-preench[b], b))
         escolha[s] = ordem[:MAX_EDIF_POR_SITE]
     return escolha
+
+
+def manifesto(elec):
+    """Uma linha por edificação do dataset, com os números que os critérios de seleção olham."""
+    meta = pd.read_csv(RAW / "metadata.csv").set_index("building_id")
+    linhas = []
+    for s, edifs in selecionar(elec).items():
+        for b in edifs:
+            e16, e17 = elec.loc["2016", b], elec.loc["2017", b]
+            linhas.append({"site": s, "edificacao": b, "uso_principal": meta.at[b, "primaryspaceusage"],
+                           "area_m2": meta.at[b, "sqm"],
+                           "preenchimento_2016": round(e16.notna().mean(), 4),
+                           "preenchimento_2017": round(e17.notna().mean(), 4),
+                           "mediana_kwh_2016": round(e16.median(), 3), "mediana_kwh_2017": round(e17.median(), 3)})
+    return pd.DataFrame(linhas)
 
 
 def _zs(x, mu, sd):
@@ -119,3 +139,12 @@ def tensores(df):
     X = torch.tensor(df[FEATURES].values, dtype=torch.float32)
     y = torch.tensor(df["y"].values, dtype=torch.float32).unsqueeze(1)
     return X, y
+
+
+if __name__ == "__main__":
+    from .config import RAIZ
+    destino = RAIZ / "dataset" / "edificacoes.csv"
+    destino.parent.mkdir(exist_ok=True)
+    m = manifesto(_ler_medidor("electricity"))
+    m.to_csv(destino, index=False)
+    print(m.groupby("site", sort=False).size().to_string(), f"\ntotal {len(m)} -> {destino}")
