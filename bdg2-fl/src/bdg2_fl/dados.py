@@ -7,12 +7,20 @@ uv run python -m bdg2_fl.dados   # grava dataset/edificacoes.csv, a lista das ed
 import numpy as np
 import pandas as pd
 
-from .config import (LAGS, MAX_EDIF_POR_SITE, MEDIDORES_OPCIONAIS, MIN_EDIF_POR_SITE, MIN_MEDIANA_KWH,
-                     MIN_PREENCHIMENTO, N_SITES, RAW)
+from .config import (
+    LAGS,
+    MAX_EDIF_POR_SITE,
+    MEDIDORES_OPCIONAIS,
+    MIN_EDIF_POR_SITE,
+    MIN_MEDIANA_KWH,
+    MIN_PREENCHIMENTO,
+    N_SITES,
+    RAW,
+)
 
 FEATURES = (
     [f"elec_lag{l}" for l in LAGS]
-    + ["hora_sin", "hora_cos", "dow_sin", "dow_cos", "temp_ar", "ponto_orvalho"]
+    + ["hora_sin", "hora_cos", "dow_sin", "dow_cos", "temp_ar_lag1", "ponto_orvalho_lag1"]
     + [f"{m}_lag1" for m in MEDIDORES_OPCIONAIS]
     + [f"tem_{m}" for m in MEDIDORES_OPCIONAIS]
 )
@@ -25,37 +33,52 @@ def _ler_medidor(nome):
     return pd.read_csv(RAW / f"{nome}_cleaned.csv", index_col=0, parse_dates=True)
 
 
-def selecionar(elec):
+def selecionar(electricity):
     """Sites com pelo menos MIN_EDIF edificações de eletricidade bem preenchida, em ordem
     decrescente de edificações aprovadas (os N_SITES primeiros, se definido); até MAX_EDIF por site."""
-    ok16 = elec.loc["2016"].notna().mean() >= MIN_PREENCHIMENTO
-    ok17 = elec.loc["2017"].notna().mean() >= MIN_PREENCHIMENTO
-    # descarta medidores praticamente zerados ou que mudam de patamar entre os anos
-    # (ex.: medidor que "morre" em 2017), pois o z-score de 2016 não valeria para 2017
-    med16, med17 = elec.loc["2016"].median(), elec.loc["2017"].median()
+    # Regra 1: o medidor precisa ter leitura em pelo menos 90% das horas, em 2016 e em 2017.
+    ok16 = electricity.loc["2016"].notna().mean() >= MIN_PREENCHIMENTO
+    ok17 = electricity.loc["2017"].notna().mean() >= MIN_PREENCHIMENTO
+
+    # Regra 2: a mediana horária precisa ser de pelo menos 1 kWh em cada ano (tira medidores
+    # praticamente zerados).
+    med16, med17 = electricity.loc["2016"].median(), electricity.loc["2017"].median()
+
+    # Regra 3: a mediana de 2017 precisa ficar entre metade e o dobro da de 2016. Tira medidores que
+    # mudam de patamar entre os anos (ex.: um medidor que "morre" em 2017), porque a normalização
+    # usa as estatísticas de 2016 e não valeria para 2017.
     razao = med17 / med16
     estavel = (med16 >= MIN_MEDIANA_KWH) & (med17 >= MIN_MEDIANA_KWH) & razao.between(0.5, 2.0)
-    boas = elec.columns[ok16 & ok17 & estavel]
+
+    boas = electricity.columns[ok16 & ok17 & estavel]
+
+    # O site é o prefixo do id da edificação (ex.: "Rat" em "Rat_office_Colby").
     site = pd.Series(boas.str.split("_").str[0], index=boas)
+
+    # Regra 4: o site entra se tiver pelo menos MIN_EDIF_POR_SITE edificações aprovadas. Os sites
+    # ficam em ordem decrescente de aprovadas; se N_SITES estiver definido, entram só os primeiros.
     contagem = site.value_counts()
     sites = contagem[contagem >= MIN_EDIF_POR_SITE].index.tolist()[:N_SITES]
+
+    # Regra 5: dentro de cada site, entram as edificações aprovadas, das mais completas para as
+    # menos completas, até MAX_EDIF_POR_SITE (sem limite se for None). O desempate é pelo nome,
+    # para a escolha ser sempre a mesma.
     escolha = {}
-    preench = elec[boas].notna().mean()
+    preench = electricity[boas].notna().mean()
     for s in sites:
         cand = site[site == s].index
-        # as mais completas primeiro; desempate por nome, para ser determinístico
         ordem = sorted(cand, key=lambda b: (-preench[b], b))
         escolha[s] = ordem[:MAX_EDIF_POR_SITE]
     return escolha
 
 
-def manifesto(elec):
+def manifesto(electricity):
     """Uma linha por edificação do dataset, com os números que os critérios de seleção olham."""
     meta = pd.read_csv(RAW / "metadata.csv").set_index("building_id")
     linhas = []
-    for s, edifs in selecionar(elec).items():
+    for s, edifs in selecionar(electricity).items():
         for b in edifs:
-            e16, e17 = elec.loc["2016", b], elec.loc["2017", b]
+            e16, e17 = electricity.loc["2016", b], electricity.loc["2017", b]
             linhas.append({"site": s, "edificacao": b, "uso_principal": meta.at[b, "primaryspaceusage"],
                            "area_m2": meta.at[b, "sqm"],
                            "preenchimento_2016": round(e16.notna().mean(), 4),
@@ -64,18 +87,20 @@ def manifesto(elec):
     return pd.DataFrame(linhas)
 
 
-def _zs(x, mu, sd):
+def _z_score(x, mu, sd):
     return (x - mu) / (sd if sd > 1e-9 else 1.0)
 
 
 def construir():
-    elec = _ler_medidor("electricity")
+    electricity = _ler_medidor("electricity")
     outros = {m: _ler_medidor(m) for m in MEDIDORES_OPCIONAIS}
     clima = pd.read_csv(RAW / "weather.csv", parse_dates=["timestamp"])
-    escolha = selecionar(elec)
-    idx = elec.index
+    escolha = selecionar(electricity)
+    idx = electricity.index
     treino = idx.year == 2016
 
+    # Só o calendário entra na hora prevista (t), porque é conhecido de antemão. Tudo o que vem de
+    # medição (eletricidade, outros medidores e clima) entra defasado, no máximo até t-1.
     hora, dow = idx.hour.values, idx.dayofweek.values
     tempo = {
         "hora_sin": np.sin(2 * np.pi * hora / 24), "hora_cos": np.cos(2 * np.pi * hora / 24),
@@ -86,19 +111,20 @@ def construir():
     for s, edifs in escolha.items():
         w = (clima[clima.site_id == s].set_index("timestamp")
              .reindex(idx)[["airTemperature", "dewTemperature"]]
-             .interpolate(limit_direction="both"))
+             .interpolate(limit_direction="both")
+             .shift(1))   # clima de t-1: na hora de prever t, o clima de t ainda não foi medido
         # clima normalizado com estatística do próprio site (cada cliente só vê seus dados)
-        temp = _zs(w.airTemperature.values, w.airTemperature[treino].mean(), w.airTemperature[treino].std())
-        orv = _zs(w.dewTemperature.values, w.dewTemperature[treino].mean(), w.dewTemperature[treino].std())
+        temp = _z_score(w.airTemperature.values, w.airTemperature[treino].mean(), w.airTemperature[treino].std())
+        orv = _z_score(w.dewTemperature.values, w.dewTemperature[treino].mean(), w.dewTemperature[treino].std())
 
         blocos = []
         for b in edifs:
-            y = elec[b].values.astype(float)
+            y = electricity[b].values.astype(float)
             mu, sd = np.nanmean(y[treino]), np.nanstd(y[treino])
-            yz = _zs(y, mu, sd)
+            yz = _z_score(y, mu, sd)
             f = {f"elec_lag{l}": pd.Series(yz).shift(l).values for l in LAGS}
             f.update(tempo)
-            f["temp_ar"], f["ponto_orvalho"] = temp, orv
+            f["temp_ar_lag1"], f["ponto_orvalho_lag1"] = temp, orv
             for m in MEDIDORES_OPCIONAIS:
                 col = outros[m][b] if b in outros[m].columns else None
                 tem = False
@@ -108,7 +134,7 @@ def construir():
                     # presente = cobertura razoável em 2016 e sinal que varia de fato
                     tem = col.loc["2016"].notna().mean() > 0.5 and sd_m > 0.05 * max(abs(mu_m), 1.0)
                 if tem:
-                    lag = pd.Series(_zs(v, mu_m, sd_m)).shift(1).values
+                    lag = pd.Series(_z_score(v, mu_m, sd_m)).shift(1).values
                     f[f"{m}_lag1"] = np.nan_to_num(lag, nan=0.0)  # buracos pontuais -> média
                 else:
                     f[f"{m}_lag1"] = np.zeros(len(idx))
