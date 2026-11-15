@@ -18,6 +18,16 @@ Depois abra os notebooks com o kernel do ambiente do projeto:
 - `treinamento.ipynb`: FedAvg, comparação com treino centralizado, só local e random walk (prever
   que a próxima hora repete a atual), teste de não-IID entre sites e conclusão. Roda em ~1 min e meio num notebook comum, em CPU.
 
+
+## Visualizar treinamentos
+
+```
+uv sync
+GRADIO_ANALYTICS_ENABLED=False uv run trackio show --project bdg2-pfl
+```
+
+Depios abra o dashboard em `http://127.0.0.1:7860/?project=bdg2-pfl`
+
 ## Estrutura
 
 ```
