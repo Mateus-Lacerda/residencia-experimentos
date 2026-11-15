@@ -1,0 +1,29 @@
+{
+  "name": "digital-shadow",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dados": "nice -n 19 uv run --project ../bdg2-fl python scripts/exportar_dados.py",
+    "verificar": "nice -n 19 uv run --project ../bdg2-fl python scripts/verificar_dados.py && node scripts/verificar_cena.ts && nice -n 19 uv run --project ../bdg2-fl python scripts/testar_previsoes.py",
+    "verificar:cena": "node scripts/verificar_cena.ts",
+    "captura": "node scripts/capturar.mjs",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/three": "^0.187.0",
+    "@vitejs/plugin-react": "^6.0.0",
+    "playwright-core": "^1.65.1",
+    "typescript": "~5.9.3",
+    "vite": "^8.0.0"
+  }
+}
