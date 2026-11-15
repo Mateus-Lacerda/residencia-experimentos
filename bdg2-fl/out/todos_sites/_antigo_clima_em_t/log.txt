@@ -1,0 +1,96 @@
+/Users/mateuslacerda/Projects/Personal/residencia-experimentos/bdg2-fl/src/bdg2_fl/dados.py:90: RuntimeWarning: Mean of empty slice
+  mu_m, sd_m = np.nanmean(v[treino]), np.nanstd(v[treino])
+/Users/mateuslacerda/Projects/Personal/residencia-experimentos/bdg2-fl/.venv/lib/python3.14/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/Users/mateuslacerda/Projects/Personal/residencia-experimentos/bdg2-fl/src/bdg2_fl/dados.py:90: RuntimeWarning: Mean of empty slice
+  mu_m, sd_m = np.nanmean(v[treino]), np.nanstd(v[treino])
+/Users/mateuslacerda/Projects/Personal/residencia-experimentos/bdg2-fl/.venv/lib/python3.14/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/Users/mateuslacerda/Projects/Personal/residencia-experimentos/bdg2-fl/src/bdg2_fl/dados.py:90: RuntimeWarning: Mean of empty slice
+  mu_m, sd_m = np.nanmean(v[treino]), np.nanstd(v[treino])
+/Users/mateuslacerda/Projects/Personal/residencia-experimentos/bdg2-fl/.venv/lib/python3.14/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/Users/mateuslacerda/Projects/Personal/residencia-experimentos/bdg2-fl/src/bdg2_fl/dados.py:90: RuntimeWarning: Mean of empty slice
+  mu_m, sd_m = np.nanmean(v[treino]), np.nanstd(v[treino])
+/Users/mateuslacerda/Projects/Personal/residencia-experimentos/bdg2-fl/.venv/lib/python3.14/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/Users/mateuslacerda/Projects/Personal/residencia-experimentos/bdg2-fl/src/bdg2_fl/dados.py:90: RuntimeWarning: Mean of empty slice
+  mu_m, sd_m = np.nanmean(v[treino]), np.nanstd(v[treino])
+/Users/mateuslacerda/Projects/Personal/residencia-experimentos/bdg2-fl/.venv/lib/python3.14/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/Users/mateuslacerda/Projects/Personal/residencia-experimentos/bdg2-fl/src/bdg2_fl/dados.py:90: RuntimeWarning: Mean of empty slice
+  mu_m, sd_m = np.nanmean(v[treino]), np.nanstd(v[treino])
+/Users/mateuslacerda/Projects/Personal/residencia-experimentos/bdg2-fl/.venv/lib/python3.14/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/Users/mateuslacerda/Projects/Personal/residencia-experimentos/bdg2-fl/src/bdg2_fl/dados.py:90: RuntimeWarning: Mean of empty slice
+  mu_m, sd_m = np.nanmean(v[treino]), np.nanstd(v[treino])
+/Users/mateuslacerda/Projects/Personal/residencia-experimentos/bdg2-fl/.venv/lib/python3.14/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/Users/mateuslacerda/Projects/Personal/residencia-experimentos/bdg2-fl/src/bdg2_fl/dados.py:90: RuntimeWarning: Mean of empty slice
+  mu_m, sd_m = np.nanmean(v[treino]), np.nanstd(v[treino])
+/Users/mateuslacerda/Projects/Personal/residencia-experimentos/bdg2-fl/.venv/lib/python3.14/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/Users/mateuslacerda/Projects/Personal/residencia-experimentos/bdg2-fl/src/bdg2_fl/dados.py:90: RuntimeWarning: Mean of empty slice
+  mu_m, sd_m = np.nanmean(v[treino]), np.nanstd(v[treino])
+/Users/mateuslacerda/Projects/Personal/residencia-experimentos/bdg2-fl/.venv/lib/python3.14/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+{'Rat': (247, 26.6), 'Hog': (134, 14.7), 'Fox': (126, 13.5), 'Bull': (109, 10.6), 'Eagle': (88, 8.0), 'Bear': (73, 7.8), 'Robin': (47, 5.3), 'Wolf': (36, 3.9), 'Peacock': (35, 3.8), 'Gator': (33, 3.0), 'Lamb': (27, 2.9)}
+* Trackio project initialized: bdg2-todos-sites
+* Trackio metrics logged to: /Users/mateuslacerda/.cache/huggingface/trackio
+* View dashboard by running in your terminal:
+[1m[38;5;208mtrackio show --project "bdg2-todos-sites"[0m
+* or by running in Python: trackio.show(project="bdg2-todos-sites")
+* Apple Silicon detected, enabling automatic GPU/system metrics logging
+* psutil detected, enabling automatic CPU/system metrics logging
+* Created new run: FedAvg | seed 42
+* Run finished. Uploading logs to Trackio (please wait...)
+* Created new run: FedAvg + fine-tuning | seed 42
+* Run finished. Uploading logs to Trackio (please wait...)
+* Created new run: Só local | seed 42
+* Run finished. Uploading logs to Trackio (please wait...)
+seed 42: 10 min
+* Created new run: FedAvg | seed 43
+* Run finished. Uploading logs to Trackio (please wait...)
+* Created new run: FedAvg + fine-tuning | seed 43
+* Run finished. Uploading logs to Trackio (please wait...)
+* Created new run: Só local | seed 43
+* Run finished. Uploading logs to Trackio (please wait...)
+seed 43: 10 min
+* Created new run: FedAvg | seed 44
+* Run finished. Uploading logs to Trackio (please wait...)
+* Created new run: FedAvg + fine-tuning | seed 44
+* Run finished. Uploading logs to Trackio (please wait...)
+* Created new run: Só local | seed 44
+* Run finished. Uploading logs to Trackio (please wait...)
+seed 44: 12 min
+
+CV(RMSE) em 2017 por site (média de 3 seeds)
+metodo   Random walk  FedAvg  Só local  FedAvg + fine-tuning
+site                                                        
+Rat            19.67   12.59     12.35                 12.07
+Hog            16.13   14.06     13.70                 13.23
+Fox            15.21    9.77      9.78                  9.55
+Bull            9.36    6.96      7.57                  6.76
+Eagle          11.00    8.51      8.53                  8.34
+Bear            8.25    5.23      5.36                  5.16
+Robin           8.46    5.47      5.61                  5.22
+Wolf           20.80   14.79     13.94                 13.45
+Peacock         7.88    5.11      5.69                  5.05
+Gator          15.49   17.32     14.42                 13.53
+Lamb           31.61   20.22     16.62                 15.28
+Total          14.74   11.27     11.10                 10.68
+
+Fração de edificações em que o fine-tuning ganha de cada referência
+         Random walk  FedAvg  Só local
+site                                  
+Bear            0.97    0.78      1.00
+Bull            0.99    0.74      0.98
+Eagle           0.99    0.91      0.92
+Fox             0.99    0.57      0.98
+Gator           0.94    1.00      1.00
+Hog             0.98    0.90      0.98
+Lamb            1.00    0.96      0.96
+Peacock         1.00    0.69      0.94
+Rat             0.98    0.93      0.97
+Robin           1.00    0.94      0.96
+Wolf            1.00    1.00      0.94

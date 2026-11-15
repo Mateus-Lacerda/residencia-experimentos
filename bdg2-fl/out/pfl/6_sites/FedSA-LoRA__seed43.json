@@ -1,0 +1,21 @@
+{
+ "metodo": "FedSA-LoRA",
+ "seed": 43,
+ "cv_rmse": {
+  "Rat": 11.020518430598788,
+  "Hog": 14.725343939782364,
+  "Fox": 6.599591064530534,
+  "Bull": 16.10030869984517,
+  "Eagle": 6.81963231212131,
+  "Bear": 7.455793917413554,
+  "Total": 10.46057441490474
+ },
+ "parametros_enviados": {
+  "rodadas_base": 5,
+  "por_rodada_base": 30401,
+  "rodadas_lora": 5,
+  "por_rodada_lora": 2144,
+  "B_local": 516
+ },
+ "tempo_s": 16.702680110931396
+}

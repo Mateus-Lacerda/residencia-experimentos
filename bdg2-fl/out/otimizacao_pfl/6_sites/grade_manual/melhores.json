@@ -1,0 +1,21 @@
+{
+ "fedavg_val_ajuste": [
+  12.07336916450204,
+  12.100166713423151,
+  11.964912798821906
+ ],
+ "ft": {
+  "camadas": "todas",
+  "epocas": 32,
+  "lr": 0.0001,
+  "rodadas_base": 10
+ },
+ "lora": {
+  "rodadas_base": 5,
+  "posto": 64,
+  "camadas": "camada 1",
+  "lr": 0.001,
+  "epocas": 4,
+  "escala": 1.0
+ }
+}

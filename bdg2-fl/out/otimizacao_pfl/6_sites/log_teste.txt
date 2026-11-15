@@ -1,0 +1,27 @@
+seed 42 FedAvg: 10.35
+seed 42 Só local: 10.11
+seed 42 Fine-tuning (original): 9.92
+seed 42 Fine-tuning (otimizado): 9.57
+seed 42 FedSA-LoRA (original): 10.22
+seed 42 FedSA-LoRA (otimizado): 9.84
+seed 43 FedAvg: 10.44
+seed 43 Só local: 10.17
+seed 43 Fine-tuning (original): 10.02
+seed 43 Fine-tuning (otimizado): 9.59
+seed 43 FedSA-LoRA (original): 10.28
+seed 43 FedSA-LoRA (otimizado): 9.77
+seed 44 FedAvg: 10.45
+seed 44 Só local: 10.12
+seed 44 Fine-tuning (original): 9.89
+seed 44 Fine-tuning (otimizado): 9.62
+seed 44 FedSA-LoRA (original): 10.57
+seed 44 FedSA-LoRA (otimizado): 9.70
+
+CV(RMSE) em 2017 (média ± desvio de 3 seeds)
+método                             Total    Rat    Hog    Fox   Bull  Eagle   Bear   envio
+FedAvg                      10.42 ± 0.04  11.14  14.41   6.58  14.98   6.88   7.64   304010
+Só local                    10.13 ± 0.02  10.33  15.14   6.54  14.71   6.67   7.35   0
+Fine-tuning (original)       9.95 ± 0.06  10.23  14.59   6.43  14.41   6.58   7.31   273609
+Fine-tuning (otimizado)      9.59 ± 0.02   9.68  14.29   6.30  13.96   6.48   7.00   304010
+FedSA-LoRA (original)       10.36 ± 0.15  10.93  14.56   6.68  15.28   6.74   7.53   162725
+FedSA-LoRA (otimizado)       9.77 ± 0.06  10.01  14.27   6.36  14.35   6.52   7.14   308902

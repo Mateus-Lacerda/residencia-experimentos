@@ -1,0 +1,211 @@
+{'Rat': (141068, 27380), 'Hog': (142580, 28820), 'Fox': (140636, 28748), 'Bull': (121363, 28772), 'Eagle': (123798, 25882), 'Bear': (140848, 28748)}
+trajetórias do FedAvg: 37 s
+FedAvg na validação de ajuste: 12.046 ± 0.058
+== fine-tuning (grade completa)
+  ajuste_ft {"camadas": "todas", "epocas": 1, "lr": 0.001, "rodadas_base": 5}: 11.426 ± 0.052
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 1, "lr": 0.001, "rodadas_base": 5}: 11.546 ± 0.066
+  ajuste_ft {"camadas": "saída", "epocas": 1, "lr": 0.001, "rodadas_base": 5}: 11.980 ± 0.060
+  ajuste_ft {"camadas": "todas", "epocas": 1, "lr": 0.0003, "rodadas_base": 5}: 11.313 ± 0.021
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 1, "lr": 0.0003, "rodadas_base": 5}: 11.673 ± 0.070
+  ajuste_ft {"camadas": "saída", "epocas": 1, "lr": 0.0003, "rodadas_base": 5}: 12.067 ± 0.069
+  ajuste_ft {"camadas": "todas", "epocas": 1, "lr": 0.0001, "rodadas_base": 5}: 11.446 ± 0.039
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 1, "lr": 0.0001, "rodadas_base": 5}: 11.818 ± 0.079
+  ajuste_ft {"camadas": "saída", "epocas": 1, "lr": 0.0001, "rodadas_base": 5}: 12.134 ± 0.071
+  ajuste_ft {"camadas": "todas", "epocas": 2, "lr": 0.001, "rodadas_base": 5}: 11.364 ± 0.149
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 2, "lr": 0.001, "rodadas_base": 5}: 11.468 ± 0.052
+  ajuste_ft {"camadas": "saída", "epocas": 2, "lr": 0.001, "rodadas_base": 5}: 11.941 ± 0.075
+  ajuste_ft {"camadas": "todas", "epocas": 2, "lr": 0.0003, "rodadas_base": 5}: 11.215 ± 0.019
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 2, "lr": 0.0003, "rodadas_base": 5}: 11.577 ± 0.090
+  ajuste_ft {"camadas": "saída", "epocas": 2, "lr": 0.0003, "rodadas_base": 5}: 12.022 ± 0.065
+  ajuste_ft {"camadas": "todas", "epocas": 2, "lr": 0.0001, "rodadas_base": 5}: 11.315 ± 0.041
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 2, "lr": 0.0001, "rodadas_base": 5}: 11.722 ± 0.087
+  ajuste_ft {"camadas": "saída", "epocas": 2, "lr": 0.0001, "rodadas_base": 5}: 12.096 ± 0.065
+  ajuste_ft {"camadas": "todas", "epocas": 4, "lr": 0.001, "rodadas_base": 5}: 11.101 ± 0.059
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 4, "lr": 0.001, "rodadas_base": 5}: 11.405 ± 0.064
+  ajuste_ft {"camadas": "saída", "epocas": 4, "lr": 0.001, "rodadas_base": 5}: 11.902 ± 0.092
+  ajuste_ft {"camadas": "todas", "epocas": 4, "lr": 0.0003, "rodadas_base": 5}: 11.034 ± 0.015
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 4, "lr": 0.0003, "rodadas_base": 5}: 11.454 ± 0.051
+  ajuste_ft {"camadas": "saída", "epocas": 4, "lr": 0.0003, "rodadas_base": 5}: 11.965 ± 0.080
+  ajuste_ft {"camadas": "todas", "epocas": 4, "lr": 0.0001, "rodadas_base": 5}: 11.150 ± 0.039
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 4, "lr": 0.0001, "rodadas_base": 5}: 11.614 ± 0.080
+  ajuste_ft {"camadas": "saída", "epocas": 4, "lr": 0.0001, "rodadas_base": 5}: 12.044 ± 0.068
+  ajuste_ft {"camadas": "todas", "epocas": 8, "lr": 0.001, "rodadas_base": 5}: 10.987 ± 0.006
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 8, "lr": 0.001, "rodadas_base": 5}: 11.316 ± 0.097
+  ajuste_ft {"camadas": "saída", "epocas": 8, "lr": 0.001, "rodadas_base": 5}: 11.885 ± 0.074
+  ajuste_ft {"camadas": "todas", "epocas": 8, "lr": 0.0003, "rodadas_base": 5}: 10.900 ± 0.038
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 8, "lr": 0.0003, "rodadas_base": 5}: 11.407 ± 0.071
+  ajuste_ft {"camadas": "saída", "epocas": 8, "lr": 0.0003, "rodadas_base": 5}: 11.916 ± 0.067
+  ajuste_ft {"camadas": "todas", "epocas": 8, "lr": 0.0001, "rodadas_base": 5}: 11.039 ± 0.069
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 8, "lr": 0.0001, "rodadas_base": 5}: 11.519 ± 0.055
+  ajuste_ft {"camadas": "saída", "epocas": 8, "lr": 0.0001, "rodadas_base": 5}: 11.991 ± 0.063
+  ajuste_ft {"camadas": "todas", "epocas": 1, "lr": 0.001, "rodadas_base": 7}: 11.250 ± 0.089
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 1, "lr": 0.001, "rodadas_base": 7}: 11.374 ± 0.014
+  ajuste_ft {"camadas": "saída", "epocas": 1, "lr": 0.001, "rodadas_base": 7}: 11.921 ± 0.031
+  ajuste_ft {"camadas": "todas", "epocas": 1, "lr": 0.0003, "rodadas_base": 7}: 11.191 ± 0.019
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 1, "lr": 0.0003, "rodadas_base": 7}: 11.502 ± 0.037
+  ajuste_ft {"camadas": "saída", "epocas": 1, "lr": 0.0003, "rodadas_base": 7}: 12.000 ± 0.018
+  ajuste_ft {"camadas": "todas", "epocas": 1, "lr": 0.0001, "rodadas_base": 7}: 11.320 ± 0.025
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 1, "lr": 0.0001, "rodadas_base": 7}: 11.672 ± 0.019
+  ajuste_ft {"camadas": "saída", "epocas": 1, "lr": 0.0001, "rodadas_base": 7}: 12.063 ± 0.022
+  ajuste_ft {"camadas": "todas", "epocas": 2, "lr": 0.001, "rodadas_base": 7}: 11.235 ± 0.169
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 2, "lr": 0.001, "rodadas_base": 7}: 11.299 ± 0.048
+  ajuste_ft {"camadas": "saída", "epocas": 2, "lr": 0.001, "rodadas_base": 7}: 11.871 ± 0.051
+  ajuste_ft {"camadas": "todas", "epocas": 2, "lr": 0.0003, "rodadas_base": 7}: 11.094 ± 0.035
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 2, "lr": 0.0003, "rodadas_base": 7}: 11.402 ± 0.034
+  ajuste_ft {"camadas": "saída", "epocas": 2, "lr": 0.0003, "rodadas_base": 7}: 11.955 ± 0.033
+  ajuste_ft {"camadas": "todas", "epocas": 2, "lr": 0.0001, "rodadas_base": 7}: 11.198 ± 0.006
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 2, "lr": 0.0001, "rodadas_base": 7}: 11.554 ± 0.062
+  ajuste_ft {"camadas": "saída", "epocas": 2, "lr": 0.0001, "rodadas_base": 7}: 12.027 ± 0.013
+  ajuste_ft {"camadas": "todas", "epocas": 4, "lr": 0.001, "rodadas_base": 7}: 11.042 ± 0.101
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 4, "lr": 0.001, "rodadas_base": 7}: 11.222 ± 0.016
+  ajuste_ft {"camadas": "saída", "epocas": 4, "lr": 0.001, "rodadas_base": 7}: 11.829 ± 0.027
+  ajuste_ft {"camadas": "todas", "epocas": 4, "lr": 0.0003, "rodadas_base": 7}: 10.940 ± 0.041
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 4, "lr": 0.0003, "rodadas_base": 7}: 11.281 ± 0.027
+  ajuste_ft {"camadas": "saída", "epocas": 4, "lr": 0.0003, "rodadas_base": 7}: 11.898 ± 0.020
+  ajuste_ft {"camadas": "todas", "epocas": 4, "lr": 0.0001, "rodadas_base": 7}: 11.035 ± 0.025
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 4, "lr": 0.0001, "rodadas_base": 7}: 11.435 ± 0.044
+  ajuste_ft {"camadas": "saída", "epocas": 4, "lr": 0.0001, "rodadas_base": 7}: 11.980 ± 0.015
+  ajuste_ft {"camadas": "todas", "epocas": 8, "lr": 0.001, "rodadas_base": 7}: 10.931 ± 0.045
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 8, "lr": 0.001, "rodadas_base": 7}: 11.158 ± 0.057
+  ajuste_ft {"camadas": "saída", "epocas": 8, "lr": 0.001, "rodadas_base": 7}: 11.813 ± 0.039
+  ajuste_ft {"camadas": "todas", "epocas": 8, "lr": 0.0003, "rodadas_base": 7}: 10.832 ± 0.031
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 8, "lr": 0.0003, "rodadas_base": 7}: 11.226 ± 0.023
+  ajuste_ft {"camadas": "saída", "epocas": 8, "lr": 0.0003, "rodadas_base": 7}: 11.849 ± 0.032
+  ajuste_ft {"camadas": "todas", "epocas": 8, "lr": 0.0001, "rodadas_base": 7}: 10.935 ± 0.020
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 8, "lr": 0.0001, "rodadas_base": 7}: 11.340 ± 0.032
+  ajuste_ft {"camadas": "saída", "epocas": 8, "lr": 0.0001, "rodadas_base": 7}: 11.927 ± 0.027
+  ajuste_ft {"camadas": "todas", "epocas": 1, "lr": 0.001, "rodadas_base": 9}: 11.172 ± 0.116
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 1, "lr": 0.001, "rodadas_base": 9}: 11.218 ± 0.023
+  ajuste_ft {"camadas": "saída", "epocas": 1, "lr": 0.001, "rodadas_base": 9}: 11.760 ± 0.023
+  ajuste_ft {"camadas": "todas", "epocas": 1, "lr": 0.0003, "rodadas_base": 9}: 11.107 ± 0.045
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 1, "lr": 0.0003, "rodadas_base": 9}: 11.346 ± 0.023
+  ajuste_ft {"camadas": "saída", "epocas": 1, "lr": 0.0003, "rodadas_base": 9}: 11.822 ± 0.011
+  ajuste_ft {"camadas": "todas", "epocas": 1, "lr": 0.0001, "rodadas_base": 9}: 11.218 ± 0.037
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 1, "lr": 0.0001, "rodadas_base": 9}: 11.504 ± 0.007
+  ajuste_ft {"camadas": "saída", "epocas": 1, "lr": 0.0001, "rodadas_base": 9}: 11.889 ± 0.012
+  ajuste_ft {"camadas": "todas", "epocas": 2, "lr": 0.001, "rodadas_base": 9}: 11.090 ± 0.134
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 2, "lr": 0.001, "rodadas_base": 9}: 11.153 ± 0.034
+  ajuste_ft {"camadas": "saída", "epocas": 2, "lr": 0.001, "rodadas_base": 9}: 11.707 ± 0.029
+  ajuste_ft {"camadas": "todas", "epocas": 2, "lr": 0.0003, "rodadas_base": 9}: 10.995 ± 0.047
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 2, "lr": 0.0003, "rodadas_base": 9}: 11.238 ± 0.020
+  ajuste_ft {"camadas": "saída", "epocas": 2, "lr": 0.0003, "rodadas_base": 9}: 11.780 ± 0.019
+  ajuste_ft {"camadas": "todas", "epocas": 2, "lr": 0.0001, "rodadas_base": 9}: 11.103 ± 0.028
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 2, "lr": 0.0001, "rodadas_base": 9}: 11.392 ± 0.043
+  ajuste_ft {"camadas": "saída", "epocas": 2, "lr": 0.0001, "rodadas_base": 9}: 11.847 ± 0.014
+  ajuste_ft {"camadas": "todas", "epocas": 4, "lr": 0.001, "rodadas_base": 9}: 10.963 ± 0.073
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 4, "lr": 0.001, "rodadas_base": 9}: 11.073 ± 0.019
+  ajuste_ft {"camadas": "saída", "epocas": 4, "lr": 0.001, "rodadas_base": 9}: 11.679 ± 0.014
+  ajuste_ft {"camadas": "todas", "epocas": 4, "lr": 0.0003, "rodadas_base": 9}: 10.883 ± 0.052
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 4, "lr": 0.0003, "rodadas_base": 9}: 11.133 ± 0.037
+  ajuste_ft {"camadas": "saída", "epocas": 4, "lr": 0.0003, "rodadas_base": 9}: 11.739 ± 0.005
+  ajuste_ft {"camadas": "todas", "epocas": 4, "lr": 0.0001, "rodadas_base": 9}: 10.955 ± 0.027
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 4, "lr": 0.0001, "rodadas_base": 9}: 11.280 ± 0.032
+  ajuste_ft {"camadas": "saída", "epocas": 4, "lr": 0.0001, "rodadas_base": 9}: 11.805 ± 0.005
+  ajuste_ft {"camadas": "todas", "epocas": 8, "lr": 0.001, "rodadas_base": 9}: 10.896 ± 0.022
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 8, "lr": 0.001, "rodadas_base": 9}: 11.034 ± 0.027
+  ajuste_ft {"camadas": "saída", "epocas": 8, "lr": 0.001, "rodadas_base": 9}: 11.665 ± 0.045
+  ajuste_ft {"camadas": "todas", "epocas": 8, "lr": 0.0003, "rodadas_base": 9}: 10.762 ± 0.040
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 8, "lr": 0.0003, "rodadas_base": 9}: 11.089 ± 0.027
+  ajuste_ft {"camadas": "saída", "epocas": 8, "lr": 0.0003, "rodadas_base": 9}: 11.698 ± 0.029
+  ajuste_ft {"camadas": "todas", "epocas": 8, "lr": 0.0001, "rodadas_base": 9}: 10.846 ± 0.017
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 8, "lr": 0.0001, "rodadas_base": 9}: 11.192 ± 0.034
+  ajuste_ft {"camadas": "saída", "epocas": 8, "lr": 0.0001, "rodadas_base": 9}: 11.761 ± 0.011
+  ajuste_ft {"camadas": "todas", "epocas": 1, "lr": 0.001, "rodadas_base": 10}: 11.123 ± 0.089
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 1, "lr": 0.001, "rodadas_base": 10}: 11.174 ± 0.025
+  ajuste_ft {"camadas": "saída", "epocas": 1, "lr": 0.001, "rodadas_base": 10}: 11.650 ± 0.063
+  ajuste_ft {"camadas": "todas", "epocas": 1, "lr": 0.0003, "rodadas_base": 10}: 11.071 ± 0.059
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 1, "lr": 0.0003, "rodadas_base": 10}: 11.289 ± 0.034
+  ajuste_ft {"camadas": "saída", "epocas": 1, "lr": 0.0003, "rodadas_base": 10}: 11.725 ± 0.042
+  ajuste_ft {"camadas": "todas", "epocas": 1, "lr": 0.0001, "rodadas_base": 10}: 11.194 ± 0.050
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 1, "lr": 0.0001, "rodadas_base": 10}: 11.425 ± 0.005
+  ajuste_ft {"camadas": "saída", "epocas": 1, "lr": 0.0001, "rodadas_base": 10}: 11.797 ± 0.038
+  ajuste_ft {"camadas": "todas", "epocas": 2, "lr": 0.001, "rodadas_base": 10}: 11.081 ± 0.127
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 2, "lr": 0.001, "rodadas_base": 10}: 11.113 ± 0.042
+  ajuste_ft {"camadas": "saída", "epocas": 2, "lr": 0.001, "rodadas_base": 10}: 11.602 ± 0.026
+  ajuste_ft {"camadas": "todas", "epocas": 2, "lr": 0.0003, "rodadas_base": 10}: 10.966 ± 0.058
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 2, "lr": 0.0003, "rodadas_base": 10}: 11.184 ± 0.025
+  ajuste_ft {"camadas": "saída", "epocas": 2, "lr": 0.0003, "rodadas_base": 10}: 11.683 ± 0.024
+  ajuste_ft {"camadas": "todas", "epocas": 2, "lr": 0.0001, "rodadas_base": 10}: 11.072 ± 0.046
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 2, "lr": 0.0001, "rodadas_base": 10}: 11.328 ± 0.048
+  ajuste_ft {"camadas": "saída", "epocas": 2, "lr": 0.0001, "rodadas_base": 10}: 11.755 ± 0.026
+  ajuste_ft {"camadas": "todas", "epocas": 4, "lr": 0.001, "rodadas_base": 10}: 10.950 ± 0.051
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 4, "lr": 0.001, "rodadas_base": 10}: 11.060 ± 0.012
+  ajuste_ft {"camadas": "saída", "epocas": 4, "lr": 0.001, "rodadas_base": 10}: 11.566 ± 0.041
+  ajuste_ft {"camadas": "todas", "epocas": 4, "lr": 0.0003, "rodadas_base": 10}: 10.877 ± 0.075
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 4, "lr": 0.0003, "rodadas_base": 10}: 11.088 ± 0.037
+  ajuste_ft {"camadas": "saída", "epocas": 4, "lr": 0.0003, "rodadas_base": 10}: 11.635 ± 0.032
+  ajuste_ft {"camadas": "todas", "epocas": 4, "lr": 0.0001, "rodadas_base": 10}: 10.931 ± 0.042
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 4, "lr": 0.0001, "rodadas_base": 10}: 11.224 ± 0.042
+  ajuste_ft {"camadas": "saída", "epocas": 4, "lr": 0.0001, "rodadas_base": 10}: 11.707 ± 0.030
+  ajuste_ft {"camadas": "todas", "epocas": 8, "lr": 0.001, "rodadas_base": 10}: 10.892 ± 0.060
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 8, "lr": 0.001, "rodadas_base": 10}: 11.006 ± 0.027
+  ajuste_ft {"camadas": "saída", "epocas": 8, "lr": 0.001, "rodadas_base": 10}: 11.549 ± 0.061
+  ajuste_ft {"camadas": "todas", "epocas": 8, "lr": 0.0003, "rodadas_base": 10}: 10.751 ± 0.043
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 8, "lr": 0.0003, "rodadas_base": 10}: 11.043 ± 0.022
+  ajuste_ft {"camadas": "saída", "epocas": 8, "lr": 0.0003, "rodadas_base": 10}: 11.587 ± 0.053
+  ajuste_ft {"camadas": "todas", "epocas": 8, "lr": 0.0001, "rodadas_base": 10}: 10.834 ± 0.033
+  ajuste_ft {"camadas": "camada 2 e saída", "epocas": 8, "lr": 0.0001, "rodadas_base": 10}: 11.140 ± 0.039
+  ajuste_ft {"camadas": "saída", "epocas": 8, "lr": 0.0001, "rodadas_base": 10}: 11.656 ± 0.037
+melhor fine-tuning: {'camadas': 'todas', 'epocas': 8, 'lr': 0.0003, 'rodadas_base': 10}
+== FedSA-LoRA (busca por coordenada)
+passada 1
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 1, "rodadas_base": 5}: 11.969 ± 0.119
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 2, "rodadas_base": 5}: 12.098 ± 0.348
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 4, "rodadas_base": 5}: 12.085 ± 0.097
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 8, "rodadas_base": 5}: 11.452 ± 0.013
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 5}: 11.265 ± 0.107
+ posto -> 16
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 5}: 11.265 ± 0.107
+  ajuste_lora {"camadas": "ocultas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 5}: 11.297 ± 0.100
+  ajuste_lora {"camadas": "camada 1", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 5}: 11.549 ± 0.174
+ camadas -> todas
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 3}: 11.592 ± 0.184
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 5}: 11.265 ± 0.107
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 7}: 11.228 ± 0.059
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 9}: 11.414 ± 0.048
+ rodadas_base -> 7
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.0003, "posto": 16, "rodadas_base": 7}: 11.247 ± 0.071
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 7}: 11.228 ± 0.059
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.003, "posto": 16, "rodadas_base": 7}: 11.527 ± 0.018
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.01, "posto": 16, "rodadas_base": 7}: 11.743 ± 0.078
+ lr -> 0.001
+  ajuste_lora {"camadas": "todas", "epocas": 1, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 7}: 11.271 ± 0.028
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 7}: 11.228 ± 0.059
+  ajuste_lora {"camadas": "todas", "epocas": 4, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 7}: 11.264 ± 0.092
+ epocas -> 2
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 0.5, "lr": 0.001, "posto": 16, "rodadas_base": 7}: 11.263 ± 0.044
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 7}: 11.228 ± 0.059
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 2.0, "lr": 0.001, "posto": 16, "rodadas_base": 7}: 11.319 ± 0.040
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 4.0, "lr": 0.001, "posto": 16, "rodadas_base": 7}: 11.442 ± 0.030
+ escala -> 1.0
+passada 2
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 1, "rodadas_base": 7}: 11.903 ± 0.158
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 2, "rodadas_base": 7}: 11.933 ± 0.058
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 4, "rodadas_base": 7}: 11.781 ± 0.233
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 8, "rodadas_base": 7}: 11.327 ± 0.081
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 7}: 11.228 ± 0.059
+ posto -> 16
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 7}: 11.228 ± 0.059
+  ajuste_lora {"camadas": "ocultas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 7}: 11.233 ± 0.069
+  ajuste_lora {"camadas": "camada 1", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 7}: 11.482 ± 0.046
+ camadas -> todas
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 3}: 11.592 ± 0.184
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 5}: 11.265 ± 0.107
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 7}: 11.228 ± 0.059
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 9}: 11.414 ± 0.048
+ rodadas_base -> 7
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.0003, "posto": 16, "rodadas_base": 7}: 11.247 ± 0.071
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 7}: 11.228 ± 0.059
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.003, "posto": 16, "rodadas_base": 7}: 11.527 ± 0.018
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.01, "posto": 16, "rodadas_base": 7}: 11.743 ± 0.078
+ lr -> 0.001
+  ajuste_lora {"camadas": "todas", "epocas": 1, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 7}: 11.271 ± 0.028
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 7}: 11.228 ± 0.059
+  ajuste_lora {"camadas": "todas", "epocas": 4, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 7}: 11.264 ± 0.092
+ epocas -> 2
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 0.5, "lr": 0.001, "posto": 16, "rodadas_base": 7}: 11.263 ± 0.044
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 1.0, "lr": 0.001, "posto": 16, "rodadas_base": 7}: 11.228 ± 0.059
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 2.0, "lr": 0.001, "posto": 16, "rodadas_base": 7}: 11.319 ± 0.040
+  ajuste_lora {"camadas": "todas", "epocas": 2, "escala": 4.0, "lr": 0.001, "posto": 16, "rodadas_base": 7}: 11.442 ± 0.030
+ escala -> 1.0
+melhor LoRA: {'rodadas_base': 7, 'posto': 16, 'camadas': 'todas', 'lr': 0.001, 'epocas': 2, 'escala': 1.0}
