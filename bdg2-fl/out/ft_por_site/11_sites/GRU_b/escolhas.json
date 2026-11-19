@@ -1,0 +1,65 @@
+{
+ "Eagle": {
+  "rodadas_base": 9,
+  "lr": 8.01078507154477e-05,
+  "camadas": "todas",
+  "epocas": 7,
+  "val": 8.432930077968017,
+  "val_rodada_base": 8.599095841459652,
+  "val_uniforme": 8.473111229810602
+ },
+ "Bear": {
+  "rodadas_base": 10,
+  "lr": 0.00011741723402453807,
+  "camadas": "todas",
+  "epocas": 9,
+  "val": 4.505133827816967,
+  "val_rodada_base": 4.559253675110977,
+  "val_uniforme": 4.525974137173874
+ },
+ "Robin": {
+  "rodadas_base": 6,
+  "lr": 0.009772754998707833,
+  "camadas": "saída",
+  "epocas": 2,
+  "val": 5.112250553841438,
+  "val_rodada_base": 5.222510381909673,
+  "val_uniforme": 5.229640062377731
+ },
+ "Wolf": {
+  "rodadas_base": 5,
+  "lr": 0.0036106854615894106,
+  "camadas": "todas",
+  "epocas": 10,
+  "val": 12.728748628849898,
+  "val_rodada_base": 13.839316259371381,
+  "val_uniforme": 13.066742880098179
+ },
+ "Peacock": {
+  "rodadas_base": 10,
+  "lr": 0.00025682500617931907,
+  "camadas": "todas",
+  "epocas": 30,
+  "val": 4.80192969745284,
+  "val_rodada_base": 4.8943862061238,
+  "val_uniforme": 4.850110436492551
+ },
+ "Gator": {
+  "rodadas_base": 9,
+  "lr": 0.001417224684029258,
+  "camadas": "todas",
+  "epocas": 22,
+  "val": 13.017971224130594,
+  "val_rodada_base": 16.189284549244526,
+  "val_uniforme": 14.056886687391062
+ },
+ "Lamb": {
+  "rodadas_base": 10,
+  "lr": 0.0005225069823594642,
+  "camadas": "todas",
+  "epocas": 11,
+  "val": 10.281241633224237,
+  "val_rodada_base": 13.475200709778784,
+  "val_uniforme": 10.81953490121494
+ }
+}

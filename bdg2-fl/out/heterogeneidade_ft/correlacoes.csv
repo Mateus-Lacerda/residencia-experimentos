@@ -1,0 +1,46 @@
+modelo,diferenca,heterogeneidade,spearman
+GRU,FT − FedAvg,peso no FedAvg,0.4545454545454545
+GRU,FT − FedAvg,W1 rótulo (log10 kWh),-0.6454545454545454
+GRU,FT − FedAvg,W1 rótulo (z-score),-0.5181818181818181
+GRU,FT − FedAvg,W1 temperatura (°C),-0.24545454545454543
+GRU,FT − FedAvg,W1 temperatura (z-score),-0.027272727272727313
+GRU,FT − só local,peso no FedAvg,0.10000000000000003
+GRU,FT − só local,W1 rótulo (log10 kWh),-0.4545454545454545
+GRU,FT − só local,W1 rótulo (z-score),-0.11818181818181811
+GRU,FT − só local,W1 temperatura (°C),-0.21818181818181812
+GRU,FT − só local,W1 temperatura (z-score),-0.22727272727272724
+GRU,FedAvg − só local,peso no FedAvg,0.08181818181818183
+GRU,FedAvg − só local,W1 rótulo (log10 kWh),0.09090909090909087
+GRU,FedAvg − só local,W1 rótulo (z-score),0.20909090909090902
+GRU,FedAvg − só local,W1 temperatura (°C),0.2818181818181818
+GRU,FedAvg − só local,W1 temperatura (z-score),0.05454545454545453
+LSTM,FT − FedAvg,peso no FedAvg,0.6909090909090907
+LSTM,FT − FedAvg,W1 rótulo (log10 kWh),-0.5545454545454546
+LSTM,FT − FedAvg,W1 rótulo (z-score),-0.5181818181818181
+LSTM,FT − FedAvg,W1 temperatura (°C),-0.17272727272727267
+LSTM,FT − FedAvg,W1 temperatura (z-score),-0.027272727272727282
+LSTM,FT − só local,peso no FedAvg,0.49090909090909085
+LSTM,FT − só local,W1 rótulo (log10 kWh),-0.21818181818181817
+LSTM,FT − só local,W1 rótulo (z-score),-0.5727272727272728
+LSTM,FT − só local,W1 temperatura (°C),-0.36363636363636354
+LSTM,FT − só local,W1 temperatura (z-score),-0.1454545454545454
+LSTM,FedAvg − só local,peso no FedAvg,0.0
+LSTM,FedAvg − só local,W1 rótulo (log10 kWh),0.309090909090909
+LSTM,FedAvg − só local,W1 rótulo (z-score),0.11818181818181811
+LSTM,FedAvg − só local,W1 temperatura (°C),0.07272727272727268
+LSTM,FedAvg − só local,W1 temperatura (z-score),-0.08181818181818183
+MLP janela achatada,FT − FedAvg,peso no FedAvg,0.22727272727272724
+MLP janela achatada,FT − FedAvg,W1 rótulo (log10 kWh),-0.4999999999999999
+MLP janela achatada,FT − FedAvg,W1 rótulo (z-score),-0.4545454545454545
+MLP janela achatada,FT − FedAvg,W1 temperatura (°C),-0.5363636363636362
+MLP janela achatada,FT − FedAvg,W1 temperatura (z-score),0.009090909090909071
+MLP janela achatada,FT − só local,peso no FedAvg,0.24545454545454534
+MLP janela achatada,FT − só local,W1 rótulo (log10 kWh),-0.6272727272727272
+MLP janela achatada,FT − só local,W1 rótulo (z-score),-0.609090909090909
+MLP janela achatada,FT − só local,W1 temperatura (°C),-0.309090909090909
+MLP janela achatada,FT − só local,W1 temperatura (z-score),-0.1909090909090909
+MLP janela achatada,FedAvg − só local,peso no FedAvg,-0.39999999999999997
+MLP janela achatada,FedAvg − só local,W1 rótulo (log10 kWh),0.35454545454545444
+MLP janela achatada,FedAvg − só local,W1 rótulo (z-score),0.409090909090909
+MLP janela achatada,FedAvg − só local,W1 temperatura (°C),0.3909090909090908
+MLP janela achatada,FedAvg − só local,W1 temperatura (z-score),-0.16363636363636358
