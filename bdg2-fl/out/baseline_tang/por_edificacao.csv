@@ -1,0 +1,781 @@
+edificacao,uso,metodo,seed,cv
+Panther_education_Rosalie,Research,época escolhida,42,4.0
+Panther_education_Rosalie,Research,época escolhida,505,7.0
+Panther_education_Rosalie,Research,época escolhida,11,6.0
+Panther_education_Rosalie,Research,Persistência (t-1),42,0.022738530301592966
+Panther_education_Rosalie,Research,Persistência (t-1),505,0.022738530301592966
+Panther_education_Rosalie,Research,Persistência (t-1),11,0.022738530301592966
+Panther_education_Rosalie,Research,GRU zero-shot,42,0.02081139052269955
+Panther_education_Rosalie,Research,GRU zero-shot,505,0.020571711013199153
+Panther_education_Rosalie,Research,GRU zero-shot,11,0.021219117795162473
+Panther_education_Rosalie,Research,GRU FT uniforme,42,0.02095614361298043
+Panther_education_Rosalie,Research,GRU FT uniforme,505,0.020781834927227176
+Panther_education_Rosalie,Research,GRU FT uniforme,11,0.021720421014719205
+Panther_education_Rosalie,Research,GRU FT parada pela val.,42,0.022439775789080803
+Panther_education_Rosalie,Research,GRU FT parada pela val.,505,0.02389350608231534
+Panther_education_Rosalie,Research,GRU FT parada pela val.,11,0.026851254146707557
+Panther_education_Misty,Research,época escolhida,42,65.0
+Panther_education_Misty,Research,época escolhida,505,61.0
+Panther_education_Misty,Research,época escolhida,11,41.0
+Panther_education_Misty,Research,Persistência (t-1),42,0.06386580501617638
+Panther_education_Misty,Research,Persistência (t-1),505,0.06386580501617638
+Panther_education_Misty,Research,Persistência (t-1),11,0.06386580501617638
+Panther_education_Misty,Research,GRU zero-shot,42,0.05072410931651709
+Panther_education_Misty,Research,GRU zero-shot,505,0.051176299510542735
+Panther_education_Misty,Research,GRU zero-shot,11,0.05041553047768691
+Panther_education_Misty,Research,GRU FT uniforme,42,0.050415965599507985
+Panther_education_Misty,Research,GRU FT uniforme,505,0.05091351654194633
+Panther_education_Misty,Research,GRU FT uniforme,11,0.0502625194614596
+Panther_education_Misty,Research,GRU FT parada pela val.,42,0.05289138327310787
+Panther_education_Misty,Research,GRU FT parada pela val.,505,0.05340365697103771
+Panther_education_Misty,Research,GRU FT parada pela val.,11,0.05029539153566996
+Panther_education_Mattie,Classroom,época escolhida,42,5.0
+Panther_education_Mattie,Classroom,época escolhida,505,2.0
+Panther_education_Mattie,Classroom,época escolhida,11,7.0
+Panther_education_Mattie,Classroom,Persistência (t-1),42,0.137470872055006
+Panther_education_Mattie,Classroom,Persistência (t-1),505,0.137470872055006
+Panther_education_Mattie,Classroom,Persistência (t-1),11,0.137470872055006
+Panther_education_Mattie,Classroom,GRU zero-shot,42,0.09643355001946463
+Panther_education_Mattie,Classroom,GRU zero-shot,505,0.09643309445297205
+Panther_education_Mattie,Classroom,GRU zero-shot,11,0.09553118144521319
+Panther_education_Mattie,Classroom,GRU FT uniforme,42,0.09634310737436255
+Panther_education_Mattie,Classroom,GRU FT uniforme,505,0.0957794971357686
+Panther_education_Mattie,Classroom,GRU FT uniforme,11,0.09523694091276048
+Panther_education_Mattie,Classroom,GRU FT parada pela val.,42,0.09796517273105258
+Panther_education_Mattie,Classroom,GRU FT parada pela val.,505,0.09541789370280328
+Panther_education_Mattie,Classroom,GRU FT parada pela val.,11,0.09748083443471173
+Panther_education_Diann,Classroom,época escolhida,42,26.0
+Panther_education_Diann,Classroom,época escolhida,505,15.0
+Panther_education_Diann,Classroom,época escolhida,11,16.0
+Panther_education_Diann,Classroom,Persistência (t-1),42,0.1251589966459473
+Panther_education_Diann,Classroom,Persistência (t-1),505,0.1251589966459473
+Panther_education_Diann,Classroom,Persistência (t-1),11,0.1251589966459473
+Panther_education_Diann,Classroom,GRU zero-shot,42,0.12705715512392632
+Panther_education_Diann,Classroom,GRU zero-shot,505,0.12829128815178686
+Panther_education_Diann,Classroom,GRU zero-shot,11,0.12849393692537
+Panther_education_Diann,Classroom,GRU FT uniforme,42,0.12542902555920904
+Panther_education_Diann,Classroom,GRU FT uniforme,505,0.126814208624961
+Panther_education_Diann,Classroom,GRU FT uniforme,11,0.12703675634967376
+Panther_education_Diann,Classroom,GRU FT parada pela val.,42,0.1279171211079149
+Panther_education_Diann,Classroom,GRU FT parada pela val.,505,0.12375131572000514
+Panther_education_Diann,Classroom,GRU FT parada pela val.,11,0.12302231095647549
+Panther_education_Gina,Research,época escolhida,42,1.0
+Panther_education_Gina,Research,época escolhida,505,0.0
+Panther_education_Gina,Research,época escolhida,11,0.0
+Panther_education_Gina,Research,Persistência (t-1),42,0.019630815516536906
+Panther_education_Gina,Research,Persistência (t-1),505,0.019630815516536906
+Panther_education_Gina,Research,Persistência (t-1),11,0.019630815516536906
+Panther_education_Gina,Research,GRU zero-shot,42,0.012995756648213182
+Panther_education_Gina,Research,GRU zero-shot,505,0.013056054617729958
+Panther_education_Gina,Research,GRU zero-shot,11,0.013137991976652625
+Panther_education_Gina,Research,GRU FT uniforme,42,0.01296369249758432
+Panther_education_Gina,Research,GRU FT uniforme,505,0.012907368172359004
+Panther_education_Gina,Research,GRU FT uniforme,11,0.013132855975646804
+Panther_education_Gina,Research,GRU FT parada pela val.,42,0.013043643610515073
+Panther_education_Gina,Research,GRU FT parada pela val.,505,0.013056054617729958
+Panther_education_Gina,Research,GRU FT parada pela val.,11,0.013137991976652625
+Panther_education_Tina,Research,época escolhida,42,12.0
+Panther_education_Tina,Research,época escolhida,505,31.0
+Panther_education_Tina,Research,época escolhida,11,24.0
+Panther_education_Tina,Research,Persistência (t-1),42,0.22663741035011895
+Panther_education_Tina,Research,Persistência (t-1),505,0.22663741035011895
+Panther_education_Tina,Research,Persistência (t-1),11,0.22663741035011895
+Panther_education_Tina,Research,GRU zero-shot,42,0.1815151455689594
+Panther_education_Tina,Research,GRU zero-shot,505,0.1845246751474774
+Panther_education_Tina,Research,GRU zero-shot,11,0.1852852781826892
+Panther_education_Tina,Research,GRU FT uniforme,42,0.17772720204602846
+Panther_education_Tina,Research,GRU FT uniforme,505,0.1804220793288054
+Panther_education_Tina,Research,GRU FT uniforme,11,0.18128881464264388
+Panther_education_Tina,Research,GRU FT parada pela val.,42,0.1654867251454093
+Panther_education_Tina,Research,GRU FT parada pela val.,505,0.1855623399092323
+Panther_education_Tina,Research,GRU FT parada pela val.,11,0.17789676539909344
+Panther_education_Vincent,Classroom,época escolhida,42,3.0
+Panther_education_Vincent,Classroom,época escolhida,505,4.0
+Panther_education_Vincent,Classroom,época escolhida,11,3.0
+Panther_education_Vincent,Classroom,Persistência (t-1),42,0.05667565207903423
+Panther_education_Vincent,Classroom,Persistência (t-1),505,0.05667565207903423
+Panther_education_Vincent,Classroom,Persistência (t-1),11,0.05667565207903423
+Panther_education_Vincent,Classroom,GRU zero-shot,42,0.029147508208980055
+Panther_education_Vincent,Classroom,GRU zero-shot,505,0.02855181964836713
+Panther_education_Vincent,Classroom,GRU zero-shot,11,0.028463984964246198
+Panther_education_Vincent,Classroom,GRU FT uniforme,42,0.02936567618909142
+Panther_education_Vincent,Classroom,GRU FT uniforme,505,0.028271449696088614
+Panther_education_Vincent,Classroom,GRU FT uniforme,11,0.028237719359221827
+Panther_education_Vincent,Classroom,GRU FT parada pela val.,42,0.028419635538635225
+Panther_education_Vincent,Classroom,GRU FT parada pela val.,505,0.027568943574041993
+Panther_education_Vincent,Classroom,GRU FT parada pela val.,11,0.027659238066959482
+Panther_education_Shelton,Classroom,época escolhida,42,14.0
+Panther_education_Shelton,Classroom,época escolhida,505,1.0
+Panther_education_Shelton,Classroom,época escolhida,11,11.0
+Panther_education_Shelton,Classroom,Persistência (t-1),42,0.04021513388522257
+Panther_education_Shelton,Classroom,Persistência (t-1),505,0.04021513388522257
+Panther_education_Shelton,Classroom,Persistência (t-1),11,0.04021513388522257
+Panther_education_Shelton,Classroom,GRU zero-shot,42,0.026351153731891803
+Panther_education_Shelton,Classroom,GRU zero-shot,505,0.02633155030920307
+Panther_education_Shelton,Classroom,GRU zero-shot,11,0.026219069646650328
+Panther_education_Shelton,Classroom,GRU FT uniforme,42,0.025772769075446147
+Panther_education_Shelton,Classroom,GRU FT uniforme,505,0.025716715230194677
+Panther_education_Shelton,Classroom,GRU FT uniforme,11,0.025670540124222787
+Panther_education_Shelton,Classroom,GRU FT parada pela val.,42,0.02491044528660127
+Panther_education_Shelton,Classroom,GRU FT parada pela val.,505,0.02558370887258489
+Panther_education_Shelton,Classroom,GRU FT parada pela val.,11,0.02507731692324659
+Panther_office_Karla,Office,época escolhida,42,11.0
+Panther_office_Karla,Office,época escolhida,505,10.0
+Panther_office_Karla,Office,época escolhida,11,10.0
+Panther_office_Karla,Office,Persistência (t-1),42,0.05997950587100794
+Panther_office_Karla,Office,Persistência (t-1),505,0.05997950587100794
+Panther_office_Karla,Office,Persistência (t-1),11,0.05997950587100794
+Panther_office_Karla,Office,GRU zero-shot,42,0.051263424630702076
+Panther_office_Karla,Office,GRU zero-shot,505,0.05094641614706886
+Panther_office_Karla,Office,GRU zero-shot,11,0.05224179130010557
+Panther_office_Karla,Office,GRU FT uniforme,42,0.051078727590450825
+Panther_office_Karla,Office,GRU FT uniforme,505,0.050398747274659754
+Panther_office_Karla,Office,GRU FT uniforme,11,0.05165415498276977
+Panther_office_Karla,Office,GRU FT parada pela val.,42,0.05138620210853229
+Panther_office_Karla,Office,GRU FT parada pela val.,505,0.04973332638946891
+Panther_office_Karla,Office,GRU FT parada pela val.,11,0.050784398825789445
+Panther_education_Sophia,Research,época escolhida,42,22.0
+Panther_education_Sophia,Research,época escolhida,505,45.0
+Panther_education_Sophia,Research,época escolhida,11,20.0
+Panther_education_Sophia,Research,Persistência (t-1),42,0.0236047894257759
+Panther_education_Sophia,Research,Persistência (t-1),505,0.0236047894257759
+Panther_education_Sophia,Research,Persistência (t-1),11,0.0236047894257759
+Panther_education_Sophia,Research,GRU zero-shot,42,0.020135119268014937
+Panther_education_Sophia,Research,GRU zero-shot,505,0.02053785941301355
+Panther_education_Sophia,Research,GRU zero-shot,11,0.020158855636616072
+Panther_education_Sophia,Research,GRU FT uniforme,42,0.019973551349592698
+Panther_education_Sophia,Research,GRU FT uniforme,505,0.020370657303050366
+Panther_education_Sophia,Research,GRU FT uniforme,11,0.019876176054840225
+Panther_education_Sophia,Research,GRU FT parada pela val.,42,0.018792675669796394
+Panther_education_Sophia,Research,GRU FT parada pela val.,505,0.01927758812280084
+Panther_education_Sophia,Research,GRU FT parada pela val.,11,0.018608000400636877
+Panther_education_Annetta,Classroom,época escolhida,42,0.0
+Panther_education_Annetta,Classroom,época escolhida,505,0.0
+Panther_education_Annetta,Classroom,época escolhida,11,1.0
+Panther_education_Annetta,Classroom,Persistência (t-1),42,0.09371160872322337
+Panther_education_Annetta,Classroom,Persistência (t-1),505,0.09371160872322337
+Panther_education_Annetta,Classroom,Persistência (t-1),11,0.09371160872322337
+Panther_education_Annetta,Classroom,GRU zero-shot,42,0.05994684295126507
+Panther_education_Annetta,Classroom,GRU zero-shot,505,0.05813042443368862
+Panther_education_Annetta,Classroom,GRU zero-shot,11,0.05952132496610124
+Panther_education_Annetta,Classroom,GRU FT uniforme,42,0.06028178747860217
+Panther_education_Annetta,Classroom,GRU FT uniforme,505,0.05843919837721247
+Panther_education_Annetta,Classroom,GRU FT uniforme,11,0.059478823128022926
+Panther_education_Annetta,Classroom,GRU FT parada pela val.,42,0.05994684295126507
+Panther_education_Annetta,Classroom,GRU FT parada pela val.,505,0.05813042443368862
+Panther_education_Annetta,Classroom,GRU FT parada pela val.,11,0.05940210378038471
+Panther_education_Aurora,Classroom,época escolhida,42,16.0
+Panther_education_Aurora,Classroom,época escolhida,505,15.0
+Panther_education_Aurora,Classroom,época escolhida,11,16.0
+Panther_education_Aurora,Classroom,Persistência (t-1),42,0.10436503188363368
+Panther_education_Aurora,Classroom,Persistência (t-1),505,0.10436503188363368
+Panther_education_Aurora,Classroom,Persistência (t-1),11,0.10436503188363368
+Panther_education_Aurora,Classroom,GRU zero-shot,42,0.04228685871288444
+Panther_education_Aurora,Classroom,GRU zero-shot,505,0.042693451434823
+Panther_education_Aurora,Classroom,GRU zero-shot,11,0.04221329149577717
+Panther_education_Aurora,Classroom,GRU FT uniforme,42,0.04196954686796519
+Panther_education_Aurora,Classroom,GRU FT uniforme,505,0.04221966834750717
+Panther_education_Aurora,Classroom,GRU FT uniforme,11,0.041745159257589835
+Panther_education_Aurora,Classroom,GRU FT parada pela val.,42,0.04086256046962367
+Panther_education_Aurora,Classroom,GRU FT parada pela val.,505,0.040558011464510976
+Panther_education_Aurora,Classroom,GRU FT parada pela val.,11,0.041458167317856544
+Panther_office_Graham,Office,época escolhida,42,2.0
+Panther_office_Graham,Office,época escolhida,505,1.0
+Panther_office_Graham,Office,época escolhida,11,0.0
+Panther_office_Graham,Office,Persistência (t-1),42,0.0869682987051557
+Panther_office_Graham,Office,Persistência (t-1),505,0.0869682987051557
+Panther_office_Graham,Office,Persistência (t-1),11,0.0869682987051557
+Panther_office_Graham,Office,GRU zero-shot,42,0.038786817512699925
+Panther_office_Graham,Office,GRU zero-shot,505,0.03935473226065588
+Panther_office_Graham,Office,GRU zero-shot,11,0.03910145079944353
+Panther_office_Graham,Office,GRU FT uniforme,42,0.039352241677527704
+Panther_office_Graham,Office,GRU FT uniforme,505,0.03914519733606206
+Panther_office_Graham,Office,GRU FT uniforme,11,0.03954618823980883
+Panther_office_Graham,Office,GRU FT parada pela val.,42,0.0388951213716208
+Panther_office_Graham,Office,GRU FT parada pela val.,505,0.038388871049238174
+Panther_office_Graham,Office,GRU FT parada pela val.,11,0.03910145079944353
+Panther_education_Karri,Classroom,época escolhida,42,7.0
+Panther_education_Karri,Classroom,época escolhida,505,8.0
+Panther_education_Karri,Classroom,época escolhida,11,6.0
+Panther_education_Karri,Classroom,Persistência (t-1),42,0.0413054473605274
+Panther_education_Karri,Classroom,Persistência (t-1),505,0.0413054473605274
+Panther_education_Karri,Classroom,Persistência (t-1),11,0.0413054473605274
+Panther_education_Karri,Classroom,GRU zero-shot,42,0.03896658985517341
+Panther_education_Karri,Classroom,GRU zero-shot,505,0.038146742155449886
+Panther_education_Karri,Classroom,GRU zero-shot,11,0.04012389961365518
+Panther_education_Karri,Classroom,GRU FT uniforme,42,0.03833661780696061
+Panther_education_Karri,Classroom,GRU FT uniforme,505,0.03752146320384876
+Panther_education_Karri,Classroom,GRU FT uniforme,11,0.0399436320402895
+Panther_education_Karri,Classroom,GRU FT parada pela val.,42,0.036402535406342786
+Panther_education_Karri,Classroom,GRU FT parada pela val.,505,0.0354693191065528
+Panther_education_Karri,Classroom,GRU FT parada pela val.,11,0.03786029303563651
+Panther_office_Valarie,Office,época escolhida,42,15.0
+Panther_office_Valarie,Office,época escolhida,505,33.0
+Panther_office_Valarie,Office,época escolhida,11,34.0
+Panther_office_Valarie,Office,Persistência (t-1),42,0.13344718040268574
+Panther_office_Valarie,Office,Persistência (t-1),505,0.13344718040268574
+Panther_office_Valarie,Office,Persistência (t-1),11,0.13344718040268574
+Panther_office_Valarie,Office,GRU zero-shot,42,0.11006528373212693
+Panther_office_Valarie,Office,GRU zero-shot,505,0.11109004708461814
+Panther_office_Valarie,Office,GRU zero-shot,11,0.11021455529188684
+Panther_office_Valarie,Office,GRU FT uniforme,42,0.10839430575696368
+Panther_office_Valarie,Office,GRU FT uniforme,505,0.10944881746096197
+Panther_office_Valarie,Office,GRU FT uniforme,11,0.10864367403254747
+Panther_office_Valarie,Office,GRU FT parada pela val.,42,0.10732408634070605
+Panther_office_Valarie,Office,GRU FT parada pela val.,505,0.11221554405519223
+Panther_office_Valarie,Office,GRU FT parada pela val.,11,0.11082850540946146
+Panther_education_Hugh,Research,época escolhida,42,3.0
+Panther_education_Hugh,Research,época escolhida,505,10.0
+Panther_education_Hugh,Research,época escolhida,11,3.0
+Panther_education_Hugh,Research,Persistência (t-1),42,0.016332633583116
+Panther_education_Hugh,Research,Persistência (t-1),505,0.016332633583116
+Panther_education_Hugh,Research,Persistência (t-1),11,0.016332633583116
+Panther_education_Hugh,Research,GRU zero-shot,42,0.013104338205358688
+Panther_education_Hugh,Research,GRU zero-shot,505,0.012887840896358247
+Panther_education_Hugh,Research,GRU zero-shot,11,0.013084759408098487
+Panther_education_Hugh,Research,GRU FT uniforme,42,0.013071309882542789
+Panther_education_Hugh,Research,GRU FT uniforme,505,0.012860947739527537
+Panther_education_Hugh,Research,GRU FT uniforme,11,0.013132767169534607
+Panther_education_Hugh,Research,GRU FT parada pela val.,42,0.01312019633466986
+Panther_education_Hugh,Research,GRU FT parada pela val.,505,0.013518662598997089
+Panther_education_Hugh,Research,GRU FT parada pela val.,11,0.013158428543723625
+Panther_office_Larry,Office,época escolhida,42,4.0
+Panther_office_Larry,Office,época escolhida,505,4.0
+Panther_office_Larry,Office,época escolhida,11,2.0
+Panther_office_Larry,Office,Persistência (t-1),42,0.05831553853983463
+Panther_office_Larry,Office,Persistência (t-1),505,0.05831553853983463
+Panther_office_Larry,Office,Persistência (t-1),11,0.05831553853983463
+Panther_office_Larry,Office,GRU zero-shot,42,0.04771874669983577
+Panther_office_Larry,Office,GRU zero-shot,505,0.04791077058581462
+Panther_office_Larry,Office,GRU zero-shot,11,0.0476748226645464
+Panther_office_Larry,Office,GRU FT uniforme,42,0.04736583701824459
+Panther_office_Larry,Office,GRU FT uniforme,505,0.04738505799771699
+Panther_office_Larry,Office,GRU FT uniforme,11,0.047396933932912264
+Panther_office_Larry,Office,GRU FT parada pela val.,42,0.04742455971843286
+Panther_office_Larry,Office,GRU FT parada pela val.,505,0.04666885521577654
+Panther_office_Larry,Office,GRU FT parada pela val.,11,0.047272561698235495
+Panther_education_Mohammad,Classroom,época escolhida,42,3.0
+Panther_education_Mohammad,Classroom,época escolhida,505,3.0
+Panther_education_Mohammad,Classroom,época escolhida,11,3.0
+Panther_education_Mohammad,Classroom,Persistência (t-1),42,0.0701092863010899
+Panther_education_Mohammad,Classroom,Persistência (t-1),505,0.0701092863010899
+Panther_education_Mohammad,Classroom,Persistência (t-1),11,0.0701092863010899
+Panther_education_Mohammad,Classroom,GRU zero-shot,42,0.04227876028597437
+Panther_education_Mohammad,Classroom,GRU zero-shot,505,0.04171416906954084
+Panther_education_Mohammad,Classroom,GRU zero-shot,11,0.0420729746431437
+Panther_education_Mohammad,Classroom,GRU FT uniforme,42,0.04174596750382286
+Panther_education_Mohammad,Classroom,GRU FT uniforme,505,0.04083974446786586
+Panther_education_Mohammad,Classroom,GRU FT uniforme,11,0.04176347033537116
+Panther_education_Mohammad,Classroom,GRU FT parada pela val.,42,0.04127495899111422
+Panther_education_Mohammad,Classroom,GRU FT parada pela val.,505,0.0397531475895527
+Panther_education_Mohammad,Classroom,GRU FT parada pela val.,11,0.0408499035821644
+Panther_office_Jeane,Office,época escolhida,42,17.0
+Panther_office_Jeane,Office,época escolhida,505,13.0
+Panther_office_Jeane,Office,época escolhida,11,10.0
+Panther_office_Jeane,Office,Persistência (t-1),42,0.13031652898038926
+Panther_office_Jeane,Office,Persistência (t-1),505,0.13031652898038926
+Panther_office_Jeane,Office,Persistência (t-1),11,0.13031652898038926
+Panther_office_Jeane,Office,GRU zero-shot,42,0.1046985700566077
+Panther_office_Jeane,Office,GRU zero-shot,505,0.10479934838483213
+Panther_office_Jeane,Office,GRU zero-shot,11,0.10597488279135128
+Panther_office_Jeane,Office,GRU FT uniforme,42,0.10346905599727214
+Panther_office_Jeane,Office,GRU FT uniforme,505,0.10338999692265034
+Panther_office_Jeane,Office,GRU FT uniforme,11,0.1045112102306203
+Panther_office_Jeane,Office,GRU FT parada pela val.,42,0.09641693785295723
+Panther_office_Jeane,Office,GRU FT parada pela val.,505,0.09741598914939345
+Panther_office_Jeane,Office,GRU FT parada pela val.,11,0.09869501491269991
+Panther_education_Jonathan,Research,época escolhida,42,2.0
+Panther_education_Jonathan,Research,época escolhida,505,6.0
+Panther_education_Jonathan,Research,época escolhida,11,7.0
+Panther_education_Jonathan,Research,Persistência (t-1),42,0.0912288389761602
+Panther_education_Jonathan,Research,Persistência (t-1),505,0.0912288389761602
+Panther_education_Jonathan,Research,Persistência (t-1),11,0.0912288389761602
+Panther_education_Jonathan,Research,GRU zero-shot,42,0.07908840254812391
+Panther_education_Jonathan,Research,GRU zero-shot,505,0.0784812090499946
+Panther_education_Jonathan,Research,GRU zero-shot,11,0.07921471452640988
+Panther_education_Jonathan,Research,GRU FT uniforme,42,0.07871380383023789
+Panther_education_Jonathan,Research,GRU FT uniforme,505,0.07819249686054859
+Panther_education_Jonathan,Research,GRU FT uniforme,11,0.0786754679274949
+Panther_education_Jonathan,Research,GRU FT parada pela val.,42,0.07839930006541884
+Panther_education_Jonathan,Research,GRU FT parada pela val.,505,0.07797860620766811
+Panther_education_Jonathan,Research,GRU FT parada pela val.,11,0.07898011035286225
+Panther_education_Genevieve,Classroom,época escolhida,42,2.0
+Panther_education_Genevieve,Classroom,época escolhida,505,2.0
+Panther_education_Genevieve,Classroom,época escolhida,11,3.0
+Panther_education_Genevieve,Classroom,Persistência (t-1),42,0.04538103146709553
+Panther_education_Genevieve,Classroom,Persistência (t-1),505,0.04538103146709553
+Panther_education_Genevieve,Classroom,Persistência (t-1),11,0.04538103146709553
+Panther_education_Genevieve,Classroom,GRU zero-shot,42,0.02075453873612429
+Panther_education_Genevieve,Classroom,GRU zero-shot,505,0.020280650785835443
+Panther_education_Genevieve,Classroom,GRU zero-shot,11,0.020639341918476304
+Panther_education_Genevieve,Classroom,GRU FT uniforme,42,0.020390790646305834
+Panther_education_Genevieve,Classroom,GRU FT uniforme,505,0.0199772489800305
+Panther_education_Genevieve,Classroom,GRU FT uniforme,11,0.020030748070648485
+Panther_education_Genevieve,Classroom,GRU FT parada pela val.,42,0.0203638271079054
+Panther_education_Genevieve,Classroom,GRU FT parada pela val.,505,0.019871175833947746
+Panther_education_Genevieve,Classroom,GRU FT parada pela val.,11,0.01980902941973163
+Panther_education_Alecia,Classroom,época escolhida,42,10.0
+Panther_education_Alecia,Classroom,época escolhida,505,5.0
+Panther_education_Alecia,Classroom,época escolhida,11,11.0
+Panther_education_Alecia,Classroom,Persistência (t-1),42,0.09043086238347119
+Panther_education_Alecia,Classroom,Persistência (t-1),505,0.09043086238347119
+Panther_education_Alecia,Classroom,Persistência (t-1),11,0.09043086238347119
+Panther_education_Alecia,Classroom,GRU zero-shot,42,0.030538857406727304
+Panther_education_Alecia,Classroom,GRU zero-shot,505,0.03096417571799946
+Panther_education_Alecia,Classroom,GRU zero-shot,11,0.030714242998745363
+Panther_education_Alecia,Classroom,GRU FT uniforme,42,0.030133070811518916
+Panther_education_Alecia,Classroom,GRU FT uniforme,505,0.030593692877493958
+Panther_education_Alecia,Classroom,GRU FT uniforme,11,0.03050937876383323
+Panther_education_Alecia,Classroom,GRU FT parada pela val.,42,0.02934411858835729
+Panther_education_Alecia,Classroom,GRU FT parada pela val.,505,0.030617932221877812
+Panther_education_Alecia,Classroom,GRU FT parada pela val.,11,0.029655956916878914
+Panther_office_Jesus,Office,época escolhida,42,7.0
+Panther_office_Jesus,Office,época escolhida,505,11.0
+Panther_office_Jesus,Office,época escolhida,11,10.0
+Panther_office_Jesus,Office,Persistência (t-1),42,0.09960205773190697
+Panther_office_Jesus,Office,Persistência (t-1),505,0.09960205773190697
+Panther_office_Jesus,Office,Persistência (t-1),11,0.09960205773190697
+Panther_office_Jesus,Office,GRU zero-shot,42,0.04867266423264543
+Panther_office_Jesus,Office,GRU zero-shot,505,0.048537094647288136
+Panther_office_Jesus,Office,GRU zero-shot,11,0.04795814016600977
+Panther_office_Jesus,Office,GRU FT uniforme,42,0.04650216998041488
+Panther_office_Jesus,Office,GRU FT uniforme,505,0.046416961044261205
+Panther_office_Jesus,Office,GRU FT uniforme,11,0.04619839694500027
+Panther_office_Jesus,Office,GRU FT parada pela val.,42,0.04573154927136236
+Panther_office_Jesus,Office,GRU FT parada pela val.,505,0.047574329115494765
+Panther_office_Jesus,Office,GRU FT parada pela val.,11,0.0458408535283855
+Panther_office_Catherine,Office,época escolhida,42,2.0
+Panther_office_Catherine,Office,época escolhida,505,16.0
+Panther_office_Catherine,Office,época escolhida,11,5.0
+Panther_office_Catherine,Office,Persistência (t-1),42,0.19292245640040262
+Panther_office_Catherine,Office,Persistência (t-1),505,0.19292245640040262
+Panther_office_Catherine,Office,Persistência (t-1),11,0.19292245640040262
+Panther_office_Catherine,Office,GRU zero-shot,42,0.09090225019970846
+Panther_office_Catherine,Office,GRU zero-shot,505,0.09222093720764848
+Panther_office_Catherine,Office,GRU zero-shot,11,0.0909953241256948
+Panther_office_Catherine,Office,GRU FT uniforme,42,0.0898343027980024
+Panther_office_Catherine,Office,GRU FT uniforme,505,0.09117017565585264
+Panther_office_Catherine,Office,GRU FT uniforme,11,0.0901904061648025
+Panther_office_Catherine,Office,GRU FT parada pela val.,42,0.08910395682144548
+Panther_office_Catherine,Office,GRU FT parada pela val.,505,0.08848780149310378
+Panther_office_Catherine,Office,GRU FT parada pela val.,11,0.08967343258258886
+Panther_office_Garth,Office,época escolhida,42,5.0
+Panther_office_Garth,Office,época escolhida,505,3.0
+Panther_office_Garth,Office,época escolhida,11,3.0
+Panther_office_Garth,Office,Persistência (t-1),42,0.09324104976659696
+Panther_office_Garth,Office,Persistência (t-1),505,0.09324104976659696
+Panther_office_Garth,Office,Persistência (t-1),11,0.09324104976659696
+Panther_office_Garth,Office,GRU zero-shot,42,0.0706851303178469
+Panther_office_Garth,Office,GRU zero-shot,505,0.07698777438795518
+Panther_office_Garth,Office,GRU zero-shot,11,0.07268936328993203
+Panther_office_Garth,Office,GRU FT uniforme,42,0.06938867415968772
+Panther_office_Garth,Office,GRU FT uniforme,505,0.07562545820915953
+Panther_office_Garth,Office,GRU FT uniforme,11,0.07177377524541233
+Panther_office_Garth,Office,GRU FT parada pela val.,42,0.0682745264486803
+Panther_office_Garth,Office,GRU FT parada pela val.,505,0.07446567701109667
+Panther_office_Garth,Office,GRU FT parada pela val.,11,0.07075384050451429
+Panther_education_Teofila,Classroom,época escolhida,42,3.0
+Panther_education_Teofila,Classroom,época escolhida,505,3.0
+Panther_education_Teofila,Classroom,época escolhida,11,3.0
+Panther_education_Teofila,Classroom,Persistência (t-1),42,0.096262123198621
+Panther_education_Teofila,Classroom,Persistência (t-1),505,0.096262123198621
+Panther_education_Teofila,Classroom,Persistência (t-1),11,0.096262123198621
+Panther_education_Teofila,Classroom,GRU zero-shot,42,0.04459863495249138
+Panther_education_Teofila,Classroom,GRU zero-shot,505,0.04492495832334667
+Panther_education_Teofila,Classroom,GRU zero-shot,11,0.04477972483217934
+Panther_education_Teofila,Classroom,GRU FT uniforme,42,0.04390894616743142
+Panther_education_Teofila,Classroom,GRU FT uniforme,505,0.0444110238007912
+Panther_education_Teofila,Classroom,GRU FT uniforme,11,0.04419208722678326
+Panther_education_Teofila,Classroom,GRU FT parada pela val.,42,0.04271301999698784
+Panther_education_Teofila,Classroom,GRU FT parada pela val.,505,0.0443113976947213
+Panther_education_Teofila,Classroom,GRU FT parada pela val.,11,0.043645142048328735
+Panther_education_Ivan,Classroom,época escolhida,42,19.0
+Panther_education_Ivan,Classroom,época escolhida,505,17.0
+Panther_education_Ivan,Classroom,época escolhida,11,22.0
+Panther_education_Ivan,Classroom,Persistência (t-1),42,0.09035613847505293
+Panther_education_Ivan,Classroom,Persistência (t-1),505,0.09035613847505293
+Panther_education_Ivan,Classroom,Persistência (t-1),11,0.09035613847505293
+Panther_education_Ivan,Classroom,GRU zero-shot,42,0.05052480520916184
+Panther_education_Ivan,Classroom,GRU zero-shot,505,0.05093869371382785
+Panther_education_Ivan,Classroom,GRU zero-shot,11,0.05049946825850772
+Panther_education_Ivan,Classroom,GRU FT uniforme,42,0.04983523515294445
+Panther_education_Ivan,Classroom,GRU FT uniforme,505,0.05028466768523679
+Panther_education_Ivan,Classroom,GRU FT uniforme,11,0.04983284456011047
+Panther_education_Ivan,Classroom,GRU FT parada pela val.,42,0.04994531051825504
+Panther_education_Ivan,Classroom,GRU FT parada pela val.,505,0.05137841057217537
+Panther_education_Ivan,Classroom,GRU FT parada pela val.,11,0.050755404457444434
+Panther_office_Shauna,Office,época escolhida,42,1.0
+Panther_office_Shauna,Office,época escolhida,505,3.0
+Panther_office_Shauna,Office,época escolhida,11,1.0
+Panther_office_Shauna,Office,Persistência (t-1),42,0.2940811713431592
+Panther_office_Shauna,Office,Persistência (t-1),505,0.2940811713431592
+Panther_office_Shauna,Office,Persistência (t-1),11,0.2940811713431592
+Panther_office_Shauna,Office,GRU zero-shot,42,0.18788235504012055
+Panther_office_Shauna,Office,GRU zero-shot,505,0.18444780810934683
+Panther_office_Shauna,Office,GRU zero-shot,11,0.18198570808810355
+Panther_office_Shauna,Office,GRU FT uniforme,42,0.1868553797691472
+Panther_office_Shauna,Office,GRU FT uniforme,505,0.18376999877888114
+Panther_office_Shauna,Office,GRU FT uniforme,11,0.17953650836717228
+Panther_office_Shauna,Office,GRU FT parada pela val.,42,0.18676868942499752
+Panther_office_Shauna,Office,GRU FT parada pela val.,505,0.18259248887681462
+Panther_office_Shauna,Office,GRU FT parada pela val.,11,0.17901732760676323
+Panther_office_Lois,Office,época escolhida,42,0.0
+Panther_office_Lois,Office,época escolhida,505,2.0
+Panther_office_Lois,Office,época escolhida,11,2.0
+Panther_office_Lois,Office,Persistência (t-1),42,0.010829445437889017
+Panther_office_Lois,Office,Persistência (t-1),505,0.010829445437889017
+Panther_office_Lois,Office,Persistência (t-1),11,0.010829445437889017
+Panther_office_Lois,Office,GRU zero-shot,42,0.009598700827725458
+Panther_office_Lois,Office,GRU zero-shot,505,0.009660684941936148
+Panther_office_Lois,Office,GRU zero-shot,11,0.009872851923937827
+Panther_office_Lois,Office,GRU FT uniforme,42,0.009667401285685419
+Panther_office_Lois,Office,GRU FT uniforme,505,0.00972559830588442
+Panther_office_Lois,Office,GRU FT uniforme,11,0.009806430172487933
+Panther_office_Lois,Office,GRU FT parada pela val.,42,0.009598700827725458
+Panther_office_Lois,Office,GRU FT parada pela val.,505,0.009935113872779395
+Panther_office_Lois,Office,GRU FT parada pela val.,11,0.009801204995967747
+Panther_office_Taryn,Office,época escolhida,42,15.0
+Panther_office_Taryn,Office,época escolhida,505,12.0
+Panther_office_Taryn,Office,época escolhida,11,10.0
+Panther_office_Taryn,Office,Persistência (t-1),42,0.06772280151947706
+Panther_office_Taryn,Office,Persistência (t-1),505,0.06772280151947706
+Panther_office_Taryn,Office,Persistência (t-1),11,0.06772280151947706
+Panther_office_Taryn,Office,GRU zero-shot,42,0.0340011713236518
+Panther_office_Taryn,Office,GRU zero-shot,505,0.03440620555251032
+Panther_office_Taryn,Office,GRU zero-shot,11,0.03283759488342356
+Panther_office_Taryn,Office,GRU FT uniforme,42,0.033085515546428135
+Panther_office_Taryn,Office,GRU FT uniforme,505,0.03340674227715774
+Panther_office_Taryn,Office,GRU FT uniforme,11,0.0328114724813871
+Panther_office_Taryn,Office,GRU FT parada pela val.,42,0.03242326454045293
+Panther_office_Taryn,Office,GRU FT parada pela val.,505,0.03139418375608823
+Panther_office_Taryn,Office,GRU FT parada pela val.,11,0.03259070246378518
+Panther_office_Kristen,Office,época escolhida,42,12.0
+Panther_office_Kristen,Office,época escolhida,505,21.0
+Panther_office_Kristen,Office,época escolhida,11,8.0
+Panther_office_Kristen,Office,Persistência (t-1),42,0.06799150868223722
+Panther_office_Kristen,Office,Persistência (t-1),505,0.06799150868223722
+Panther_office_Kristen,Office,Persistência (t-1),11,0.06799150868223722
+Panther_office_Kristen,Office,GRU zero-shot,42,0.05749912721905552
+Panther_office_Kristen,Office,GRU zero-shot,505,0.05635850653586102
+Panther_office_Kristen,Office,GRU zero-shot,11,0.05555649387844847
+Panther_office_Kristen,Office,GRU FT uniforme,42,0.05679071177557019
+Panther_office_Kristen,Office,GRU FT uniforme,505,0.05584813939456225
+Panther_office_Kristen,Office,GRU FT uniforme,11,0.05515170704573266
+Panther_office_Kristen,Office,GRU FT parada pela val.,42,0.05610123306928037
+Panther_office_Kristen,Office,GRU FT parada pela val.,505,0.056163967826716545
+Panther_office_Kristen,Office,GRU FT parada pela val.,11,0.05517533553095888
+Panther_education_Edna,Classroom,época escolhida,42,24.0
+Panther_education_Edna,Classroom,época escolhida,505,18.0
+Panther_education_Edna,Classroom,época escolhida,11,23.0
+Panther_education_Edna,Classroom,Persistência (t-1),42,0.08278753998388362
+Panther_education_Edna,Classroom,Persistência (t-1),505,0.08278753998388362
+Panther_education_Edna,Classroom,Persistência (t-1),11,0.08278753998388362
+Panther_education_Edna,Classroom,GRU zero-shot,42,0.03458485417513268
+Panther_education_Edna,Classroom,GRU zero-shot,505,0.03651935994373074
+Panther_education_Edna,Classroom,GRU zero-shot,11,0.03597491760417026
+Panther_education_Edna,Classroom,GRU FT uniforme,42,0.03465328851008485
+Panther_education_Edna,Classroom,GRU FT uniforme,505,0.03568599233258153
+Panther_education_Edna,Classroom,GRU FT uniforme,11,0.03593440217573312
+Panther_education_Edna,Classroom,GRU FT parada pela val.,42,0.03781609851106026
+Panther_education_Edna,Classroom,GRU FT parada pela val.,505,0.037629010388798186
+Panther_education_Edna,Classroom,GRU FT parada pela val.,11,0.03841864242198295
+Panther_education_Violet,Research,época escolhida,42,6.0
+Panther_education_Violet,Research,época escolhida,505,13.0
+Panther_education_Violet,Research,época escolhida,11,3.0
+Panther_education_Violet,Research,Persistência (t-1),42,0.04118681804765264
+Panther_education_Violet,Research,Persistência (t-1),505,0.04118681804765264
+Panther_education_Violet,Research,Persistência (t-1),11,0.04118681804765264
+Panther_education_Violet,Research,GRU zero-shot,42,0.03673170315925518
+Panther_education_Violet,Research,GRU zero-shot,505,0.03651643148721178
+Panther_education_Violet,Research,GRU zero-shot,11,0.035732803045795736
+Panther_education_Violet,Research,GRU FT uniforme,42,0.036404669566152334
+Panther_education_Violet,Research,GRU FT uniforme,505,0.03612429024389848
+Panther_education_Violet,Research,GRU FT uniforme,11,0.03544424485056458
+Panther_education_Violet,Research,GRU FT parada pela val.,42,0.03565330107846818
+Panther_education_Violet,Research,GRU FT parada pela val.,505,0.035311318125455786
+Panther_education_Violet,Research,GRU FT parada pela val.,11,0.03497398108852507
+Panther_office_Christian,Office,época escolhida,42,21.0
+Panther_office_Christian,Office,época escolhida,505,11.0
+Panther_office_Christian,Office,época escolhida,11,11.0
+Panther_office_Christian,Office,Persistência (t-1),42,0.12989024785083206
+Panther_office_Christian,Office,Persistência (t-1),505,0.12989024785083206
+Panther_office_Christian,Office,Persistência (t-1),11,0.12989024785083206
+Panther_office_Christian,Office,GRU zero-shot,42,0.09713950387058197
+Panther_office_Christian,Office,GRU zero-shot,505,0.09909057382963266
+Panther_office_Christian,Office,GRU zero-shot,11,0.09788360326926453
+Panther_office_Christian,Office,GRU FT uniforme,42,0.09368491978775192
+Panther_office_Christian,Office,GRU FT uniforme,505,0.09514748958267019
+Panther_office_Christian,Office,GRU FT uniforme,11,0.09452327953117018
+Panther_office_Christian,Office,GRU FT parada pela val.,42,0.08611119355916096
+Panther_office_Christian,Office,GRU FT parada pela val.,505,0.08478871477590512
+Panther_office_Christian,Office,GRU FT parada pela val.,11,0.08602990940274963
+Panther_education_Neal,Classroom,época escolhida,42,13.0
+Panther_education_Neal,Classroom,época escolhida,505,17.0
+Panther_education_Neal,Classroom,época escolhida,11,27.0
+Panther_education_Neal,Classroom,Persistência (t-1),42,0.2545534040189241
+Panther_education_Neal,Classroom,Persistência (t-1),505,0.2545534040189241
+Panther_education_Neal,Classroom,Persistência (t-1),11,0.2545534040189241
+Panther_education_Neal,Classroom,GRU zero-shot,42,0.1506817891039951
+Panther_education_Neal,Classroom,GRU zero-shot,505,0.1487731787045775
+Panther_education_Neal,Classroom,GRU zero-shot,11,0.14672543248365738
+Panther_education_Neal,Classroom,GRU FT uniforme,42,0.14447849416203246
+Panther_education_Neal,Classroom,GRU FT uniforme,505,0.14376743021419316
+Panther_education_Neal,Classroom,GRU FT uniforme,11,0.1410958296227069
+Panther_education_Neal,Classroom,GRU FT parada pela val.,42,0.13261354449595047
+Panther_education_Neal,Classroom,GRU FT parada pela val.,505,0.1308872460741524
+Panther_education_Neal,Classroom,GRU FT parada pela val.,11,0.12653013931092513
+Panther_education_Zelda,Classroom,época escolhida,42,16.0
+Panther_education_Zelda,Classroom,época escolhida,505,19.0
+Panther_education_Zelda,Classroom,época escolhida,11,18.0
+Panther_education_Zelda,Classroom,Persistência (t-1),42,0.12706923153849348
+Panther_education_Zelda,Classroom,Persistência (t-1),505,0.12706923153849348
+Panther_education_Zelda,Classroom,Persistência (t-1),11,0.12706923153849348
+Panther_education_Zelda,Classroom,GRU zero-shot,42,0.04305373744505639
+Panther_education_Zelda,Classroom,GRU zero-shot,505,0.042032815637828076
+Panther_education_Zelda,Classroom,GRU zero-shot,11,0.044839707389863245
+Panther_education_Zelda,Classroom,GRU FT uniforme,42,0.04448268914572753
+Panther_education_Zelda,Classroom,GRU FT uniforme,505,0.04292521828494978
+Panther_education_Zelda,Classroom,GRU FT uniforme,11,0.044443304984047874
+Panther_education_Zelda,Classroom,GRU FT parada pela val.,42,0.045725770215512815
+Panther_education_Zelda,Classroom,GRU FT parada pela val.,505,0.04657607846236145
+Panther_education_Zelda,Classroom,GRU FT parada pela val.,11,0.049350346030792004
+Panther_education_Jerome,Research,época escolhida,42,6.0
+Panther_education_Jerome,Research,época escolhida,505,16.0
+Panther_education_Jerome,Research,época escolhida,11,12.0
+Panther_education_Jerome,Research,Persistência (t-1),42,0.029658592711910226
+Panther_education_Jerome,Research,Persistência (t-1),505,0.029658592711910226
+Panther_education_Jerome,Research,Persistência (t-1),11,0.029658592711910226
+Panther_education_Jerome,Research,GRU zero-shot,42,0.02111613139507751
+Panther_education_Jerome,Research,GRU zero-shot,505,0.020723356201452995
+Panther_education_Jerome,Research,GRU zero-shot,11,0.021291364974518515
+Panther_education_Jerome,Research,GRU FT uniforme,42,0.020816301451954754
+Panther_education_Jerome,Research,GRU FT uniforme,505,0.02040367337167771
+Panther_education_Jerome,Research,GRU FT uniforme,11,0.02099473042236047
+Panther_education_Jerome,Research,GRU FT parada pela val.,42,0.020263242239435934
+Panther_education_Jerome,Research,GRU FT parada pela val.,505,0.01982788655256527
+Panther_education_Jerome,Research,GRU FT parada pela val.,11,0.020376632414765186
+Panther_education_Enriqueta,Classroom,época escolhida,42,30.0
+Panther_education_Enriqueta,Classroom,época escolhida,505,6.0
+Panther_education_Enriqueta,Classroom,época escolhida,11,18.0
+Panther_education_Enriqueta,Classroom,Persistência (t-1),42,0.2213808671493797
+Panther_education_Enriqueta,Classroom,Persistência (t-1),505,0.2213808671493797
+Panther_education_Enriqueta,Classroom,Persistência (t-1),11,0.2213808671493797
+Panther_education_Enriqueta,Classroom,GRU zero-shot,42,0.16794565360661257
+Panther_education_Enriqueta,Classroom,GRU zero-shot,505,0.16751645208364158
+Panther_education_Enriqueta,Classroom,GRU zero-shot,11,0.167667353646533
+Panther_education_Enriqueta,Classroom,GRU FT uniforme,42,0.16539246424449922
+Panther_education_Enriqueta,Classroom,GRU FT uniforme,505,0.16499562278086816
+Panther_education_Enriqueta,Classroom,GRU FT uniforme,11,0.16522409833530427
+Panther_education_Enriqueta,Classroom,GRU FT parada pela val.,42,0.16228486011109003
+Panther_education_Enriqueta,Classroom,GRU FT parada pela val.,505,0.1593168773546177
+Panther_education_Enriqueta,Classroom,GRU FT parada pela val.,11,0.16330972414744804
+Panther_office_Lauretta,Office,época escolhida,42,12.0
+Panther_office_Lauretta,Office,época escolhida,505,5.0
+Panther_office_Lauretta,Office,época escolhida,11,8.0
+Panther_office_Lauretta,Office,Persistência (t-1),42,0.04270812101061887
+Panther_office_Lauretta,Office,Persistência (t-1),505,0.04270812101061887
+Panther_office_Lauretta,Office,Persistência (t-1),11,0.04270812101061887
+Panther_office_Lauretta,Office,GRU zero-shot,42,0.03639063283586804
+Panther_office_Lauretta,Office,GRU zero-shot,505,0.03608897328089255
+Panther_office_Lauretta,Office,GRU zero-shot,11,0.03551988354416775
+Panther_office_Lauretta,Office,GRU FT uniforme,42,0.036109694681189596
+Panther_office_Lauretta,Office,GRU FT uniforme,505,0.03600311649502688
+Panther_office_Lauretta,Office,GRU FT uniforme,11,0.03531211719436167
+Panther_office_Lauretta,Office,GRU FT parada pela val.,42,0.037488230203378256
+Panther_office_Lauretta,Office,GRU FT parada pela val.,505,0.03709697012415656
+Panther_office_Lauretta,Office,GRU FT parada pela val.,11,0.035583059616078806
+Panther_office_Patti,Office,época escolhida,42,0.0
+Panther_office_Patti,Office,época escolhida,505,3.0
+Panther_office_Patti,Office,época escolhida,11,3.0
+Panther_office_Patti,Office,Persistência (t-1),42,0.07826139828681826
+Panther_office_Patti,Office,Persistência (t-1),505,0.07826139828681826
+Panther_office_Patti,Office,Persistência (t-1),11,0.07826139828681826
+Panther_office_Patti,Office,GRU zero-shot,42,0.048594139344944734
+Panther_office_Patti,Office,GRU zero-shot,505,0.048248141486106705
+Panther_office_Patti,Office,GRU zero-shot,11,0.047846822453297556
+Panther_office_Patti,Office,GRU FT uniforme,42,0.04785442430523264
+Panther_office_Patti,Office,GRU FT uniforme,505,0.04746695945227627
+Panther_office_Patti,Office,GRU FT uniforme,11,0.046678465469899275
+Panther_office_Patti,Office,GRU FT parada pela val.,42,0.048594139344944734
+Panther_office_Patti,Office,GRU FT parada pela val.,505,0.046349210722038146
+Panther_office_Patti,Office,GRU FT parada pela val.,11,0.04484890002986991
+Panther_office_Brent,Office,época escolhida,42,6.0
+Panther_office_Brent,Office,época escolhida,505,8.0
+Panther_office_Brent,Office,época escolhida,11,5.0
+Panther_office_Brent,Office,Persistência (t-1),42,0.3301139564128939
+Panther_office_Brent,Office,Persistência (t-1),505,0.3301139564128939
+Panther_office_Brent,Office,Persistência (t-1),11,0.3301139564128939
+Panther_office_Brent,Office,GRU zero-shot,42,0.26953511910800204
+Panther_office_Brent,Office,GRU zero-shot,505,0.2697520512367871
+Panther_office_Brent,Office,GRU zero-shot,11,0.2691434956831247
+Panther_office_Brent,Office,GRU FT uniforme,42,0.2662132690674358
+Panther_office_Brent,Office,GRU FT uniforme,505,0.26559521791555707
+Panther_office_Brent,Office,GRU FT uniforme,11,0.2655813478595639
+Panther_office_Brent,Office,GRU FT parada pela val.,42,0.25933809457223156
+Panther_office_Brent,Office,GRU FT parada pela val.,505,0.25863343390192
+Panther_office_Brent,Office,GRU FT parada pela val.,11,0.2588492051123961
+Panther_office_Hannah,Office,época escolhida,42,4.0
+Panther_office_Hannah,Office,época escolhida,505,3.0
+Panther_office_Hannah,Office,época escolhida,11,2.0
+Panther_office_Hannah,Office,Persistência (t-1),42,0.16142565813043933
+Panther_office_Hannah,Office,Persistência (t-1),505,0.16142565813043933
+Panther_office_Hannah,Office,Persistência (t-1),11,0.16142565813043933
+Panther_office_Hannah,Office,GRU zero-shot,42,0.12619390928610622
+Panther_office_Hannah,Office,GRU zero-shot,505,0.1284907751680837
+Panther_office_Hannah,Office,GRU zero-shot,11,0.12902386058325435
+Panther_office_Hannah,Office,GRU FT uniforme,42,0.12485260322819236
+Panther_office_Hannah,Office,GRU FT uniforme,505,0.12664886344629228
+Panther_office_Hannah,Office,GRU FT uniforme,11,0.12730537092556646
+Panther_office_Hannah,Office,GRU FT parada pela val.,42,0.12181025887553959
+Panther_office_Hannah,Office,GRU FT parada pela val.,505,0.1238300019792147
+Panther_office_Hannah,Office,GRU FT parada pela val.,11,0.12599912836280322
+Panther_education_Janis,Research,época escolhida,42,29.0
+Panther_education_Janis,Research,época escolhida,505,28.0
+Panther_education_Janis,Research,época escolhida,11,17.0
+Panther_education_Janis,Research,Persistência (t-1),42,0.1292331480350805
+Panther_education_Janis,Research,Persistência (t-1),505,0.1292331480350805
+Panther_education_Janis,Research,Persistência (t-1),11,0.1292331480350805
+Panther_education_Janis,Research,GRU zero-shot,42,0.09252769188839861
+Panther_education_Janis,Research,GRU zero-shot,505,0.0924911418374144
+Panther_education_Janis,Research,GRU zero-shot,11,0.09357400647882912
+Panther_education_Janis,Research,GRU FT uniforme,42,0.09081612062126003
+Panther_education_Janis,Research,GRU FT uniforme,505,0.09091834618350532
+Panther_education_Janis,Research,GRU FT uniforme,11,0.0917394408475514
+Panther_education_Janis,Research,GRU FT parada pela val.,42,0.09067515161417777
+Panther_education_Janis,Research,GRU FT parada pela val.,505,0.09031134728595566
+Panther_education_Janis,Research,GRU FT parada pela val.,11,0.08967891302018743
+Panther_education_Emily,Classroom,época escolhida,42,14.0
+Panther_education_Emily,Classroom,época escolhida,505,21.0
+Panther_education_Emily,Classroom,época escolhida,11,35.0
+Panther_education_Emily,Classroom,Persistência (t-1),42,0.1659714602807463
+Panther_education_Emily,Classroom,Persistência (t-1),505,0.1659714602807463
+Panther_education_Emily,Classroom,Persistência (t-1),11,0.1659714602807463
+Panther_education_Emily,Classroom,GRU zero-shot,42,0.05952568479098297
+Panther_education_Emily,Classroom,GRU zero-shot,505,0.06126122360488317
+Panther_education_Emily,Classroom,GRU zero-shot,11,0.05978086897466594
+Panther_education_Emily,Classroom,GRU FT uniforme,42,0.05756445631437614
+Panther_education_Emily,Classroom,GRU FT uniforme,505,0.05960078180444446
+Panther_education_Emily,Classroom,GRU FT uniforme,11,0.05804784813794358
+Panther_education_Emily,Classroom,GRU FT parada pela val.,42,0.055072894632466424
+Panther_education_Emily,Classroom,GRU FT parada pela val.,505,0.056199920121906805
+Panther_education_Emily,Classroom,GRU FT parada pela val.,11,0.056071058156070906
+Panther_office_Lavinia,Office,época escolhida,42,3.0
+Panther_office_Lavinia,Office,época escolhida,505,1.0
+Panther_office_Lavinia,Office,época escolhida,11,35.0
+Panther_office_Lavinia,Office,Persistência (t-1),42,0.05471579305157061
+Panther_office_Lavinia,Office,Persistência (t-1),505,0.05471579305157061
+Panther_office_Lavinia,Office,Persistência (t-1),11,0.05471579305157061
+Panther_office_Lavinia,Office,GRU zero-shot,42,0.039685141531152754
+Panther_office_Lavinia,Office,GRU zero-shot,505,0.0392267686204059
+Panther_office_Lavinia,Office,GRU zero-shot,11,0.03962075412660089
+Panther_office_Lavinia,Office,GRU FT uniforme,42,0.039406583577842366
+Panther_office_Lavinia,Office,GRU FT uniforme,505,0.03915300620312422
+Panther_office_Lavinia,Office,GRU FT uniforme,11,0.03945336042518216
+Panther_office_Lavinia,Office,GRU FT parada pela val.,42,0.03952006151646164
+Panther_office_Lavinia,Office,GRU FT parada pela val.,505,0.03927146616771874
+Panther_office_Lavinia,Office,GRU FT parada pela val.,11,0.04157083418458033
+Panther_office_Clementine,Office,época escolhida,42,6.0
+Panther_office_Clementine,Office,época escolhida,505,7.0
+Panther_office_Clementine,Office,época escolhida,11,10.0
+Panther_office_Clementine,Office,Persistência (t-1),42,0.08587032414944257
+Panther_office_Clementine,Office,Persistência (t-1),505,0.08587032414944257
+Panther_office_Clementine,Office,Persistência (t-1),11,0.08587032414944257
+Panther_office_Clementine,Office,GRU zero-shot,42,0.06366467925915736
+Panther_office_Clementine,Office,GRU zero-shot,505,0.063126006938778
+Panther_office_Clementine,Office,GRU zero-shot,11,0.0645371217713575
+Panther_office_Clementine,Office,GRU FT uniforme,42,0.06441153015154212
+Panther_office_Clementine,Office,GRU FT uniforme,505,0.06368318517061043
+Panther_office_Clementine,Office,GRU FT uniforme,11,0.0647661879759639
+Panther_office_Clementine,Office,GRU FT parada pela val.,42,0.06613187152994439
+Panther_office_Clementine,Office,GRU FT parada pela val.,505,0.06526059783283095
+Panther_office_Clementine,Office,GRU FT parada pela val.,11,0.0666747435811486
+Panther_education_Scarlett,Classroom,época escolhida,42,0.0
+Panther_education_Scarlett,Classroom,época escolhida,505,0.0
+Panther_education_Scarlett,Classroom,época escolhida,11,0.0
+Panther_education_Scarlett,Classroom,Persistência (t-1),42,0.15879237709124128
+Panther_education_Scarlett,Classroom,Persistência (t-1),505,0.15879237709124128
+Panther_education_Scarlett,Classroom,Persistência (t-1),11,0.15879237709124128
+Panther_education_Scarlett,Classroom,GRU zero-shot,42,0.1232477845427528
+Panther_education_Scarlett,Classroom,GRU zero-shot,505,0.12580334463567558
+Panther_education_Scarlett,Classroom,GRU zero-shot,11,0.123930232535054
+Panther_education_Scarlett,Classroom,GRU FT uniforme,42,0.12360997093057452
+Panther_education_Scarlett,Classroom,GRU FT uniforme,505,0.12617947823026673
+Panther_education_Scarlett,Classroom,GRU FT uniforme,11,0.12470620320012692
+Panther_education_Scarlett,Classroom,GRU FT parada pela val.,42,0.1232477845427528
+Panther_education_Scarlett,Classroom,GRU FT parada pela val.,505,0.12580334463567558
+Panther_education_Scarlett,Classroom,GRU FT parada pela val.,11,0.123930232535054
+Panther_office_Danica,Office,época escolhida,42,4.0
+Panther_office_Danica,Office,época escolhida,505,15.0
+Panther_office_Danica,Office,época escolhida,11,2.0
+Panther_office_Danica,Office,Persistência (t-1),42,0.20976290991154828
+Panther_office_Danica,Office,Persistência (t-1),505,0.20976290991154828
+Panther_office_Danica,Office,Persistência (t-1),11,0.20976290991154828
+Panther_office_Danica,Office,GRU zero-shot,42,0.16700010141513227
+Panther_office_Danica,Office,GRU zero-shot,505,0.17007871996484988
+Panther_office_Danica,Office,GRU zero-shot,11,0.16878960882594485
+Panther_office_Danica,Office,GRU FT uniforme,42,0.16606854708669816
+Panther_office_Danica,Office,GRU FT uniforme,505,0.16936804069437264
+Panther_office_Danica,Office,GRU FT uniforme,11,0.16811640230566324
+Panther_office_Danica,Office,GRU FT parada pela val.,42,0.1642214450834814
+Panther_office_Danica,Office,GRU FT parada pela val.,505,0.16447717518192598
+Panther_office_Danica,Office,GRU FT parada pela val.,11,0.16765623284507972
+Panther_office_Antonette,Office,época escolhida,42,8.0
+Panther_office_Antonette,Office,época escolhida,505,20.0
+Panther_office_Antonette,Office,época escolhida,11,34.0
+Panther_office_Antonette,Office,Persistência (t-1),42,0.13885639387066892
+Panther_office_Antonette,Office,Persistência (t-1),505,0.13885639387066892
+Panther_office_Antonette,Office,Persistência (t-1),11,0.13885639387066892
+Panther_office_Antonette,Office,GRU zero-shot,42,0.0767728957935082
+Panther_office_Antonette,Office,GRU zero-shot,505,0.07580818422773233
+Panther_office_Antonette,Office,GRU zero-shot,11,0.07918647904040194
+Panther_office_Antonette,Office,GRU FT uniforme,42,0.07649694676790394
+Panther_office_Antonette,Office,GRU FT uniforme,505,0.07570509029561227
+Panther_office_Antonette,Office,GRU FT uniforme,11,0.07850960060660092
+Panther_office_Antonette,Office,GRU FT parada pela val.,42,0.07508931812326149
+Panther_office_Antonette,Office,GRU FT parada pela val.,505,0.07350428227769805
+Panther_office_Antonette,Office,GRU FT parada pela val.,11,0.07402936198032356
+Panther_office_Christin,Office,época escolhida,42,25.0
+Panther_office_Christin,Office,época escolhida,505,18.0
+Panther_office_Christin,Office,época escolhida,11,24.0
+Panther_office_Christin,Office,Persistência (t-1),42,0.07539693603430417
+Panther_office_Christin,Office,Persistência (t-1),505,0.07539693603430417
+Panther_office_Christin,Office,Persistência (t-1),11,0.07539693603430417
+Panther_office_Christin,Office,GRU zero-shot,42,0.05769378196342238
+Panther_office_Christin,Office,GRU zero-shot,505,0.058248104421215356
+Panther_office_Christin,Office,GRU zero-shot,11,0.05739115519614757
+Panther_office_Christin,Office,GRU FT uniforme,42,0.056162145671677585
+Panther_office_Christin,Office,GRU FT uniforme,505,0.0568560069994304
+Panther_office_Christin,Office,GRU FT uniforme,11,0.056125194244794285
+Panther_office_Christin,Office,GRU FT parada pela val.,42,0.053065291913425794
+Panther_office_Christin,Office,GRU FT parada pela val.,505,0.053100446761326456
+Panther_office_Christin,Office,GRU FT parada pela val.,11,0.05276491376845583
+Panther_education_Cleopatra,Classroom,época escolhida,42,16.0
+Panther_education_Cleopatra,Classroom,época escolhida,505,15.0
+Panther_education_Cleopatra,Classroom,época escolhida,11,40.0
+Panther_education_Cleopatra,Classroom,Persistência (t-1),42,0.2365416007239121
+Panther_education_Cleopatra,Classroom,Persistência (t-1),505,0.2365416007239121
+Panther_education_Cleopatra,Classroom,Persistência (t-1),11,0.2365416007239121
+Panther_education_Cleopatra,Classroom,GRU zero-shot,42,0.10834594376322529
+Panther_education_Cleopatra,Classroom,GRU zero-shot,505,0.10926961482547135
+Panther_education_Cleopatra,Classroom,GRU zero-shot,11,0.1113284443252037
+Panther_education_Cleopatra,Classroom,GRU FT uniforme,42,0.10626409394895106
+Panther_education_Cleopatra,Classroom,GRU FT uniforme,505,0.10668883125168872
+Panther_education_Cleopatra,Classroom,GRU FT uniforme,11,0.10920702603474752
+Panther_education_Cleopatra,Classroom,GRU FT parada pela val.,42,0.10485619984585111
+Panther_education_Cleopatra,Classroom,GRU FT parada pela val.,505,0.10400825915375365
+Panther_education_Cleopatra,Classroom,GRU FT parada pela val.,11,0.10666097383777377
+Panther_office_Ruthie,Office,época escolhida,42,4.0
+Panther_office_Ruthie,Office,época escolhida,505,0.0
+Panther_office_Ruthie,Office,época escolhida,11,11.0
+Panther_office_Ruthie,Office,Persistência (t-1),42,0.06731439914481196
+Panther_office_Ruthie,Office,Persistência (t-1),505,0.06731439914481196
+Panther_office_Ruthie,Office,Persistência (t-1),11,0.06731439914481196
+Panther_office_Ruthie,Office,GRU zero-shot,42,0.05368690366590118
+Panther_office_Ruthie,Office,GRU zero-shot,505,0.05304415394707703
+Panther_office_Ruthie,Office,GRU zero-shot,11,0.0532418489496394
+Panther_office_Ruthie,Office,GRU FT uniforme,42,0.05324377525714664
+Panther_office_Ruthie,Office,GRU FT uniforme,505,0.05294059074187549
+Panther_office_Ruthie,Office,GRU FT uniforme,11,0.05287301072513929
+Panther_office_Ruthie,Office,GRU FT parada pela val.,42,0.052740228448036434
+Panther_office_Ruthie,Office,GRU FT parada pela val.,505,0.05304415394707703
+Panther_office_Ruthie,Office,GRU FT parada pela val.,11,0.052179784655199755
