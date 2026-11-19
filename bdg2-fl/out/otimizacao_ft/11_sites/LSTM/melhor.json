@@ -1,0 +1,16 @@
+{
+ "modelo": "LSTM",
+ "seeds_ajuste": [
+  42
+ ],
+ "fedavg_val_ajuste": [
+  9.041954153666994
+ ],
+ "ft": {
+  "rodadas_base": 7,
+  "epocas": 6,
+  "lr": 0.0007092543214735829,
+  "camadas": "todas"
+ },
+ "val_ajuste": 8.906969154951124
+}

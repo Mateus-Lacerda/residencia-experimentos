@@ -116,6 +116,7 @@ class RNN(nn.Module):
 
 class LSTM(nn.Module):
     sequencia = True
+    GRUPOS_FT = {"todas": ("lstm.", "saida."), "saída": ("saida.",)}
 
     def __init__(self, n_ent, ocultas=OCULTAS_SEQ, camadas=1):
         super().__init__()
@@ -129,6 +130,7 @@ class LSTM(nn.Module):
 
 class GRU(nn.Module):
     sequencia = True
+    GRUPOS_FT = {"todas": ("gru.", "saida."), "saída": ("saida.",)}
 
     def __init__(self, n_ent, ocultas=OCULTAS_SEQ, camadas=1):
         super().__init__()
@@ -166,6 +168,12 @@ class MLPJanela(nn.Module):
     """
 
     sequencia = True
+    # vale para as 2 camadas ocultas padrão: mlp.rede.0 (408->64), mlp.rede.2 (64->64), mlp.rede.4 (64->1)
+    GRUPOS_FT = {
+        "todas": ("mlp.rede.0.", "mlp.rede.2.", "mlp.rede.4."),
+        "camada 2 e saída": ("mlp.rede.2.", "mlp.rede.4."),
+        "saída": ("mlp.rede.4.",),
+    }
 
     def __init__(self, n_ent, largura=64, camadas=2):
         super().__init__()
@@ -180,11 +188,11 @@ MODELOS = {
     "MLP 256": lambda n: MLP(n, 256, 2),
     "MLP 1024": lambda n: MLP(n, 1024, 2),
     "MLP 256 × 4 camadas": lambda n: MLP(n, 256, 4),
-    "MLP janela achatada": lambda n: MLPJanela(n),
+    "MLP janela achatada": MLPJanela,
     "RNN": lambda n: RNN(n),
     "RNN 2 camadas": lambda n: RNN(n, camadas=2),
-    "LSTM": lambda n: LSTM(n),
-    "GRU": lambda n: GRU(n),
+    "LSTM": LSTM,
+    "GRU": GRU,
     "CNN-LSTM": lambda n: CNNLSTM(n),
 }
 
@@ -192,6 +200,23 @@ MODELOS = {
 def novo(nome, seed, device):
     torch.manual_seed(seed)
     return MODELOS[nome](len(FEATURES)).to(device)
+
+
+# modelos que declaram grupos de camadas para o fine-tuning
+COM_FT = [n for n, c in MODELOS.items() if hasattr(c, "GRUPOS_FT")]
+
+
+def grupos_ft(nome):
+    """Grupos de camadas que o fine-tuning pode treinar: {grupo: prefixos dos parâmetros}."""
+    return MODELOS[nome].GRUPOS_FT
+
+
+def liberar(modelo, grupo):
+    """Deixa treináveis só os parâmetros do grupo de camadas; o resto fica congelado."""
+    prefixos = type(modelo).GRUPOS_FT[grupo]
+    for k, p in modelo.named_parameters():
+        p.requires_grad_(k.startswith(prefixos))
+    return modelo
 
 
 def n_parametros(modelo):

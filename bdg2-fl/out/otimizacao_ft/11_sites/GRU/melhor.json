@@ -1,0 +1,16 @@
+{
+ "modelo": "GRU",
+ "seeds_ajuste": [
+  42
+ ],
+ "fedavg_val_ajuste": [
+  9.039804979480003
+ ],
+ "ft": {
+  "rodadas_base": 10,
+  "epocas": 32,
+  "lr": 3.014016587919128e-05,
+  "camadas": "todas"
+ },
+ "val_ajuste": 8.841851716248875
+}

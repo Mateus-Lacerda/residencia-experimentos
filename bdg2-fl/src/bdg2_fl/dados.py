@@ -91,6 +91,60 @@ def _z_score(x, mu, sd):
     return (x - mu) / (sd if sd > 1e-9 else 1.0)
 
 
+def tempo_calendario(idx):
+    hora, dow = idx.hour.values, idx.dayofweek.values
+    return {
+        "hora_sin": np.sin(2 * np.pi * hora / 24), "hora_cos": np.cos(2 * np.pi * hora / 24),
+        "dow_sin": np.sin(2 * np.pi * dow / 7), "dow_cos": np.cos(2 * np.pi * dow / 7),
+    }
+
+
+def clima_site(clima, s, idx, treino):
+    """Temperatura e ponto de orvalho do site em t-1, normalizados com a estatística do próprio site
+    no período de treino (cada cliente só vê seus dados)."""
+    w = (clima[clima.site_id == s].set_index("timestamp")
+         .reindex(idx)[["airTemperature", "dewTemperature"]]
+         .interpolate(limit_direction="both")
+         .shift(1))   # clima de t-1: na hora de prever t, o clima de t ainda não foi medido
+    temp = _z_score(w.airTemperature.values, w.airTemperature[treino].mean(), w.airTemperature[treino].std())
+    orv = _z_score(w.dewTemperature.values, w.dewTemperature[treino].mean(), w.dewTemperature[treino].std())
+    return temp, orv
+
+
+def features_edificacao(b, y, outros, temp, orv, tempo, idx, treino):
+    """Features, alvo normalizado e referências de uma edificação, em todas as horas de idx.
+    y: série de eletricidade (kWh) da edificação; treino: máscara das horas usadas na normalização."""
+    mu, sd = np.nanmean(y[treino]), np.nanstd(y[treino])
+    yz = _z_score(y, mu, sd)
+    f = {f"elec_lag{l}": pd.Series(yz).shift(l).values for l in LAGS}
+    f.update(tempo)
+    f["temp_ar_lag1"], f["ponto_orvalho_lag1"] = temp, orv
+    for m in MEDIDORES_OPCIONAIS:
+        col = outros[m][b] if b in outros[m].columns else None
+        tem = False
+        if col is not None:
+            v = col.values.astype(float)
+            mu_m, sd_m = np.nanmean(v[treino]), np.nanstd(v[treino])
+            # presente = cobertura razoável em 2016 e sinal que varia de fato
+            tem = col.loc["2016"].notna().mean() > 0.5 and sd_m > 0.05 * max(abs(mu_m), 1.0)
+        if tem:
+            lag = pd.Series(_z_score(v, mu_m, sd_m)).shift(1).values
+            f[f"{m}_lag1"] = np.nan_to_num(lag, nan=0.0)  # buracos pontuais -> média
+        else:
+            f[f"{m}_lag1"] = np.zeros(len(idx))
+        f[f"tem_{m}"] = np.full(len(idx), 1.0 if tem else 0.0)
+    df = pd.DataFrame(f, index=idx)[FEATURES]
+    # salvaguarda contra mudança de escala entre 2016 e 2017 (z-score de 2016 extrapolado)
+    df[CONTINUAS] = df[CONTINUAS].clip(-CLIP_Z, CLIP_Z)
+    df["y"] = yz
+    df["y_kwh"] = y
+    # previsão do random walk: a próxima hora repete a hora atual
+    df["rw_kwh"] = pd.Series(y, index=idx).shift(1).values
+    df["edif"] = b
+    df["mu"], df["sd"] = mu, (sd if sd > 1e-9 else 1.0)
+    return df
+
+
 def construir():
     electricity = _ler_medidor("electricity")
     outros = {m: _ler_medidor(m) for m in MEDIDORES_OPCIONAIS}
@@ -101,54 +155,13 @@ def construir():
 
     # Só o calendário entra na hora prevista (t), porque é conhecido de antemão. Tudo o que vem de
     # medição (eletricidade, outros medidores e clima) entra defasado, no máximo até t-1.
-    hora, dow = idx.hour.values, idx.dayofweek.values
-    tempo = {
-        "hora_sin": np.sin(2 * np.pi * hora / 24), "hora_cos": np.cos(2 * np.pi * hora / 24),
-        "dow_sin": np.sin(2 * np.pi * dow / 7), "dow_cos": np.cos(2 * np.pi * dow / 7),
-    }
+    tempo = tempo_calendario(idx)
 
     clientes = {}
     for s, edifs in escolha.items():
-        w = (clima[clima.site_id == s].set_index("timestamp")
-             .reindex(idx)[["airTemperature", "dewTemperature"]]
-             .interpolate(limit_direction="both")
-             .shift(1))   # clima de t-1: na hora de prever t, o clima de t ainda não foi medido
-        # clima normalizado com estatística do próprio site (cada cliente só vê seus dados)
-        temp = _z_score(w.airTemperature.values, w.airTemperature[treino].mean(), w.airTemperature[treino].std())
-        orv = _z_score(w.dewTemperature.values, w.dewTemperature[treino].mean(), w.dewTemperature[treino].std())
-
-        blocos = []
-        for b in edifs:
-            y = electricity[b].values.astype(float)
-            mu, sd = np.nanmean(y[treino]), np.nanstd(y[treino])
-            yz = _z_score(y, mu, sd)
-            f = {f"elec_lag{l}": pd.Series(yz).shift(l).values for l in LAGS}
-            f.update(tempo)
-            f["temp_ar_lag1"], f["ponto_orvalho_lag1"] = temp, orv
-            for m in MEDIDORES_OPCIONAIS:
-                col = outros[m][b] if b in outros[m].columns else None
-                tem = False
-                if col is not None:
-                    v = col.values.astype(float)
-                    mu_m, sd_m = np.nanmean(v[treino]), np.nanstd(v[treino])
-                    # presente = cobertura razoável em 2016 e sinal que varia de fato
-                    tem = col.loc["2016"].notna().mean() > 0.5 and sd_m > 0.05 * max(abs(mu_m), 1.0)
-                if tem:
-                    lag = pd.Series(_z_score(v, mu_m, sd_m)).shift(1).values
-                    f[f"{m}_lag1"] = np.nan_to_num(lag, nan=0.0)  # buracos pontuais -> média
-                else:
-                    f[f"{m}_lag1"] = np.zeros(len(idx))
-                f[f"tem_{m}"] = np.full(len(idx), 1.0 if tem else 0.0)
-            df = pd.DataFrame(f, index=idx)[FEATURES]
-            # salvaguarda contra mudança de escala entre 2016 e 2017 (z-score de 2016 extrapolado)
-            df[CONTINUAS] = df[CONTINUAS].clip(-CLIP_Z, CLIP_Z)
-            df["y"] = yz
-            df["y_kwh"] = y
-            # previsão do random walk: a próxima hora repete a hora atual
-            df["rw_kwh"] = pd.Series(y, index=idx).shift(1).values
-            df["edif"] = b
-            df["mu"], df["sd"] = mu, (sd if sd > 1e-9 else 1.0)
-            blocos.append(df)
+        temp, orv = clima_site(clima, s, idx, treino)
+        blocos = [features_edificacao(b, electricity[b].values.astype(float), outros, temp, orv, tempo, idx, treino)
+                  for b in edifs]
         d = pd.concat(blocos)
         d = d.dropna(subset=FEATURES + ["y", "rw_kwh"])
         d["ts"] = d.index

@@ -34,18 +34,12 @@ from .config import BATCH, LR, RAIZ
 from .dados import construir
 from .rodar_arquiteturas import avaliar
 
-MODELO = "MLP janela achatada"
+MODELO = "MLP janela achatada"      # modelo deste script; as funções de treino recebem o modelo
 RODADAS, EPOCAS_LOCAIS = 10, 2
 SEEDS = [42, 43, 44]
 MES_CORTE = 11                      # validação de ajuste: novembro e dezembro de 2016
 SAIDA = RAIZ / "out" / "otimizacao_pfl"     # main() acrescenta a subpasta "<n>_sites"
 
-# camadas lineares da MLP: mlp.rede.0 (408->64), mlp.rede.2 (64->64), mlp.rede.4 (64->1)
-CAMADAS_FT = {
-    "todas": ("mlp.rede.0.", "mlp.rede.2.", "mlp.rede.4."),
-    "camada 2 e saída": ("mlp.rede.2.", "mlp.rede.4."),
-    "saída": ("mlp.rede.4.",),
-}
 CAMADAS_LORA = {"todas": (0, 2, 4), "ocultas": (0, 2), "camada 1": (0,)}
 
 N_TENTATIVAS = 60
@@ -53,11 +47,11 @@ FT_ORIGINAL = {"rodadas_base": 9, "epocas": 2, "lr": 1e-3, "camadas": "todas"}
 LORA_ORIGINAL = {"rodadas_base": 5, "posto": 4, "camadas": "todas", "lr": 1e-3, "epocas": 2, "escala": 1.0}
 
 
-def espaco_ft(t):
+def espaco_ft(t, modelo=MODELO):
     return {"rodadas_base": t.suggest_int("rodadas_base", 1, RODADAS),
             "epocas": t.suggest_int("epocas", 1, 32, log=True),
             "lr": t.suggest_float("lr", 1e-5, 1e-2, log=True),
-            "camadas": t.suggest_categorical("camadas", list(CAMADAS_FT))}
+            "camadas": t.suggest_categorical("camadas", list(A.grupos_ft(modelo)))}
 
 
 def espaco_lora(t):
@@ -88,9 +82,10 @@ def treinar(modelo, fonte, epocas, g, lr, ao_fim_da_epoca=None):
             perda.backward()
             opt.step()
             if ao_fim_da_epoca:
-                soma, lotes = soma + perda.item(), lotes + 1
+                # acumula no próprio dispositivo: .item() a cada lote faria a CPU esperar a GPU
+                soma, lotes = soma + perda.detach(), lotes + 1
         if ao_fim_da_epoca:
-            ao_fim_da_epoca(e, soma / lotes, modelo)
+            ao_fim_da_epoca(e, float(soma / lotes), modelo)
             modelo.train()
     return modelo
 
@@ -105,12 +100,12 @@ def _pesos(fontes):
     return {s: f.n / total for s, f in fontes.items()}
 
 
-def trajetoria_fedavg(fontes_tr, seed, device, ao_fim_da_rodada=None):
+def trajetoria_fedavg(modelo, fontes_tr, seed, device, ao_fim_da_rodada=None):
     """Estado global do FedAvg depois de cada rodada (índice 0 = inicialização).
 
     ao_fim_da_rodada(rodada, modelo_global): opcional."""
     g = torch.Generator().manual_seed(seed)
-    global_ = A.novo(MODELO, seed, device)
+    global_ = A.novo(modelo, seed, device)
     peso = _pesos(fontes_tr)
     estados = [copy.deepcopy(global_.state_dict())]
     for _ in range(RODADAS):
@@ -124,17 +119,15 @@ def trajetoria_fedavg(fontes_tr, seed, device, ao_fim_da_rodada=None):
     return estados
 
 
-def _base(traj, rodada, seed, device):
-    m = A.novo(MODELO, seed, device)
+def _base(modelo, traj, rodada, seed, device):
+    m = A.novo(modelo, seed, device)
     m.load_state_dict(traj[rodada])
     return m
 
 
-def fine_tuning(traj, cfg, fontes_tr, seed, device, ao_fim_da_epoca=None):
+def fine_tuning(modelo, traj, cfg, fontes_tr, seed, device, ao_fim_da_epoca=None):
     """ao_fim_da_epoca(site, epoca, perda, modelo): opcional."""
-    base = _base(traj, cfg["rodadas_base"], seed, device)
-    for k, p in base.named_parameters():
-        p.requires_grad_(k.startswith(CAMADAS_FT[cfg["camadas"]]))
+    base = A.liberar(_base(modelo, traj, cfg["rodadas_base"], seed, device), cfg["camadas"])
     g = torch.Generator().manual_seed(seed + 1000)
     modelos = {s: treinar(copy.deepcopy(base), f, cfg["epocas"], g, cfg["lr"], _cb_site(ao_fim_da_epoca, s))
                for s, f in fontes_tr.items()}
@@ -157,9 +150,10 @@ class LoRALinear(nn.Module):
         return self.base(x) + self.escala * ((x @ self.A.T) @ self.B.T)
 
 
-def fedsa_lora(traj, cfg, fontes_tr, seed, device):
-    """A entra na média, B fica no cliente (Guo et al., 2025)."""
-    molde = _base(traj, cfg["rodadas_base"], seed, device)
+def fedsa_lora(modelo, traj, cfg, fontes_tr, seed, device):
+    """A entra na média, B fica no cliente (Guo et al., 2025). Só para a MLP janela achatada."""
+    assert modelo == "MLP janela achatada", "o FedSA-LoRA troca as camadas de mlp.rede"
+    molde = _base(modelo, traj, cfg["rodadas_base"], seed, device)
     torch.manual_seed(seed)
     for i in CAMADAS_LORA[cfg["camadas"]]:
         molde.mlp.rede[i] = LoRALinear(molde.mlp.rede[i], cfg["posto"], cfg["escala"])
@@ -180,19 +174,19 @@ def fedsa_lora(traj, cfg, fontes_tr, seed, device):
         for m in modelos.values():
             m.load_state_dict(global_a, strict=False)
     sd = molde.state_dict()
-    envio = {"rodadas_base": cfg["rodadas_base"], "por_rodada_base": A.n_parametros(_base(traj, 0, seed, device)),
+    envio = {"rodadas_base": cfg["rodadas_base"], "por_rodada_base": A.n_parametros(_base(modelo, traj, 0, seed, device)),
              "rodadas_lora": RODADAS - cfg["rodadas_base"],
              "por_rodada_lora": sum(sd[k].numel() for k in chaves_a),
              "B_local": sum(v.numel() for k, v in sd.items() if k.endswith(".B"))}
     return modelos, envio
 
 
-def so_local(fontes_tr, seed, device, epocas=RODADAS * EPOCAS_LOCAIS, ao_fim_da_epoca=None):
+def so_local(modelo, fontes_tr, seed, device, epocas=RODADAS * EPOCAS_LOCAIS, ao_fim_da_epoca=None):
     """ao_fim_da_epoca(site, epoca, perda, modelo): opcional."""
     out = {}
     for s, f in fontes_tr.items():
         g = torch.Generator().manual_seed(seed)
-        out[s] = treinar(A.novo(MODELO, seed, device), f, epocas, g, LR, _cb_site(ao_fim_da_epoca, s))
+        out[s] = treinar(A.novo(modelo, seed, device), f, epocas, g, LR, _cb_site(ao_fim_da_epoca, s))
     return out
 
 
@@ -209,7 +203,7 @@ def otimizar(nome, metodo, espaco, original, trajs, tr, va, device):
     def objetivo(t):
         cfg, notas = espaco(t), []
         for seed in SEEDS:
-            modelos, envio = metodo(trajs[seed], cfg, tr, seed, device)
+            modelos, envio = metodo(MODELO, trajs[seed], cfg, tr, seed, device)
             notas.append(avaliar({s: A.kwh(modelos[s], f) for s, f in va.items()}, va)["Total"])
         t.set_user_attr("por_seed", notas)
         t.set_user_attr("envio_total", envio_total(envio))
@@ -241,12 +235,12 @@ def etapa_ajuste(clientes, device):
     va = _fontes(clientes, "treino", device, "val")
     print({s: (tr[s].n, va[s].n) for s in tr}, flush=True)
     t = time.time()
-    trajs = {seed: trajetoria_fedavg(tr, seed, device) for seed in SEEDS}
+    trajs = {seed: trajetoria_fedavg(MODELO, tr, seed, device) for seed in SEEDS}
     print(f"trajetórias do FedAvg: {time.time() - t:.0f} s", flush=True)
 
     ref = []
     for seed in SEEDS:
-        m = _base(trajs[seed], RODADAS, seed, device)
+        m = _base(MODELO, trajs[seed], RODADAS, seed, device)
         ref.append(avaliar({s: A.kwh(m, f) for s, f in va.items()}, va)["Total"])
     print(f"FedAvg na validação de ajuste: {np.mean(ref):.3f} ± {np.std(ref):.3f}", flush=True)
 
@@ -272,15 +266,15 @@ def etapa_teste(clientes, device):
     }
     res = {nome: {"cv": [], "envio": None} for nome in metodos}
     for seed in SEEDS:
-        traj = trajetoria_fedavg(tr, seed, device)
+        traj = trajetoria_fedavg(MODELO, tr, seed, device)
         for nome, m in metodos.items():
             if nome == "FedAvg":
-                g = _base(traj, RODADAS, seed, device)
+                g = _base(MODELO, traj, RODADAS, seed, device)
                 modelos, envio = {s: g for s in tr}, {"rodadas": RODADAS, "por_rodada": A.n_parametros(g)}
             elif nome == "Só local":
-                modelos, envio = so_local(tr, seed, device), {"rodadas": 0, "por_rodada": 0}
+                modelos, envio = so_local(MODELO, tr, seed, device), {"rodadas": 0, "por_rodada": 0}
             else:
-                modelos, envio = m[0](traj, m[1], tr, seed, device)
+                modelos, envio = m[0](MODELO, traj, m[1], tr, seed, device)
             cv = avaliar({s: A.kwh(modelos[s], f) for s, f in va.items()}, va)
             res[nome]["cv"].append(cv)
             res[nome]["envio"] = envio | {"total": envio_total(envio)}

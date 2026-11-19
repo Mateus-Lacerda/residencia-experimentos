@@ -1,0 +1,16 @@
+{
+ "modelo": "MLP janela achatada",
+ "seeds_ajuste": [
+  42
+ ],
+ "fedavg_val_ajuste": [
+  9.50688059160105
+ ],
+ "ft": {
+  "rodadas_base": 10,
+  "epocas": 30,
+  "lr": 9.89112592334374e-05,
+  "camadas": "todas"
+ },
+ "val_ajuste": 9.053122225921568
+}
